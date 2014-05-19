@@ -1,4 +1,4 @@
-<!--<hgroup{% if site.header_image %} style="background-image:url('{{ site.header_image }}');"{% endif %}>
+<!--<hgroup{% if page.header_image %} style="background-image:url('{{ page.header_image }}');"{% endif %}>
   <h1 class="text-center">
   	<a href="{{ root_url }}/">{{ site.title }}</a>
   </h1>
@@ -29,3 +29,10 @@
     </div>
   </li>
 </ul>-->
+
+    <div class="row">
+      <div class="small-12 large-6 columns text-center">
+      	{% if page.header_image %} <a href="{{ root_url }}/"><img src="{{ page.header_image }}" alt="{{ site.title }} banner image" title="{{ site.title }}"></a>
+        {% elsif site.header_image %} <a href="{{ root_url }}/"><img src="{{ site.header_image }}" alt="{{ site.title }} banner image" title="{{ site.title }}"></a> {% endif %}
+      </div>
+    </div>

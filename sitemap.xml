@@ -1,18 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://backthatelfup.github.io/gaming/mythos-expeditions/</loc>
-        <lastmod>2014-05-18T19:26:58-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://backthatelfup.github.io/gaming/reality-makes-the-best-fantasy/</loc>
-        <lastmod>2014-05-18T19:26:04-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://backthatelfup.github.io/gaming/v20-dark-ages/</loc>
-        <lastmod>2014-05-18T19:27:27-07:00</lastmod>
-    </url>
-    <url>
         <loc>http://backthatelfup.github.io/no-sidebar/left-sidebar/</loc>
         <lastmod>2014-05-18T17:46:24-07:00</lastmod>
     </url>
@@ -33,36 +21,56 @@
         <lastmod>2014-05-18T17:46:24-07:00</lastmod>
     </url>
     <url>
+        <loc>http://backthatelfup.github.io/games/mythos-expeditions/</loc>
+        <lastmod>2014-05-19T19:39:11-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://backthatelfup.github.io/games/reality-makes-the-best-fantasy/</loc>
+        <lastmod>2014-05-19T19:35:57-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://backthatelfup.github.io/games/v20-dark-ages/</loc>
+        <lastmod>2014-05-19T19:39:20-07:00</lastmod>
+    </url>
+    <url>
         <loc>http://backthatelfup.github.io/about/</loc>
-        <lastmod>2014-05-18T20:10:18-07:00</lastmod>
+        <lastmod>2014-05-19T18:42:15-07:00</lastmod>
     </url>
     <url>
         <loc>http://backthatelfup.github.io/books/red-moon-rising/</loc>
-        <lastmod>2014-05-18T19:11:46-07:00</lastmod>
+        <lastmod>2014-05-19T19:24:51-07:00</lastmod>
     </url>
     <url>
         <loc>http://backthatelfup.github.io/books/self-made-scoundrel/</loc>
-        <lastmod>2014-05-18T19:11:29-07:00</lastmod>
+        <lastmod>2014-05-19T19:26:55-07:00</lastmod>
     </url>
     <url>
         <loc>http://backthatelfup.github.io/books/thieves-at-heart/</loc>
-        <lastmod>2014-05-18T19:11:13-07:00</lastmod>
+        <lastmod>2014-05-19T19:28:05-07:00</lastmod>
     </url>
     <url>
         <loc>http://backthatelfup.github.io/books/botanica-blues/</loc>
-        <lastmod>2014-05-18T19:10:54-07:00</lastmod>
+        <lastmod>2014-05-19T19:21:21-07:00</lastmod>
     </url>
     <url>
         <loc>http://backthatelfup.github.io/books/allegories-of-the-tarot/</loc>
-        <lastmod>2014-05-18T19:10:40-07:00</lastmod>
+        <lastmod>2014-05-19T19:20:18-07:00</lastmod>
     </url>
     <url>
         <loc>http://backthatelfup.github.io/books/little-girl-lost/</loc>
-        <lastmod>2014-05-18T19:08:43-07:00</lastmod>
+        <lastmod>2014-05-19T19:23:15-07:00</lastmod>
     </url>
     <url>
         <loc>http://backthatelfup.github.io/</loc>
-        <lastmod>2014-05-19T13:38:59-07:00</lastmod>
+        <lastmod>2014-05-19T19:06:31-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://backthatelfup.github.io/extras/fiction/the-detective/</loc>
+        <lastmod>2014-05-19T19:43:11-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://backthatelfup.github.io/extras/fiction/the-mother/</loc>
+        <lastmod>2014-05-19T19:44:54-07:00</lastmod>
     </url>
     <url>
         <loc>http://backthatelfup.github.io/comics/</loc>

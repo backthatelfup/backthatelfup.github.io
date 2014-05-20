@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: page
+sidebar: false
 title: "Allegories of the Tarot"
 comments: true
 sharing: true

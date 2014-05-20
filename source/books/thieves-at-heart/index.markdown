@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: page
+sidebar: false
 title: "Thieves at Heart"
 comments: true
 sharing: true

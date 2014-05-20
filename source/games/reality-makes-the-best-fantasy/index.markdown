@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: page
+sidebar: false
 title: "Reality Makes the Best Fantasy"
 comments: true
 sharing: true

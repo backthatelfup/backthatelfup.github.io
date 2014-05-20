@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: page
+sidebar: false
 title: "Little Girl Lost"
 comments: true
 sharing: true

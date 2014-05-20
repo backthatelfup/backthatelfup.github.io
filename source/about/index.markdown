@@ -1,6 +1,7 @@
 ---
-layout: default
-title: "index"
+layout: page
+sidebar: false
+title: "Bio"
 comments: true
 sharing: true
 footer: true

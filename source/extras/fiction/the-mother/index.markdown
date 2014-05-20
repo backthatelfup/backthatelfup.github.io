@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: page
+sidebar: false
 title: "The Mother"
 comments: true
 sharing: true

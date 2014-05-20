@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: page
+sidebar: false
 title: "Red Moon Rising"
 comments: true
 sharing: true

@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: page
+sidebar: false
 title: "Self-Made Scoundrel"
 comments: true
 sharing: true

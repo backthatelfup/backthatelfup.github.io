@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: page
+sidebar: false
 title: "V20 Dark Ages"
 comments: true
 sharing: true

@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: page
+sidebar: false
 title: "Botanica Blues"
 comments: true
 sharing: true

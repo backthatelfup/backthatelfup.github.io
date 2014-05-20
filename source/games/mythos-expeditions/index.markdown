@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: page
+sidebar: false
 title: "The Jaguars of El-Thar"
 comments: true
 sharing: true

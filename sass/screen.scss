@@ -395,3 +395,11 @@ code{
 	color: $subheader-font-color;
 }
 
+// ---- CUSTOM ---- //
+
+/* position logo */
+@media #{$medium-up} {
+  .logo { 
+  margin: 0 55px;
+  }
+}

@@ -60,12 +60,13 @@ $global-rounded: 1000px !default;
 
 // Sets alternate color for drop-down menu "headers" (label that's not a link) The Valle of Ten Crescents, for example.
 .top-bar-section li .ddheader {
-  color: $primary-color; 
+  color: $secondary-color; 
   font-size: 0.825rem;
+  text-transform: uppercase;
   line-height: 1;
   white-space: nowrap;
   padding: 12px 10px;
-  background-color: ($topbar-bg);
+  background-color: scale-color($topbar-bg, $lightness: -25%);
 }
 
 // Sets height of navbar dropdowns so they're not fucking huge
@@ -74,6 +75,15 @@ $global-rounded: 1000px !default;
  line-height: 50px !important;
 }
 
+// Sets background color of navbar dropdowns
+.top-bar-section .dropdown li a {
+  background: #333333 !important;
+}
+
+// Sets hover color ov navbar dropdowns
+.top-bar-section .dropdown li a:hover {
+  background: ($anchor-font-color-hover) !important;
+}
 
 
 // -- MAILCHIMP SIGN UP FORM

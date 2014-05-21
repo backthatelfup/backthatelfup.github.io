@@ -20,17 +20,17 @@
           <li{% if page.url == '/index.html' %} class="active"{% endif %}><a href="{{ root_url }}/">Home</a></li>
 
           <li class="has-dropdown{% if page.url == '/books/index.html' or page.url == '/books/little-girl-lost/index.html' or page.url == '/books/thieves-at-heart/index.html' or page.url == '/books/self-made-scoundrel/index.html' or page.url == '/books/red-moon-rising/index.html' or page.url == '/books/botanica-blues/index.html' or page.url == '/books/allegories-of-the-tarot/index.html' %} active{% endif %}">
-            <a href="">Books</a>
+            <a href="#">Books</a>
 
             <ul class="dropdown">
-              <li>The Valley of Ten Crescents</li>
-              <li><a href="{{ root_url }}/books/little-girl-lost">Little Girl Lost</a></li>
-              <li><a href="{{ root_url }}/books/thieves-at-heart">Thieves at Heart</a></li>
-              <li><a href="{{ root_url }}/books/self-made-scoundrel">Self-Made Scoundrel</a></li>
-              <li><a href="{{ root_url }}/books/red-moon-rising">Red Moon Rising</a></li>
-              <li>Other Stories</li>
-              <li><a href="{{ root_url }}/books/botanica-blues">Botanica Blues</a></li>
-              <li><a href="{{ root_url }}/books/allegories-of-the-tarot">Allegories of the Tarot</a></li>
+              <li class="ddheader">The Valley of Ten Crescents</li>
+              <li class="ddtitle"><a href="{{ root_url }}/books/little-girl-lost">Little Girl Lost</a></li>
+              <li class="ddtitle"><a href="{{ root_url }}/books/thieves-at-heart">Thieves at Heart</a></li>
+              <li class="ddtitle"><a href="{{ root_url }}/books/self-made-scoundrel">Self-Made Scoundrel</a></li>
+              <li class="ddtitle"><a href="{{ root_url }}/books/red-moon-rising">Red Moon Rising</a></li>
+              <li class="ddheader">Other Stories</li>
+              <li class="ddtitle"><a href="{{ root_url }}/books/botanica-blues">Botanica Blues</a></li>
+              <li class="ddtitle"><a href="{{ root_url }}/books/allegories-of-the-tarot">Allegories of the Tarot</a></li>
             </ul>
 
           </li>
@@ -38,12 +38,12 @@
           <li{% if page.url == '/comics/index.html' %} class="active"{% endif %}><a href="{{ root_url }}/comics">Comics</a></li>
           
 	  <li class="has-dropdown{% if page.url == '/gaming/index.html' or page.url == '/gaming/mythos-expeditions/index.html' or page.url == '/gaming/reality-makes-the-best-fantasy/index.html' or page.url == '/gaming/v20-dark-ages/index.html' %} active{% endif %}">
-            <a href="">Gaming</a>
+            <a href="#">Gaming</a>
 
             <ul class="dropdown">
-              <li><a href="{{ root_url }}/games/reality-makes-the-best-fantasy">Reality Makes the Best Fantasy</a></li>
-              <li><a href="{{ root_url }}/games/mythos-expeditions">Mythos Expeditions</a></li>
-              <li><a href="{{ root_url }}/games/v20-dark-ages">V20 Dark Ages</a></li>
+              <li class="ddtitle"><a href="{{ root_url }}/games/reality-makes-the-best-fantasy">Reality Makes the Best Fantasy</a></li>
+              <li class="ddtitle"><a href="{{ root_url }}/games/mythos-expeditions">Mythos Expeditions</a></li>
+              <li class="ddtitle"><a href="{{ root_url }}/games/v20-dark-ages">V20 Dark Ages</a></li>
             </ul>
 
           </li>

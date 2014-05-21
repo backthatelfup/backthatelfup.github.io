@@ -12,6 +12,7 @@ $primary-color: #43ac6a !default; /* #008CBA blue by default */
 $secondary-color: #e7e7e7 !default; /* light gray by default */
 $topbar-bg: #363636; /* #111 almost black by default */
 $bottom-border-color: #cccccc;
+
 // font colors
 $body-font-color: #222 !default; /* almost black by default */
 $header-font-color: #af4976; /* magenta by default */
@@ -43,12 +44,71 @@ $topbar-height: 100px;
 $topbar-link-font-size: 14px;
 $topbar-link-letterspacing: 0.5px;
 $topbar-link-hover-lightness: -10%;
-$topbar-link-bg-hover: #2c2c2c;
+$topbar-link-bg-hover: #333;
 $topbar-link-color: #fff;
+//$topbar-link-color-hover: ($primary-color);
 
 
 // border radii
 $global-radius: 3px !default;
 $global-rounded: 1000px !default;
 
-// ---- CUSTOM ---- //
+
+// ==== ==== CUSTOM ==== ==== //
+
+// -- topbar / navigation
+
+// Sets alternate color for drop-down menu "headers" (label that's not a link) The Valle of Ten Crescents, for example.
+.top-bar-section li .ddheader {
+  color: $primary-color; 
+  font-size: 0.825rem;
+  line-height: 1;
+  white-space: nowrap;
+  padding: 12px 10px;
+  background-color: ($topbar-bg);
+}
+
+// Sets height of navbar dropdowns so they're not fucking huge
+.top-bar-section ul li .ddtitle>a {
+ height: 50px;
+ line-height: 50px !important;
+}
+
+
+
+// -- MAILCHIMP SIGN UP FORM
+
+// Sets the color of the Mailchimp widget
+#mc_embed_signup {
+  background: #f3f3f3 !important;
+  clear: left;
+}
+
+// Styles the button
+#mc_embed_signup .button {
+  background-color: $primary-color !important;
+  font-size: 75% !important;
+}
+
+// Makes the email input full width
+#mc_embed_signup input.email {
+  width: 100% !important;
+}
+
+// Yep
+#mce-EMAIL {
+  margin-top: 15px;
+}
+
+// Styles the "first name" input field
+#mce-FNAME {
+  float: left;
+  width: 55%;
+  margin-bottom: 0px;
+}
+
+// Keeps the text centered in the subscribe button
+#mc-embedded-subscribe.button{
+  float: right;
+  width: 40%;
+}

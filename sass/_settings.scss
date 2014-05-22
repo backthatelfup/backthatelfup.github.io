@@ -99,6 +99,7 @@ $progress-bar-border-radius: $global-radius;
 // -- uheader (header under 'top-bar')
 .uheader {
   padding-top: 7px;
+  margin-bottom: 10px;
   background-color: scale-color($tertiary-color, $lightness: 50%);
 }
 

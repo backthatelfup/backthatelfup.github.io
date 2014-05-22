@@ -16,6 +16,5 @@ footer: true
     <p>As a fan of speculative fiction the first fantasy book I fell in love with was The Crystal Cave.</p>
     <p>Originally hailing from New York City, I consider Portland, OR my home and reside with my spouse, Small Boss, a cat that knows it’s a Multipass and Azrael.</p>
     <p><strong>You can email me at: hive (at) backthatelfup (dot) com</strong></p>
-{% render_partial _includes/custom/newsletter.html %}
   </div>
 </div>

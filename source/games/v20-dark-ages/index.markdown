@@ -20,8 +20,6 @@ footer: true
 <p>Tristan contributed to multiple aspects of the book such as the Character Creation and Storytelling chapters.</p>
 <p><em>Following the success of the V20 edition of Vampire The Masquerade, Onyx Path is working on their follow up - V20 Dark Ages.  The book is still in the early editing phase as of late 2013.</em></p>
   <div class="small-12 columns widget4">
-{% render_partial _includes/custom/newsletter.html %}
-
   </div>
    </div>
   </div>

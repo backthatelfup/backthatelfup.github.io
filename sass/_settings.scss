@@ -45,7 +45,7 @@ $topbar-height: 100px;
 $topbar-link-font-size: 14px;
 $topbar-link-letterspacing: 0.5px;
 $topbar-link-hover-lightness: -10%;
-$topbar-link-bg-hover: #333;
+$topbar-link-bg-hover: scale-color($secondary-color, $lightness: 10%);
 $topbar-link-color: #fff;
 $topbar-bg: $secondary-color; /* #111 almost black by default */
 //$topbar-link-color-hover: ($primary-color);

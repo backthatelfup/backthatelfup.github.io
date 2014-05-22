@@ -4,7 +4,7 @@ $column-gutter: 40px;
 $total-columns: 12;
 
 // image display properties
-$boxed_images: true; /* true if you want your images to have polaroid effects, false if not */
+$boxed_images: false; /* true if you want your images to have polaroid effects, false if not */
 
 // colors
 $body-bg: #fff !default; /* white by default */
@@ -171,6 +171,13 @@ p.wip-status {
   padding-bottom: 10px; 
 }
 
+.m10 {
+  margin: 10px; 
+}
+
+.ml-15 {
+  margin-left: -15px; 
+}
 // Align widgets when displayed on the left
 .lwidget {
   margin-left: -30px;
@@ -179,10 +186,4 @@ p.wip-status {
 // Shrink the spacing between list items
 ul {
   margin-bottom: 0px !important; 
-}
-
-// Styles covers for coming soon section
-img.coming-soon {
-  margin: 10px;
-  float: left;
 }

@@ -50,7 +50,7 @@ p{
 	font-size: $body-font-size;
 	line-height: $body-line-height;
 	border-bottom: $body-paragraph-margin;
-
+	margin-bottom: 10px;
 }
 
 strong{
@@ -400,4 +400,47 @@ code{
   .logo { 
   margin: 0 55px;
   }
+}
+
+
+//// ---- BUTTONS
+
+// Creates button used for "info"
+.info {
+  @include button($padding: $button-tny, $bg: $primary-color, $radius: true, $full-width: false);
+  margin-left: 9px; 
+}
+
+//Creates button used for "Buy Now" on front page
+.tiny {
+  @include button($padding: $button-tny, $bg: $primary-color, $radius: true, $full-width: false);
+  padding-right: 1.5rem;
+}
+
+// Styles Buy Now dropdown on front page
+.dropdown.button.tiny {
+  padding-right: 1.5rem;
+  padding-left: 1.0rem;
+}
+
+// Styles Buy Now dropdown more on front page
+.dropdown.button.tiny:before {
+  border-width: 0.375rem;
+  right: .5rem;
+  margin-top: -0.125rem;
+  background: invisible; //this is for the little triangle dropdown kajiger
+}
+
+//Creates button used for "Buy Now" on spotlights
+.sales-large {
+  @include button($padding: $button-lrg, $bg: $primary-color, $radius: true, $full-width: false);
+  width: 200px;
+}
+
+// Styles Buy Now dropdown more on spotlights
+.dropdown.button.sales-large:before {
+  border-width: 0.375rem;
+  right: 1.5rem;
+  margin-top: -0.125rem;
+  background: invisible; //this is for the little triangle dropdown kajiger
 }

@@ -1,14 +1,14 @@
 ---
 layout: page
-sidebar: false
 title: "Bio"
+sidebar: false
 comments: true
 sharing: true
 footer: true
 ---
 
-<div class="row spotlight">
-  <div class="small-12 large-12 spotlight-blurb right">
+<div class="row">
+  <div class="small-12 large-12">
     <img src="/images/tristan-j-tarwater.jpg" alt="Tristan J. Tarwater - author photo" class="left box-shadow biopic">
     <h1>Tristan J. Tarwater</h1>
     <h2 class="subheader">About Me</h2>

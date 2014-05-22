@@ -178,12 +178,35 @@ p.wip-status {
 .ml-15 {
   margin-left: -15px; 
 }
-// Align widgets when displayed on the left
-.lwidget {
-  margin-left: -30px;
-}
 
 // Shrink the spacing between list items
 ul {
   margin-bottom: 0px !important; 
+}
+
+.socials {
+  padding-left: 20px;
+  color: #fff;
+}
+
+.twitter:hover {
+  color: #00aced;
+}
+
+.facebook:hover {
+  color: #3b5998; 
+}
+
+@media only screen and (max-width: 768px) {
+  .socials{
+    background-color: $secondary-color;
+  }
+  
+  .twitter {
+    line-height: 20px;
+  }
+  
+  .facebook {
+    line-height: 20px; 
+  }
 }

@@ -49,22 +49,19 @@
           </li>
           <li{% if page.url == '/about/index.html' %} class="active"{% endif %}><a href="{{ root_url }}/about">About</a></li>
       </ul>
-      <ul class="right">
-                <li>
-                    <a class="subscribe-rss" href="{{ site.subscribe_rss }}" title="subscribe via RSS">
-                        <span class="visible-xs"></span>
-                        <img class="hidden-xs" src="{{ root_url }}/images/rss.png" alt="RSS">
-                    </a>
-                </li>
-                {% if site.subscribe_email %}
-                <li>
-                    <a class="subscribe-email" href="{{ site.subscribe_email }}" title="subscribe via email">
-                        <span class="visible-xs">Email</span>
-                        <img class="hidden-xs" src="{{ root_url }}/images/email.png" alt="Email">
-                    </a>
-                </li>
-                {% endif %}
-            </ul>
+      
+<div class="large-4 small-12 columns right socials">
+      {% if site.twitter_user %}
+          <a class="socials twitter right" href="https://twitter.com/{{ site.twitter_user }}" title="Twitter">
+            <i class="fa fa-2x fa-twitter"> </i>
+          </a>
+      {% endif %}
+      {% if site.facebook_user %}
+          <a class="socials facebook right" href="https://facebook.com/{{ site.facebook_user }}" title="Facebook">
+            <i class="fa fa-2x fa-facebook"> </i>
+          </a>
+      {% endif %}
+</div>
     </section>
   </nav>
 {% if site.fixed_navigation %}

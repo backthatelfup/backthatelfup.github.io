@@ -50,9 +50,7 @@ p{
 	font-size: $body-font-size;
 	line-height: $body-line-height;
 	border-bottom: $body-paragraph-margin;
-	@media #{$small-only} {
-		font-size: $body-font-size - 2px;
-	}
+
 }
 
 strong{

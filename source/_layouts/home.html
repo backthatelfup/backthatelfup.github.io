@@ -5,8 +5,7 @@ layout: default
   <div class="small-12 medium-12 {% if page.sidebar == false %}large-10 large-centered {% elsif page.sidebar_left %}large-9 large-push-3 {% else %}large-9 {% endif %}columns">
   <article role="article">
     {% if page.title %}
-    <header class="page-header">
-      <h1 class="page-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
+    <header>
       {% if page.subtitle %}<h1 class="subheader">{{ page.subtitle }}</h1>{% endif %}
       <!--{% if page.date %}<p class="meta">{% include post/date.html %}{{ time }}</p>{% endif %}-->
     </header>
@@ -41,4 +40,3 @@ layout: default
     {% endif %}
   </aside>
   {% endunless %}
-

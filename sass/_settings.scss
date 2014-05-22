@@ -96,6 +96,11 @@ $progress-bar-border-radius: $global-radius;
   background: ($anchor-font-color-hover) !important;
 }
 
+// -- uheader (header under 'top-bar')
+.uheader {
+  padding-top: 7px;
+  background-color: scale-color($tertiary-color, $lightness: 50%);
+}
 
 // -- MAILCHIMP SIGN UP FORM
 
@@ -118,20 +123,30 @@ $progress-bar-border-radius: $global-radius;
 
 // Yep
 #mce-EMAIL {
-  margin-top: 15px;
+  margin: 0 15px;
+  float: left;
+  width: 20em;
+}
+
+@media only screen and (max-width: 768px) {
+  #mce-EMAIL{
+    margin: 0 0 10px 0;
+  }
 }
 
 // Styles the "first name" input field
 #mce-FNAME {
   float: left;
-  width: 55%;
-  margin-bottom: 0px;
+  width: 11em;
+  margin: 0 15px 0 0;
 }
 
 // Keeps the text centered in the subscribe button
 #mc-embedded-subscribe.button{
-  float: right;
-  width: 40%;
+  float: left;
+  width: 8em;
+  margin-bottom: 0px;
+  padding-bottom: 0.5rem;
 }
 
 // -- Sidebar / asides

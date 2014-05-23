@@ -1,0 +1,9 @@
+---
+layout: post
+title: "splash"
+date: 2014-05-21 18:21:45 -0700
+comments: true
+comic: A Fistful of Lunars
+---
+
+{% img /images/comics/a-fistful-of-lunars-splash.jpg 'A Fistful of Lunars splash page' 'A Fistful of Lunars splash page'%}

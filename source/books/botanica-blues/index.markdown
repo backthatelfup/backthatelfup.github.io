@@ -2,6 +2,7 @@
 layout: page
 sidebar: false
 title: "Botanica Blues"
+subtitle: "A Modern Lovecraftian Tale of Terror"
 comments: true
 sharing: true
 footer: true
@@ -22,8 +23,8 @@ footer: true
   </div>
    </div>
    <div class="small-12 medium-8 spotlight-blurb right">
-   <h1>Botanica Blues</h1>
-   <h3 class="subheader">A Modern Lovecraftian Tale of Terror</h3>
+   <h1>{{ page.title }}</h1>
+   <h2 class="subheader">{{ page.subtitle }}</h2>
    <p>As a former soldier and police consultant, Luis Quintana has seen the horrors of war and the brutality of crime on the streets. But when a ritualistic mass murder links an old friend to a lurking supernatural terror, Quintana must uncover a truth he'd thought long hidden, and face a horror he thought he'd long escaped.</p>
    <p><em>Tristan J. Tarwater breaks into new territory with a bold vision of terror that combines the disorienting cosmic horror of Lovecraft with the modern sensibility of the urban streets.</em></p>
    </div>

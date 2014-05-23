@@ -7,11 +7,11 @@ $total-columns: 12;
 $boxed_images: false; /* true if you want your images to have polaroid effects, false if not */
 
 // colors
-$body-bg: #fff !default; /* white by default */
 $primary-color: #43ac6a !default; /* #008CBA blue by default */
 $secondary-color: #363636 !default; /* #e7e7e7 */
 $tertiary-color: #695e63 !default;
 $fourth-color: #bed477 !default;
+$body-bg: #fff !default; /* white by default */
 $bottom-border-color: #cccccc;
 
 // font colors
@@ -103,6 +103,33 @@ $progress-bar-border-radius: $global-radius;
   background-color: scale-color($tertiary-color, $lightness: 50%);
 }
 
+.socials {
+  padding-left: 20px;
+  color: #fff;
+}
+
+.twitter:hover {
+  color: #00aced;
+}
+
+.facebook:hover {
+  color: #3b5998; 
+}
+
+@media only screen and (max-width: 768px) {
+  .socials{
+    background-color: $secondary-color;
+  }
+  
+  .twitter {
+    line-height: 20px;
+  }
+  
+  .facebook {
+    line-height: 20px; 
+  }
+}
+
 // -- MAILCHIMP SIGN UP FORM
 
 // Sets the color of the Mailchimp widget
@@ -184,29 +211,11 @@ ul {
   margin-bottom: 0px !important; 
 }
 
-.socials {
-  padding-left: 20px;
-  color: #fff;
+// Layout of blurb on single book page.
+.spotlight-blurb {
+ padding: 0px 25px 0px 25px; 
 }
 
-.twitter:hover {
-  color: #00aced;
-}
-
-.facebook:hover {
-  color: #3b5998; 
-}
-
-@media only screen and (max-width: 768px) {
-  .socials{
-    background-color: $secondary-color;
-  }
-  
-  .twitter {
-    line-height: 20px;
-  }
-  
-  .facebook {
-    line-height: 20px; 
-  }
+.spotlight {   
+  margin-top: 55px;
 }

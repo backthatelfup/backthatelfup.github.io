@@ -412,6 +412,10 @@ code{
   margin-left: 9px; 
 }
 
+.large.info {
+  margin-top: 20px; 
+}
+
 //Creates button used for "Buy Now" on front page
 .tiny {
   @include button($padding: $button-tny, $bg: $primary-color, $radius: true, $full-width: false);
@@ -436,6 +440,7 @@ code{
 .sales-large {
   @include button($padding: $button-lrg, $bg: $primary-color, $radius: true, $full-width: false);
   width: 200px;
+  margin-top: 20px;
 }
 
 // Styles Buy Now dropdown more on spotlights

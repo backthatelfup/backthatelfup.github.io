@@ -2,6 +2,7 @@
 layout: page
 sidebar: false
 title: "Allegories of the Tarot"
+subtitle: "Sal and the Solar Elixir"
 comments: true
 sharing: true
 footer: true
@@ -20,8 +21,8 @@ footer: true
   </div>
    </div>
    <div class="small-12 medium-8 spotlight-blurb right">
-   <h1>Allegories of the Tarot</h1>
-   <h2 class="subheader">Sal and the Solar Elixir</h2>
+   <h1>{{ page.title }}</h1>
+   <h2 class="subheader">{{ page.subtitle }}</h2>
    <p>Tristan contributed a short story to this anthology and was presented with the Sun card from the major arcana for her muse.</p>
    <p><em>22 cards…each an individual splinter of the human psyche. 22 writers…honing each splinter into a story of triumph and decay, arrogance and humility.</em></p>
    <p><em>Stories of the brightest lights and the darkest corners of the weirdest minds. 22 cross-genre worlds. 22 portals into the Universal. Only one way to get there. Come with us. Cross the portals. The Universal awaits. </em></p>

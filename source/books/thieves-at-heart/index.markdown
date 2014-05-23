@@ -2,6 +2,7 @@
 layout: page
 sidebar: false
 title: "Thieves at Heart"
+subtitle: "The Valley of Ten Crescents #1"
 comments: true
 sharing: true
 footer: true
@@ -22,8 +23,8 @@ footer: true
   </div>
    </div>
    <div class="small-12 medium-8 spotlight-blurb right">
-   <h1>Thieves at Heart</h1>
-   <h2 class="subheader">The Valley of Ten Crescents #1</h2>
+   <h1>{{ page.title }}</h1>
+   <h2 class="subheader">{{ page.subtitle }}</h2>
    <p>Born in poverty, a half-elf in a human city, Tavera lives in a world where she doesn't belong -- until the day she meets Derk. Initiated into the elite group of self-made scoundrels known as the Cup of Cream, Tavera must choose between loyalty to her father and a place as one of the THIEVES AT HEART. </p>
    <p><em>In this book, author Tristan Tarwater explores the development of a young woman, not as prologue, but as a story all its own -- a story of struggle, survival and loss, of the family we're given, and the family we choose for ourselves.</em></p>
    </div>

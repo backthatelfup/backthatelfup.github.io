@@ -2,6 +2,7 @@
 layout: page
 sidebar: false
 title: "Red Moon Rising"
+subtitle: "The Valley of Ten Crescents #3"
 comments: true
 sharing: true
 footer: true
@@ -20,8 +21,8 @@ footer: true
   </div>
    </div>
    <div class="small-12 medium-8 spotlight-blurb right">
-   <h1>Red Moon Rising</h1>
-   <h2 class="subheader">The Valley of Ten Crescents #3</h2>
+   <h1>{{ page.title }}</h1>
+   <h2 class="subheader">{{ page.subtitle }}</h2>
    <p>The rise of a deadly cult threatens life in the Valley of Ten Crescents. Alone, betrayed, and on the run from the law, Tavera finds herself charged with rescuing Kella, a priestess with a powerful secret who has been kidnapped by the cult. Tavera finds she can no longer be a little girl lost, but must become a leader and a savior if she is to survive the RED MOON RISING.  </p>
    </div>
   </div>

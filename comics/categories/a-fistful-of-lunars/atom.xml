@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Back That Elf Up]]></title>
-  <link href="http://backthatelfup.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: A-fistful-of-lunars | Back That Elf Up]]></title>
+  <link href="http://backthatelfup.github.io/comics/categories/a-fistful-of-lunars/atom.xml" rel="self"/>
   <link href="http://backthatelfup.github.io/"/>
   <updated>2014-05-22T19:20:44-07:00</updated>
   <id>http://backthatelfup.github.io/</id>
@@ -18,7 +18,7 @@
     <link href="http://backthatelfup.github.io/comics/a-fistful-of-lunars/coming-soon/"/>
     <updated>2014-05-22T18:20:47-07:00</updated>
     <id>http://backthatelfup.github.io/comics/a-fistful-of-lunars/coming-soon</id>
-    <content type="html"><![CDATA[<p><img src="http://backthatelfup.github.io/images/comics/ComingSoon.jpg" title="'Coming Soon'" ></p>
+    <content type="html"><![CDATA[<p><img src="/images/comics/ComingSoon.jpg" title="&lsquo;Coming Soon&rsquo;" ></p>
 ]]></content>
   </entry>
   

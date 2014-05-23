@@ -1,0 +1,52 @@
+{% if site.fixed_navigation %}
+<div class="sticky" data-options="">
+{% endif %}
+  <nav class="top-bar" data-topbar>
+
+    <!--Uncomment {{ site.title }}below if you would like a title area on the left side of the nav bar-->
+
+    <ul class="title-area">
+        <li>
+          <a href="{{ root_url }}/"><img src="/images/backthatelfup-logo.png" class="logo"></a>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+    </ul>
+
+
+    <section class="top-bar-section">
+
+      <ul class="main-navigation left">
+
+          <li{% if page.url == '/index.html' %} class="active"{% endif %}><a href="{{ root_url }}/">Books</a></li>
+          
+	  <li class="has-dropdown{% if page.url == '/games/index.html' or page.url == '/games/mythos-expeditions/index.html' or page.url == '/games/reality-makes-the-best-fantasy/index.html' or page.url == '/games/v20-dark-ages/index.html' %} active{% endif %}">
+            <a href="#">Gaming</a>
+
+            <ul class="dropdown">
+              <li class="ddtitle"><a href="{{ root_url }}/games/reality-makes-the-best-fantasy">Reality Makes the Best Fantasy</a></li>
+              <li class="ddtitle"><a href="{{ root_url }}/games/mythos-expeditions">Mythos Expeditions</a></li>
+              <li class="ddtitle"><a href="{{ root_url }}/games/v20-dark-ages">V20 Dark Ages</a></li>
+            </ul>
+
+          </li>
+          <li{% if page.url == '/about/index.html' %} class="active"{% endif %}><a href="{{ root_url }}/about">About</a></li>
+      </ul>
+      
+<div class="large-4 small-12 columns right socials">
+      {% if site.twitter_user %}
+          <a class="socials twitter right" href="https://twitter.com/{{ site.twitter_user }}" title="Twitter">
+            <i class="fa fa-2x fa-twitter"> </i>
+          </a>
+      {% endif %}
+      {% if site.facebook_user %}
+          <a class="socials facebook right" href="https://facebook.com/{{ site.facebook_user }}" title="Facebook">
+            <i class="fa fa-2x fa-facebook"> </i>
+          </a>
+      {% endif %}
+</div>
+    </section>
+  </nav>
+{% if site.fixed_navigation %}
+</div>
+{% endif %}
+{% render_partial _includes/custom/newsletter.html %}

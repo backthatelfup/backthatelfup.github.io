@@ -116,6 +116,14 @@ $progress-bar-border-radius: $global-radius;
   color: #3b5998; 
 }
 
+.tumblr:hover {
+  color: #32506d;
+}
+
+.rss:hover {
+  color: #ff6600;
+}
+
 @media only screen and (max-width: 768px) {
   .socials{
     background-color: $secondary-color;
@@ -128,6 +136,14 @@ $progress-bar-border-radius: $global-radius;
   .facebook {
     line-height: 20px; 
   }
+  
+   .tumblr {
+    line-height: 20px; 
+  }
+   .rss {
+    line-height: 20px; 
+  }
+  
 }
 
 // -- MAILCHIMP SIGN UP FORM

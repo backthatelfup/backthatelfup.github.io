@@ -9,7 +9,7 @@ $boxed_images: false; /* true if you want your images to have polaroid effects, 
 // colors
 $primary-color: #43ac6a !default; /* #008CBA blue by default */
 $secondary-color: #363636 !default; /* #e7e7e7 */
-$tertiary-color: #695e63 !default;
+$tertiary-color: #6b6b6b !default;
 $fourth-color: #bed477 !default;
 $body-bg: #fff !default; /* white by default */
 $bottom-border-color: #cccccc;
@@ -100,7 +100,7 @@ $progress-bar-border-radius: $global-radius;
 .uheader {
   padding-top: 7px;
   margin-bottom: 10px;
-  background-color: scale-color($tertiary-color, $lightness: 50%);
+  background-color: $tertiary-color;
 }
 
 .socials {

@@ -280,3 +280,12 @@ ul.no-bullet {
   background-color: #ffd0d0;
   text-align: center;
 }
+
+.copyright{
+  background-color: #6b6b6b;
+  color: $header-font-color;
+  font-size: $body-font-size - 3px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  display: block;
+}

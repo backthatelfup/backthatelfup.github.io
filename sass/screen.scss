@@ -229,8 +229,7 @@ footer{
 		}
 		.copyright{
 			color: $header-font-color;
-			font-family: $header-font-family;
-			font-size: $body-font-size + 2px;
+			font-size: $body-font-size - 2px;
 			padding-bottom: 8px;
 			display: block;
 		}

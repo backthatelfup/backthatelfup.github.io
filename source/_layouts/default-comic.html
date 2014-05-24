@@ -12,9 +12,11 @@ header_image: /images/shamsee-banner.jpg
     <div id="content" class="row">
     
       {{ content | expand_urls: root_url }}
+      
     </div>
   </div>
-  <footer role="contentinfo">{% include footer.html %}</footer>
+  <footer role="contentinfo">{% include footer.html %}
+  </footer>
   {% include after_footer.html %}
 </body>
 </html>

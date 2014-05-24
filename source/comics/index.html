@@ -1,10 +1,9 @@
 ---
-layout: default-comic
+layout: page-comic
 sidebar: true
 sidebar_left: false
----
-<div class="small-12 medium-12 {% if page.sidebar == false %}large-10 large-centered {% elsif page.sidebar_left %}large-9 large-push-3 {% else %}large-9 {% endif %}columns">
 
+---
   <div class="blog-index">
   {% assign post = site.posts.first %}
   {% assign content = post.content %}
@@ -17,14 +16,3 @@ sidebar_left: false
    {% include article.html %}
 </article>
   </div>
-</div>
-
-{% unless page.sidebar == false %}
-    <aside class="sidebar small-12 medium-12{% if page.sidebar_left %} large-pull-9{% endif %} large-3 columns">
-  {% if site.page_asides.size %}
-  {% include_array page_asides %}
-  {% else %}
-  {% include_array default_asides %}
-  {% endif %}
-    </aside>
-{% endunless %}

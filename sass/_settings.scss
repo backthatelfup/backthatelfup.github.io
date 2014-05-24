@@ -261,7 +261,7 @@ i.fa-arrow-left:hover{
   color: $primary-color; 
 }
 
-.comic-pagination:hover{
+a.comic-pagination:hover{
   color: $primary-color; 
 }
 
@@ -270,13 +270,13 @@ i.fa-arrow-left:hover{
   margin-top: -10px;
 }
 
+// Indent unordered list items when not using a marker
 ul.no-bullet {
   margin-left: 20px !important; 
 }
 
-/* .spotlight {
-  margin-top: 55px;
-  background: #e7e7e7 url("../images/pattern-1.png");
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-} */
+// Sharing / social buttons
+.sharing {
+  background-color: #ffd0d0;
+  text-align: center;
+}

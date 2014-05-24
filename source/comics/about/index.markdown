@@ -2,8 +2,8 @@
 layout: page-comic
 title: "About The Misadventures of Streetsman Shamsee"
 sidebar: false
-comments: true
-sharing: true
+comments: false
+sharing: false
 footer: true
 ---
 

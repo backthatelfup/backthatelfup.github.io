@@ -86,6 +86,10 @@ $progress-bar-border-radius: $global-radius;
  line-height: 50px !important;
 }
 
+.top-bar-section ul{
+  background-color: $secondary-color !important; 
+}
+
 // Sets background color of navbar dropdowns
 .top-bar-section .dropdown li a {
   background: #333333 !important;
@@ -106,6 +110,8 @@ $progress-bar-border-radius: $global-radius;
 .socials {
   padding-left: 20px;
   color: #fff;
+  line-height: 6.3em;
+  float: right;
 }
 
 .twitter:hover {
@@ -303,3 +309,7 @@ ul.no-bullet {
   padding-bottom: 8px;
   display: block;
 }
+
+// Set breakpoint for top-bar so it uses mobile version for med. screens
+$topbar-breakpoint: 906px; // Change to 9999px for always mobile layout
+$topbar-media-query: "only screen and (min-width: #{$topbar-breakpoint})" !default;

@@ -1,41 +1,30 @@
 ---
-title: "Blog"
-subtitle: "Optional Subtitle"
 layout: default-comic
 sidebar: true
 sidebar_left: false
-header_image: /images/shamsee-banner.jpg
 ---
-<div class="small-12 medium-12 {% if page.sidebar == false %}large-10 large-centered {% elsif page.sidebar_left %}large-8 large-push-4 {% else %}large-8 {% endif %}columns">
+<div class="small-12 medium-12 {% if page.sidebar == false %}large-10 large-centered {% elsif page.sidebar_left %}large-9 large-push-3 {% else %}large-9 {% endif %}columns">
 
   <div class="blog-index">
-    {% assign index = true %}
-    {% for post in paginator.posts %}
-    {% assign content = post.content %}
-      <article>
-        {% include article.html %}
-      </article>
-      {% unless post == paginator.posts.last %}
-      <hr>
-      {% endunless %}
-    {% endfor %}
-    <div class="pagination">
-      {% if paginator.next_page %}
-      <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
-      {% endif %}
-
-      {% if paginator.previous_page %}
-      <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
-      {% endif %}
-    </div>
+  {% assign post = site.posts.first %}
+  {% assign content = post.content %}
+  <h1 class="entry-title text-center">
+  {% if post.title %}
+   <a href="{{ root_url }}{{ post.url }}"> {{ site.comic1 }} {{ post.title }}</a>
+  {% endif %}
+  </h1>
+<article>
+   {% include article.html %}
+</article>
   </div>
 </div>
-  {% unless page.sidebar == false %}
-  <aside class="sidebar small-12 medium-12{% if page.sidebar_left %} large-pull-8{% endif %} large-4 columns">
-    {% if site.page_asides.size %}
-      {% include_array page_asides %}
-    {% else %}
-      {% include_array default_asides %}
-    {% endif %}
-  </aside>
-  {% endunless %}
+
+{% unless page.sidebar == false %}
+    <aside class="sidebar small-12 medium-12{% if page.sidebar_left %} large-pull-9{% endif %} large-3 columns">
+  {% if site.page_asides.size %}
+  {% include_array page_asides %}
+  {% else %}
+  {% include_array default_asides %}
+  {% endif %}
+    </aside>
+{% endunless %}

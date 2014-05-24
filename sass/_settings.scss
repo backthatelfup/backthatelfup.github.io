@@ -232,7 +232,31 @@ ul {
  padding: 0px 25px 0px 25px; 
 }
 
+// Adds border to comic image on every post
+.comic-page {
+  border-style: solid;
+  border-color: $secondary-color;
+}
 
+// Styles the prev/next above each comic
+.comic-pagination {
+  color: #fff;
+  height: 30px;
+  background-color: $secondary-color; 
+  margin-bottom: 0px !important;
+  padding-top: 6px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+// Makes prev/next change color on hover
+i.fa-arrow-left:hover{
+  color: $primary-color; 
+}
+
+.comic-pagination:hover{
+  color: $primary-color; 
+}
 
 /* .spotlight {
   margin-top: 55px;

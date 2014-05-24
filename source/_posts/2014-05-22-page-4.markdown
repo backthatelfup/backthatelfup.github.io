@@ -7,4 +7,4 @@ categories: a-fistful-of-lunars
 comic: A Fistful of Lunars
 ---
 
-{% img /images/comics/a-fistful-of-lunars-page-4.jpg 'A Fistful of Lunars Page 4' 'A Fistful of Lunars Page 4'%}
+{% img comic-page /images/comics/a-fistful-of-lunars-page-4.jpg 'A Fistful of Lunars Page 4' 'A Fistful of Lunars Page 4'%}

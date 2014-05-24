@@ -239,6 +239,13 @@ ul {
 }
 
 // Styles the prev/next above each comic
+@media only screen and (max-width: 768px) {
+  .comic-pagination{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+
 .comic-pagination {
   color: #fff;
   height: 30px;

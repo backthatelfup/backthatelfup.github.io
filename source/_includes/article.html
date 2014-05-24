@@ -5,6 +5,7 @@
     {% endif %}
         <h1 class="text-center">{{ page.comic }} {{ page.title }}</h1>
       {% if page.previous.url %}
+    <div class="pagdiv column">
         <div>
           <a class="basic-alignment left comic-pagination" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}"> <i class="fa fa-arrow-left">&nbsp; {{page.previous.title}} </i> </a>
         </div>
@@ -14,6 +15,7 @@
           <a class="basic-alignment right comic-pagination btn-group" href="{{page.next.url}}" title="Next Post: {{page.next.title}}"> <i class="fa">{{page.next.title}}</i> <i class="fa fa-arrow-right"></i></a>
         </div>
       {% endif %}
+   </div>
     {% unless page.meta == false %}
       <p class="meta">
 
@@ -37,6 +39,7 @@
 {% else %}
 {% endif %}
       {% if page.previous.url %}
+    <div class="pagdiv column">
         <div>
           <a class="basic-alignment left comic-pagination" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}"> <i class="fa fa-arrow-left">&nbsp; {{page.previous.title}} </i> </a>
         </div>
@@ -46,3 +49,4 @@
           <a class="basic-alignment right comic-pagination btn-group" href="{{page.next.url}}" title="Next Post: {{page.next.title}}"> <i class="fa">{{page.next.title}}</i> <i class="fa fa-arrow-right"></i></a>
         </div>
       {% endif %}
+   </div>

@@ -114,6 +114,10 @@ $progress-bar-border-radius: $global-radius;
   float: right;
 }
 
+.twitter {
+  margin-right: 50px; 
+}
+
 .twitter:hover {
   color: #00aced;
 }
@@ -137,6 +141,7 @@ $progress-bar-border-radius: $global-radius;
   
   .twitter {
     line-height: 20px;
+    margin-right: 30px;
   }
   
   .facebook {

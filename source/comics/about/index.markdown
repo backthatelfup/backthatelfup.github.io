@@ -8,7 +8,7 @@ footer: true
 ---
 
 <div class="row">
-  <div class="small-12 large-12">
+  <div class="small-12">
     <img src="/images/comics/ComingSoon-small.jpg" alt="The Misadventures of Streetsman Shamsee, coming soon" class="left">
     <h1>A Fistful of Lunars</h1>
     <h3 class="subheader">The Misadventures of Streetsman Shamsee #1</h3>

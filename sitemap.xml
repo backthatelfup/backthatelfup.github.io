@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://backthatelfup.github.io/comics/a-fistful-of-lunars/splash/</loc>
-        <lastmod>2014-05-24T20:07:16-07:00</lastmod>
+        <loc>http://backthatelfup.github.io/comics/a-fistful-of-lunars/page-0/</loc>
+        <lastmod>2014-05-25T11:27:54-07:00</lastmod>
     </url>
     <url>
         <loc>http://backthatelfup.github.io/comics/a-fistful-of-lunars/page-1/</loc>
@@ -90,7 +90,7 @@
     </url>
     <url>
         <loc>http://backthatelfup.github.io/</loc>
-        <lastmod>2014-05-25T11:10:20-07:00</lastmod>
+        <lastmod>2014-05-25T11:27:54-07:00</lastmod>
     </url>
     <url>
         <loc>http://backthatelfup.github.io/extras/fiction/the-detective/</loc>
@@ -110,10 +110,10 @@
     </url>
     <url>
         <loc>http://backthatelfup.github.io/comics/</loc>
-        <lastmod>2014-05-25T11:10:20-07:00</lastmod>
+        <lastmod>2014-05-25T11:27:54-07:00</lastmod>
     </url>
     <url>
         <loc>http://backthatelfup.github.io/comics/archives/</loc>
-        <lastmod>2014-05-25T11:10:20-07:00</lastmod>
+        <lastmod>2014-05-25T11:27:54-07:00</lastmod>
     </url>
 </urlset>

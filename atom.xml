@@ -4,7 +4,7 @@
   <title><![CDATA[Back That Elf Up]]></title>
   <link href="http://backthatelfup.github.io/atom.xml" rel="self"/>
   <link href="http://backthatelfup.github.io/"/>
-  <updated>2014-05-25T11:21:28-07:00</updated>
+  <updated>2014-05-25T11:26:15-07:00</updated>
   <id>http://backthatelfup.github.io/</id>
   <author>
     <name><![CDATA[Tristan J. Tarwater]]></name>
@@ -73,15 +73,6 @@
     <updated>2014-05-21T18:21:45-07:00</updated>
     <id>http://backthatelfup.github.io/comics/a-fistful-of-lunars/splash</id>
     <content type="html"><![CDATA[<p><img class="comic-page" src="http://backthatelfup.github.io/images/comics/a-fistful-of-lunars-splash.jpg" title="A Fistful of Lunars splash page" alt="A Fistful of Lunars splash page"></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Coming Soon]]></title>
-    <link href="http://backthatelfup.github.io/comics/a-fistful-of-lunars/coming-soon/"/>
-    <updated>2014-05-20T18:28:47-07:00</updated>
-    <id>http://backthatelfup.github.io/comics/a-fistful-of-lunars/coming-soon</id>
-    <content type="html"><![CDATA[<p><img src="http://backthatelfup.github.io/images/comics/ComingSoon.jpg" title="'Coming Soon'" ></p>
 ]]></content>
   </entry>
   

@@ -47,8 +47,8 @@ module Jekyll
         else
           thumb_suffix = "_thumb_#{width}"
         end
-        thumb_path = "#{image_path}#{thumb_suffix}.png"
-        @img['src'] = @img['orig_src'] + "#{thumb_suffix}.png"
+        thumb_path = "#{image_path}#{thumb_suffix}.jpg"
+        @img['src'] = @img['orig_src'] + "#{thumb_suffix}.jpg"
         if not File.exists?(thumb_path)
           image = MiniMagick::Image.open(image_path)
           if height
@@ -56,7 +56,7 @@ module Jekyll
           else
             image.resize("#{width}x")
           end
-          image.format("png")
+          image.format("jpg")
           image.write(thumb_path)
         end
       end

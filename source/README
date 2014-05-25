@@ -1,0 +1,21 @@
+### Basic Usage
+
+- New Post
+  - bundle exec rake new_post["title"]
+  
+- New Page
+  - bundle exec rake new_page[title/index.markdown] 
+  
+- Optimize images
+  - bundle exec rake optimize images
+
+- Generate site
+  - bundle exec rake generate
+
+- Deploy site
+  - bundle exec rake deploy
+
+- Push source
+ - git add .
+ - git commit -m 'DESCRIPTION'
+ - git push origin source

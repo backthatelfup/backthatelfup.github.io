@@ -5,6 +5,7 @@ date: 2014-05-22 18:23:47 -0700
 comments: true
 categories: a-fistful-of-lunars
 comic: A Fistful of Lunars
+thumbnail: /images/comics/a-fistful-of-lunars-page-4.jpg
 ---
 
 {% img comic-page /images/comics/a-fistful-of-lunars-page-3.jpg 'A Fistful of Lunars Page 3' 'A Fistful of Lunars Page 3'%}

@@ -2,8 +2,8 @@
 layout: page
 sidebar: false
 title: "V20 Dark Ages"
-comments: true
-sharing: true
+comments: false
+sharing: false
 footer: true
 ---
 

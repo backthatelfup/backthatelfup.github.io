@@ -3,8 +3,8 @@ layout: page
 sidebar: false
 title: "Little Girl Lost"
 subtitle: "The Valley of Ten Crescents #0"
-comments: true
-sharing: true
+comments: false
+sharing: false
 footer: true
 ---
 

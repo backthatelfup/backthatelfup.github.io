@@ -3,8 +3,8 @@ layout: page
 sidebar: false
 title: "Self-Made Scoundrel"
 subtitle: "The Valley of Ten Crescents #2"
-comments: true
-sharing: true
+comments: false
+sharing: false
 footer: true
 ---
 

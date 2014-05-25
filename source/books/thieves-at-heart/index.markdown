@@ -3,8 +3,8 @@ layout: page
 sidebar: false
 title: "Thieves at Heart"
 subtitle: "The Valley of Ten Crescents #1"
-comments: true
-sharing: true
+comments: false
+sharing: false
 footer: true
 ---
 

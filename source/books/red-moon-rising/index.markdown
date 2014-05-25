@@ -3,8 +3,8 @@ layout: page
 sidebar: false
 title: "Red Moon Rising"
 subtitle: "The Valley of Ten Crescents #3"
-comments: true
-sharing: true
+comments: false
+sharing: false
 footer: true
 ---
 

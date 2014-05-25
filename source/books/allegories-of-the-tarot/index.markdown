@@ -3,8 +3,8 @@ layout: page
 sidebar: false
 title: "Allegories of the Tarot"
 subtitle: "Sal and the Solar Elixir"
-comments: true
-sharing: true
+comments: false
+sharing: false
 footer: true
 ---
 

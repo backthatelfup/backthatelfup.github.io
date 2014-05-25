@@ -3,8 +3,8 @@ layout: page
 sidebar: false
 title: "The Jaguars of El-Thar"
 subtitle: "Mythos Expeditions"
-comments: true
-sharing: true
+comments: false
+sharing: false
 footer: true
 ---
 

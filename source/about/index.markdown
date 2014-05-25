@@ -2,7 +2,7 @@
 layout: page
 title: "Bio"
 sidebar: false
-comments: true
+comments: false
 sharing: false
 footer: true
 ---

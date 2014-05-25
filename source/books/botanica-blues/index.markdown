@@ -3,8 +3,8 @@ layout: page
 sidebar: false
 title: "Botanica Blues"
 subtitle: "A Modern Lovecraftian Tale of Terror"
-comments: true
-sharing: true
+comments: false
+sharing: false
 footer: true
 ---
 

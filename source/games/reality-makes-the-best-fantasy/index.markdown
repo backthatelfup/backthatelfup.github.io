@@ -2,8 +2,8 @@
 layout: page
 sidebar: false
 title: "Reality Makes the Best Fantasy"
-comments: true
-sharing: true
+comments: false
+sharing: false
 footer: true
 ---
 

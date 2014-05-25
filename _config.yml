@@ -98,7 +98,8 @@ disqus_short_name:
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id:
+google_universal_analytics: UA-22568632-1
+google_universal_analytics_cookiedomain:
 
 # Facebook Like
 facebook_like: true

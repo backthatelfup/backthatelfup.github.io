@@ -3,6 +3,7 @@ layout: post
 title: "splash"
 date: 2014-05-21 18:21:45 -0700
 comments: true
+categories: a-fistful-of-lunars
 comic: A Fistful of Lunars
 ---
 

@@ -231,7 +231,7 @@ task :deploy do
 
   # Apply minification tasks
   Rake::Task[:minify_css].execute
-  Rake::Task[:minify_js].execute
+  #Rake::Task[:minify_js].execute
   Rake::Task[:minify_html].execute
   
   Rake::Task[:copydot].invoke(source_dir, public_dir)

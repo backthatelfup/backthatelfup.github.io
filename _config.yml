@@ -106,9 +106,9 @@ disqus_short_name: backthatelfup
 disqus_show_comment_count: false
 
 # Google Analytics
-google_universal_analytics: UA-22568632-2
+google_universal_analytics: UA-22568632-1
 
-google_universal_analytics_cookiedomain: backthatelfup.github.io
+google_universal_analytics_cookiedomain: backthatelfup.com
 
 # Facebook Like
 facebook_like: true

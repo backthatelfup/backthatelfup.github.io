@@ -4,6 +4,7 @@
 @import "solarized";
 @import "syntax";
 @import "font-awesome/font-awesome";
+@import "compass/layout/sticky-footer";
 
 // Or selectively include components
 // @import
@@ -217,24 +218,9 @@ aside{
 	padding-top: 30px;
 }
 
-/* formats footer at the bottom of the page */
+/* formats footer at the bottom of the page using Compass mixin */
 
-footer{
-	p{
-		font-size: $body-font-size - 2px;
-		padding-top: 30px;
-
-		@media #{$small-only} {
-			font-size: $body-font-size - 4px;
-		}
-		.copyright{
-			color: $header-font-color;
-			font-size: $body-font-size - 2px;
-			padding-bottom: 8px;
-			display: block;
-		}
-	}
-}
+@include sticky-footer(0px, "#main", "#article", "#footer");
 
 /* formats "MENU" text that appears for mobile nav menu */
 

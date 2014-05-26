@@ -67,7 +67,7 @@ mini_magick:
       source: images/comics/
       destination: ../source/images/comics/thumbs
       commands:
-        - thumbnail: "142x219^"
+        - thumbnail: "182x280^"
   
 # ----------------------- #
 #   3rd Party Settings    #

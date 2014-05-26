@@ -316,6 +316,22 @@ ul.no-bullet {
   margin-top: 10%;
 }
 
+figure {
+  margin: 0px !important;
+  border: solid;
+  border-width: 1px;
+}
+
+figcaption {
+  background-color: $tertiary-color;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+figcaption:hover {
+  color: $primary-color;
+}
+
 // Set breakpoint for top-bar so it uses mobile version for med. screens
 $topbar-breakpoint: 906px; // Change to 9999px for always mobile layout
 $topbar-media-query: "only screen and (min-width: #{$topbar-breakpoint})" !default;

@@ -6,7 +6,7 @@
 - New Page
   - bundle exec rake new_page[title/index.markdown] 
   
-- Optimize images
+- Optimize images (now performed inline as part of 'generate')
   - bundle exec rake optimize images
 
 - Generate site
@@ -14,6 +14,9 @@
 
 - Deploy site
   - bundle exec rake deploy
+  
+- Notify search engines of updates
+  - bundle exec rake notify
 
 - Push source
  - git add .

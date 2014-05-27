@@ -595,5 +595,5 @@ task :sitemapbing do
 end
 
 desc "Notify various services about new content"
-task :notify => [:pingomatic, :sitemapgoogle, :sitemapbing] do
+task :notify => [:sitemapgoogle, :sitemapbing] do
 end

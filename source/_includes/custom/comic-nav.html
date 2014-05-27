@@ -1,14 +1,17 @@
 {% if site.fixed_navigation %}
 <div class="sticky" data-options="">
 {% endif %}
-  <nav class="top-bar" data-topbar>
+{% if page.header_image %} <a href="{{ root_url }}/comics"><img src="{{ page.header_image }}" alt="{{ site.title }} banner image" title="{{ site.title }}" class="hide-for-large-up"></a> {% endif %}
+
+  <nav class="top-bar comic" data-topbar>
 
     <!--Uncomment {{ site.title }}below if you would like a title area on the left side of the nav bar-->
 
-    <ul class="title-area">
+    <ul class="title-area comic">
         <li>
-          <a href="{{ root_url }}/"><img src="/images/backthatelfup-logo.png" class="logo"></a>
+          <a href="{{ root_url }}/"><img src="/images/backthatelfup-logo.png" class="logo hide-for-small hide-for-medium""></a>
         </li>
+        <li><a href="{{ root_url }}/"><i class="fa fa-home fa-3x hide-for-large-up"></i></a></li>
         <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
     </ul>
 
@@ -41,4 +44,3 @@
 {% if site.fixed_navigation %}
 </div>
 {% endif %}
-{% if page.header_image %} <a href="{{ root_url }}/comics"><img src="{{ page.header_image }}" alt="{{ site.title }} banner image" title="{{ site.title }}" class="hide-for-large-up"></a> {% endif %}

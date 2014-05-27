@@ -100,6 +100,19 @@ $progress-bar-border-radius: $global-radius;
   background: ($anchor-font-color-hover) !important;
 }
 
+// Styles topbar for mobile screens
+@media only screen and (max-width: 768px) {
+  .top-bar.comic{
+    height: 50px !important;
+  }
+  .top-bar.comic.expanded{
+    height: auto !important;
+  }
+  .top-bar .title-area .comic{
+    height: 50px;
+  }
+}
+
 // -- uheader (newsletter header under 'top-bar')
 .uheader {
   padding-top: 7px;

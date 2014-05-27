@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Back That Elf Up]]></title>
-  <link href="http://backthatelfup.github.io/atom.xml" rel="self"/>
-  <link href="http://backthatelfup.github.io/"/>
-  <updated>2014-05-27T12:36:47-07:00</updated>
-  <id>http://backthatelfup.github.io/</id>
+  <link href="http://www.backthatelfup.com/atom.xml" rel="self"/>
+  <link href="http://www.backthatelfup.com/"/>
+  <updated>2014-05-27T13:03:14-07:00</updated>
+  <id>http://www.backthatelfup.com/</id>
   <author>
     <name><![CDATA[Tristan J. Tarwater]]></name>
     
@@ -15,64 +15,64 @@
   
   <entry>
     <title type="html"><![CDATA[Page 6]]></title>
-    <link href="http://backthatelfup.github.io/comics/a-fistful-of-lunars/page-6/"/>
+    <link href="http://www.backthatelfup.com/comics/a-fistful-of-lunars/page-6/"/>
     <updated>2014-05-22T18:26:47-07:00</updated>
-    <id>http://backthatelfup.github.io/comics/a-fistful-of-lunars/page-6</id>
-    <content type="html"><![CDATA[<p><img class="comic-page" src="http://backthatelfup.github.io/images/comics/a-fistful-of-lunars-page-6.jpg" title="A Fistful of Lunars Page 6" alt="A Fistful of Lunars Page 6"></p>
+    <id>http://www.backthatelfup.com/comics/a-fistful-of-lunars/page-6</id>
+    <content type="html"><![CDATA[<p><img class="comic-page" src="http://www.backthatelfup.com/images/comics/a-fistful-of-lunars-page-6.jpg" title="A Fistful of Lunars Page 6" alt="A Fistful of Lunars Page 6"></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Page 5]]></title>
-    <link href="http://backthatelfup.github.io/comics/a-fistful-of-lunars/page-5/"/>
+    <link href="http://www.backthatelfup.com/comics/a-fistful-of-lunars/page-5/"/>
     <updated>2014-05-22T18:25:47-07:00</updated>
-    <id>http://backthatelfup.github.io/comics/a-fistful-of-lunars/page-5</id>
-    <content type="html"><![CDATA[<p><img class="comic-page" src="http://backthatelfup.github.io/images/comics/a-fistful-of-lunars-page-5.jpg" title="A Fistful of Lunars Page 5" alt="A Fistful of Lunars Page 5"></p>
+    <id>http://www.backthatelfup.com/comics/a-fistful-of-lunars/page-5</id>
+    <content type="html"><![CDATA[<p><img class="comic-page" src="http://www.backthatelfup.com/images/comics/a-fistful-of-lunars-page-5.jpg" title="A Fistful of Lunars Page 5" alt="A Fistful of Lunars Page 5"></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Page 4]]></title>
-    <link href="http://backthatelfup.github.io/comics/a-fistful-of-lunars/page-4/"/>
+    <link href="http://www.backthatelfup.com/comics/a-fistful-of-lunars/page-4/"/>
     <updated>2014-05-22T18:24:47-07:00</updated>
-    <id>http://backthatelfup.github.io/comics/a-fistful-of-lunars/page-4</id>
-    <content type="html"><![CDATA[<p><img class="comic-page" src="http://backthatelfup.github.io/images/comics/a-fistful-of-lunars-page-4.jpg" title="A Fistful of Lunars Page 4" alt="A Fistful of Lunars Page 4"></p>
+    <id>http://www.backthatelfup.com/comics/a-fistful-of-lunars/page-4</id>
+    <content type="html"><![CDATA[<p><img class="comic-page" src="http://www.backthatelfup.com/images/comics/a-fistful-of-lunars-page-4.jpg" title="A Fistful of Lunars Page 4" alt="A Fistful of Lunars Page 4"></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Page 3]]></title>
-    <link href="http://backthatelfup.github.io/comics/a-fistful-of-lunars/page-3/"/>
+    <link href="http://www.backthatelfup.com/comics/a-fistful-of-lunars/page-3/"/>
     <updated>2014-05-22T18:23:47-07:00</updated>
-    <id>http://backthatelfup.github.io/comics/a-fistful-of-lunars/page-3</id>
-    <content type="html"><![CDATA[<p><img class="comic-page" src="http://backthatelfup.github.io/images/comics/a-fistful-of-lunars-page-3.jpg" title="A Fistful of Lunars Page 3" alt="A Fistful of Lunars Page 3"></p>
+    <id>http://www.backthatelfup.com/comics/a-fistful-of-lunars/page-3</id>
+    <content type="html"><![CDATA[<p><img class="comic-page" src="http://www.backthatelfup.com/images/comics/a-fistful-of-lunars-page-3.jpg" title="A Fistful of Lunars Page 3" alt="A Fistful of Lunars Page 3"></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Page 2]]></title>
-    <link href="http://backthatelfup.github.io/comics/a-fistful-of-lunars/page-2/"/>
+    <link href="http://www.backthatelfup.com/comics/a-fistful-of-lunars/page-2/"/>
     <updated>2014-05-22T18:22:47-07:00</updated>
-    <id>http://backthatelfup.github.io/comics/a-fistful-of-lunars/page-2</id>
-    <content type="html"><![CDATA[<p><img class="comic-page" src="http://backthatelfup.github.io/images/comics/a-fistful-of-lunars-page-2.jpg" title="A Fistful of Lunars Page 2" alt="A Fistful of Lunars Page 2"></p>
+    <id>http://www.backthatelfup.com/comics/a-fistful-of-lunars/page-2</id>
+    <content type="html"><![CDATA[<p><img class="comic-page" src="http://www.backthatelfup.com/images/comics/a-fistful-of-lunars-page-2.jpg" title="A Fistful of Lunars Page 2" alt="A Fistful of Lunars Page 2"></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Page 1]]></title>
-    <link href="http://backthatelfup.github.io/comics/a-fistful-of-lunars/page-1/"/>
+    <link href="http://www.backthatelfup.com/comics/a-fistful-of-lunars/page-1/"/>
     <updated>2014-05-21T18:21:47-07:00</updated>
-    <id>http://backthatelfup.github.io/comics/a-fistful-of-lunars/page-1</id>
-    <content type="html"><![CDATA[<p><img class="comic-page" src="http://backthatelfup.github.io/images/comics/a-fistful-of-lunars-page-1.jpg" title="A Fistful of Lunars Page 1" alt="A Fistful of Lunars Page 1"></p>
+    <id>http://www.backthatelfup.com/comics/a-fistful-of-lunars/page-1</id>
+    <content type="html"><![CDATA[<p><img class="comic-page" src="http://www.backthatelfup.com/images/comics/a-fistful-of-lunars-page-1.jpg" title="A Fistful of Lunars Page 1" alt="A Fistful of Lunars Page 1"></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Page 0]]></title>
-    <link href="http://backthatelfup.github.io/comics/a-fistful-of-lunars/page-0/"/>
+    <link href="http://www.backthatelfup.com/comics/a-fistful-of-lunars/page-0/"/>
     <updated>2014-05-21T18:21:45-07:00</updated>
-    <id>http://backthatelfup.github.io/comics/a-fistful-of-lunars/page-0</id>
-    <content type="html"><![CDATA[<p><img class="comic-page" src="http://backthatelfup.github.io/images/comics/a-fistful-of-lunars-splash.jpg" title="A Fistful of Lunars page 0" alt="A Fistful of Lunars page 0"></p>
+    <id>http://www.backthatelfup.com/comics/a-fistful-of-lunars/page-0</id>
+    <content type="html"><![CDATA[<p><img class="comic-page" src="http://www.backthatelfup.com/images/comics/a-fistful-of-lunars-splash.jpg" title="A Fistful of Lunars page 0" alt="A Fistful of Lunars page 0"></p>
 ]]></content>
   </entry>
   

@@ -27,6 +27,9 @@ GEM
       maruku (~> 0.5)
       pygments.rb (~> 0.3.2)
     kramdown (0.13.8)
+    libxml-ruby (2.7.0)
+    libxml-xmlrpc (0.1.5)
+      libxml-ruby (> 0.0.0)
     liquid (2.3.0)
     maruku (0.6.1)
       syntax (>= 1.0.0)
@@ -68,6 +71,7 @@ DEPENDENCIES
   haml (~> 3.1.7)
   html_compressor (~> 0.0.3)
   jekyll (~> 0.12)
+  libxml-xmlrpc
   liquid (~> 2.3.0)
   mini_magick
   pygments.rb (~> 0.3.4)

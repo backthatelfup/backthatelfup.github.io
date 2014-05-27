@@ -14,7 +14,7 @@
 
 - Deploy site
   - bundle exec rake deploy
-
+  
 - Push source
  - git add .
  - git commit -m 'DESCRIPTION'

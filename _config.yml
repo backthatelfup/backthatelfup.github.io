@@ -8,7 +8,7 @@ title: Back That Elf Up
 author: Tristan J. Tarwater
 #simple_search: https://www.google.com/search
 description: The home of Tristan J. Tarwater - novelist, comic writer, and tabletop RPG freelancer.
-keywords: 
+keywords: Author
 comic1: A Fistful of Lunars
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
@@ -83,7 +83,7 @@ github_skip_forks: true
 # Twitter
 twitter_user: backthatelfup
 twitter_tweet_button: true
-twitter_image: http://www.backthatelfup.com/images/backthatelfup-logo.png #enter a default image to use here for posts/pages that don't have one.
+twitter_image: http://www.backthatelfup.com/images/BTEUlogo-med-200x200.png #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
 
 # Google +1
 google_plus_one: true
@@ -117,7 +117,7 @@ facebook_user: BackThatElfUp
 facebook_app_id: 212934732101925
 facebook_locale: en_US
 facebook_page: https://www.facebook.com/BackThatElfUp
-facebook_image:  http://www.backthatelfup.com/images/backthatelfup-logo.png #enter a default image to use here for posts/pages that don't have one.
+facebook_image:  http://www.backthatelfup.com/images/BTEUlogo-med-200x200.png #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
 
 # Tumblr
 tumblr: streetsmanshamsee.tumblr.com

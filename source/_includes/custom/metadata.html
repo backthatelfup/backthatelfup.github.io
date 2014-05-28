@@ -1,10 +1,10 @@
 <!-- Social media content metadata -->
 {% if site.facebook_app_id %}
-<meta property="fb:admins" content="{{ site.facebook_app_id }}" />
+<meta property="fb:app_id" content="{{ site.facebook_app_id }}" />
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
 <meta property="og:site_name" content="{{ site.title }}" />
 <meta property="og:url" content="{% if canonical %}{{ canonical }}{% else %}{{ site.url }}{% endif %}/" />
-<meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | condense_spaces | truncate:200}}{% else %}{{ site.description | strip_html | condense_spaces | truncate:200 }}{% endif %}" />
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
 <meta property="og:author" content="{{ site.facebook_page }}" />
 <meta property="og:locale" content="{{ site.facebook_locale }}" />
 <meta property="og:type" content="article" />

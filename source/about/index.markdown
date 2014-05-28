@@ -5,10 +5,12 @@ sidebar: false
 comments: false
 sharing: false
 footer: true
+keywords: 
 ---
 
 <div class="row">
   <div class="small-12 large-12">
+    {% assign index = true %}
     <img src="/images/tristan-j-tarwater.jpg" alt="Tristan J. Tarwater - author photo" class="left box-shadow biopic">
     <h1>Tristan J. Tarwater</h1>
     <h2 class="subheader">About Me</h2>

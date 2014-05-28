@@ -82,6 +82,7 @@ github_skip_forks: true
 
 # Twitter
 twitter_user: backthatelfup
+twitter_card: false
 twitter_tweet_button: true
 twitter_image: http://www.backthatelfup.com/images/BTEUlogo-med-200x200.png #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
 

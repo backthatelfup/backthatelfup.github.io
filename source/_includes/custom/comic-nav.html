@@ -2,7 +2,7 @@
 <div class="sticky" data-options="">
 {% endif %}
 {% if page.header_image %} <a href="{{ root_url }}/comics"><img src="{{ page.header_image }}" alt="{{ site.title }} banner image" title="{{ site.title }}" class="hide-for-large-up"></a> {% endif %}
-
+<nav>
   <nav class="top-bar comic" data-topbar>
 
     <!--Uncomment {{ site.title }}below if you would like a title area on the left side of the nav bar-->
@@ -18,7 +18,7 @@
 
     <section class="top-bar-section">
 
-      <ul class="main-navigation left">
+      <ul class="left">
 
           <li{% if page.url == '/comics/index.html' %} class="active"{% endif %}><a href="{{ root_url }}/comics">Home</a></li>
 
@@ -29,18 +29,19 @@
           <li{% if page.url == '/comics/about/index.html' %} class="active"{% endif %}><a href="{{ root_url }}/comics/about">About</a></li>
       </ul>
       
-<div class="large-2 small-12 columns right socials">
+<ul class="right">
       {% if site.tumblr %}
-          <a class="socials tumblr right" href="http://{{ site.tumblr }}" title="Tumblr">
+          <a class="socials tumblr" href="http://{{ site.tumblr }}" title="Tumblr">
             <i class="fa fa-2x fa-tumblr"> </i>
           </a>
       {% endif %}
-          <a class="rss socials right" href="{{ site.subscribe_rss }}" title="subscribe via RSS">
+          <a class="rss socials" href="{{ site.subscribe_rss }}" title="subscribe via RSS">
             <i class="fa fa-2x fa-rss"> </i>
           </a>
-</div>
+</ul>
     </section>
   </nav>
+</nav>
 {% if site.fixed_navigation %}
 </div>
 {% endif %}

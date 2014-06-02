@@ -107,6 +107,7 @@ footer: true
 <p>“If we’ve got an outsider, an outsider will need an insider to get things for them. They’re working with another magic user. They have to be. Someone will have noticed something unusual. It’s late, people are tired and they’ll just want to go home. All we have to do is show our faces, bring it up and they’ll keep an eye out for us. And if someone is hiding something, it’ll be harder to hide if they’re too tired to hide it. We’ll hit Sea Corner for a few questions with a man I know.” Bwadne had a flea on the dog, an informer on the inside no one else knew about. If another outsider was making trouble with magic, Yarik the Yellow would know something. He was sure of it.</p> 
 
 <p>“The important thing,” Bwadne started. He breathed in deep, inhaling the smells of Hitha, his home. “Is this. Someone is disturbing the peace of our city, our country and our homeland. We have to keep the people safe. And part of being safe is feeling safe. Do not forget it.” The young officer nodded somberly. Bwadne nodded and kept his eyes focused ahead of him, ready to do what he had to do in order to protect his fellow citizens.</p> 
+<p><em>The story continues in part 3 <a href="http://backthatelfup.com/extras/fiction/the-mage/">'The Mage'</a>.</em></p>	  
 	  
    </div>
    </div>

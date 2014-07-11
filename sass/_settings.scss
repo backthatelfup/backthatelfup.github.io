@@ -7,12 +7,13 @@ $total-columns: 12;
 $boxed_images: false; /* true if you want your images to have polaroid effects, false if not */
 
 // colors
-$primary-color: #da6c4b !default; /* #008CBA blue by default */
+$primary-color: #43ac6a !default; /* #008CBA blue by default */
 $secondary-color: #363636 !default; /* #e7e7e7 */
 $tertiary-color: #6b6b6b !default;
 $fourth-color: #bed477 !default;
 $body-bg: #eee !default; /* white by default */
 $bottom-border-color: #cccccc;
+$comic-color: #da6c4b !default;
 
 // font colors
 $body-font-color: #222 !default; /* almost black by default */
@@ -319,11 +320,41 @@ ul {
 }
 // Makes prev/next change color on hover
 i.fa-arrow-left:hover{
-  color: $primary-color; 
+  color: $comic-color; 
 }
 
 a.comic-pagination:hover{
-  color: $primary-color; 
+  color: $comic-color; 
+}
+
+// Used to color 'Recent Posts' widget links
+li a.comic{
+  color: $comic-color !important; 
+}
+
+li a.comic:hover{
+  color: scale-color($comic-color, $lightness: 35%) !important;
+}
+
+// Colors navbar for comics pages different from Main site
+  .top-bar-section li.active.comic:not(.has-form) a:not(.button):hover {
+    background: scale-color($comic-color, $lightness: 25%) !important;
+}
+
+// Colors comic title for main page
+h1.comic-title a{
+  color:  $comic-color !important;
+}
+
+h1.comic-title a:hover{
+  color: scale-color($comic-color, $lightness: 35%) !important;  
+}
+
+.top-bar-section li.active.comic:not(.has-form) a:not(.button) {
+padding: 0 33.33333px;
+line-height: 100px;
+color: #fff;
+background: $comic-color !important;
 }
 
 .pagdiv {
@@ -365,7 +396,7 @@ figcaption {
 }
 
 figcaption:hover {
-  color: $primary-color;
+  color: $comic-color;
 }
 
 // Set breakpoint for top-bar so it uses mobile version for med. screens

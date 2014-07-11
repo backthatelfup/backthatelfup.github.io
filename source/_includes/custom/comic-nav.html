@@ -9,7 +9,7 @@
 
     <ul class="title-area comic">
         <li>
-          <a href="{{ root_url }}/"><img src="/images/backthatelfup-logo.png" class="logo hide-for-small hide-for-medium""></a>
+          <a href="{{ root_url }}/"><img src="/images/backthatelfup-logo.png" class="logo hide-for-small hide-for-medium" alt="Back That Elf Up logo"></a>
         </li>
         <li><a href="{{ root_url }}/comics"><i class="fa fa-home fa-3x hide-for-large-up"></i></a></li>
         <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
@@ -22,6 +22,8 @@
 
           <li{% if page.url == '/comics/index.html' %} class="active"{% endif %}><a href="{{ root_url }}/comics">Home</a></li>
 
+          <li{% if page.url == '/comics/characters/index.html' %} class="active"{% endif %}><a href="{{ root_url }}/comics/characters/">Characters</a></li>
+          
           <li{% if page.url == '/comics/a-fistful-of-lunars/index.html' %} class="active"{% endif %}><a href="{{ root_url }}/comics/a-fistful-of-lunars/">Archives</a></li>
 
           <li{% if page.url == '/index.html' %} class="active"{% endif %}><a href="{{ root_url }}/">Books</a></li>

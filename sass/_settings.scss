@@ -302,8 +302,21 @@ ul {
   padding-top: 6px;
   padding-left: 35px;
   padding-right: 35px;
+  display: inline-block;
 }
 
+
+.comic-pag-div {
+  width: 30%;
+  text-align: center; 
+}
+
+.comic-pag-div.first{
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 // Makes prev/next change color on hover
 i.fa-arrow-left:hover{
   color: $primary-color; 

@@ -120,7 +120,7 @@ article{
 
 .basic-alignment{
 	margin-bottom: 30px;
-	&.right, &.left{
+	&.right, &.left, &.center{
 		width: 50%;
 		display: inline-block;
 	}
@@ -129,6 +129,9 @@ article{
 	}
 	&.left{
 		text-align: left;
+	}
+	&.center{
+		text-align: center;
 	}
 }
 .pagination{

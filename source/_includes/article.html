@@ -24,7 +24,7 @@
         </div>
       
       {% endif %}
-     </div> <a href="{{ post.url }}">{{ content }}</a> <div class="pagdiv column">
+     </div> <a href="{{ page.next.url }}">{{ content }}</a> <div class="pagdiv column">
     {% if page.previous.url %}
         <div>
           <a class="basic-alignment left comic-pagination" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}"> <i class="fa fa-arrow-left">&nbsp; {{page.previous.title}} </i> </a>

@@ -12,11 +12,13 @@ footer: true
     <img src="/images/comics/ComingSoon-small.jpg" alt="The Misadventures of Streetsman Shamsee, coming soon" class="left">
   </div>
    <div class="small-12 medium-8 spotlight-blurb right">
-   <h1>A Fistful of Lunars</h1>
-   <h3 class="subheader">The Misadventures of Streetsman Shamsee #1</h3>
-   <p>Story by Tristan J. Tarwater</p>
-<p>Artwork by Adrian Ricker</p>
+   <h1>Shamsee</h1>
+   <h3 class="subheader">A Fistful of Lunars</h3>
 
-<p>From the pages of ‘Thieves at Heart’ and ‘Self-Made Scoundrel’ – an ongoing comic series following Shamsee, a petty thief known for his dim wits and good luck, and his misadventures in the Valley of Ten Crescents.</p>
+<p>A webcomic and graphic novel about unlucky rogues, conniving gangsters and an underworld full of big plans, bigger risks and bloody consequences.</p> 
+<p>Follow Shamsee through back alleys and tough situations in his quest for A Fistful of Lunars!</p>
+<p><strong>Updates every Wednesday starting August 2014</strong></p>
+   <p><em>Story by Tristan J. Tarwater</em></p>
+<p><em>Artwork by Adrian Ricker</em></p>
    </div>
   </div>

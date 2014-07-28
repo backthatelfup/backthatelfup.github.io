@@ -9,7 +9,6 @@ author: Tristan J. Tarwater
 #simple_search: https://www.google.com/search
 description: The home of Tristan J. Tarwater - novelist, comic writer, and tabletop RPG freelancer.
 keywords: Author
-comic1: A Fistful of Lunars
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -30,12 +29,12 @@ gems: [thumbs]
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
 root: /
-permalink: /comics/:categories/:title/
+permalink: /blog/:categories/:title/
 source: source
 destination: public
 plugins: plugins
 code_dir: downloads/code
-category_dir: comics/
+category_dir: blog/categories
 markdown: rdiscount
 rdiscount:
   extensions:
@@ -45,7 +44,7 @@ rdiscount:
 pygments: false # default python pygments have been replaced by pygments.rb
 
 paginate: 1          # Posts per page on the blog index
-pagination_dir: comics  # Directory base for pagination URLs eg. /blog/page/2/
+pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
 recent_posts: 5       # Posts in the sidebar Recent Posts section
 excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
 
@@ -61,14 +60,6 @@ default_asides: [asides/recent_posts.html]
 # post_asides:
 # page_asides: [custom/asides/about.html]
 home_asides: [custom/asides/newsletter.html, custom/asides/wip.html]
-
-# Autogenerate thumbs for comics
-mini_magick:
-    gallery_1_thumbnail:
-      source: images/comics/
-      destination: ../source/images/comics/thumbs
-      commands:
-        - thumbnail: "182x280^"
   
 # ----------------------- #
 #   3rd Party Settings    #

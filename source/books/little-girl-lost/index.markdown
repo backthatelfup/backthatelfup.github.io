@@ -12,7 +12,7 @@ footer: true
    <div class="small-12 medium-4 text-center left">
 <img src="/images/books/little-girl-lost.jpg" alt="Little Girl Lost book cover" title="Little Girl Lost">
   <div class="small-12 columns">
-   <a href="#" data-dropdown="drop" class="button radius dropdown sales-large">Buy</a><br>
+   <a href="#" data-dropdown="drop" class="button radius dropdown sales-large">FREE</a><br>
 <ul id="drop" data-dropdown-content class="f-dropdown text-left">
   <li><a href="http://www.amazon.com/dp/B007UIYEAW/?tag=bathelup-20">Amazon</a></li>
   <li><a href="http://store.kobobooks.com/en-US/ebook/little-girl-lost-20">Kobo</a></li>

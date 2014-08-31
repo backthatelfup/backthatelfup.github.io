@@ -18,7 +18,7 @@ footer: true
 <h1>Reality Makes the Best Fantasy</h1>
 <h2 class="subheader">Book 1: People</h2>
 <p>The first of 5 books collecting Tristan's old web column for Troll in the Corner, now with new artwork!</p>
-<p><em>A 50 page system-neutral guide to instpice GMs and players alike.</em></p>
+<p><em>A 50 page system-neutral guide to inspire GMs and players alike.</em></p>
 <p><strong>Contains the following 9 articles</strong></p>
 <ul>
   <li>Antipopes</li>

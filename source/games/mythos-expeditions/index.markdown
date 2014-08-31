@@ -10,9 +10,9 @@ footer: true
 
  <div class="row spotlight">
    <div class="small-12 medium-4 text-center left spotlight-left">
-<a href="http://www.pelgranepress.com/?p=11083"><img src="/images/games/pelgrane-press.jpg" alt="Pelgrane Press Logo" class="spotlight-cover box-shadow"></a>
+<a href="http://pelgranepress.com/site/?p=7130"><img src="/images/games/Mythos-Expeditions.jpg" alt="Mythos Expeditions book cover" class="spotlight-cover box-shadow"></a>
  <div class="small-12 columns">
-   <a href="http://www.pelgranepress.com/?p=11083" class="button large info radius">More Info</a> 
+   <a href="http://pelgranepress.com/site/?p=7130" class="button large info radius">More Info</a> 
   </div>
    </div>
    <div class="small-12 medium-8 spotlight-blurb right">

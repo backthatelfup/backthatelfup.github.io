@@ -25,23 +25,24 @@ title: home
       {% for books in site.data.books %}
 	{% if books.series == "The Valley of Ten Crescents" %}
 	    <div class="covers hide-for-small">
-	      <figure>
-		<a href="#{{ books.title }}">
+	      <a href="#{{ books.anchor }}">
+		<figure>
 		  <img src="{{ books.cover }}" alt="{{ books.title }} cover" title="{{ books.title }}">
 		  <figcaption>{{ books.short }}</figcaption>
-		</a>
-	      </figure>
+		</figure>
+	      </a>
 	    </div>
 	    
 	    <div class="small-6 columns covers hide-for-large">
+	    <a href="#{{ books.anchor }}">
 	      <figure>
-		<a href="#{{ books.title }}">
 		  <img src="{{ books.cover }}" alt="{{ books.title }} cover" title="{{ books.title }}">
-		</a>
 	      </figure>
+	    </a>
 	    </div>
 	{% endif %}
       {% endfor %}
+    </div>
   </section>   
 
   <section class="small-12 columns center-text">
@@ -50,36 +51,37 @@ title: home
       {% for books in site.data.books %}
 	{% if books.series == null %}
 	    <div class="covers hide-for-small">
-	      <figure>
-		<a href="#{{ books.title }}">
+	      <a href="#{{ books.anchor }}">
+		<figure>
 		  <img src="{{ books.cover }}" alt="{{ books.title }} cover" title="{{ books.title }}">
 		  <figcaption>{{ books.short }}</figcaption>
-		</a>
-	      </figure>
+		</figure>
+	      </a>
 	    </div>
 	    
 	    <div class="small-6 columns covers hide-for-large">
+	    <a href="#{{ books.anchor }}">
 	      <figure>
-		<a href="#{{ books.title }}">
 		  <img src="{{ books.cover }}" alt="{{ books.title }} cover" title="{{ books.title }}">
-		</a>
 	      </figure>
+	    </a>
 	    </div>
 	{% endif %}
       {% endfor %}
-    <br />
-    <br />
+      <br />
+      <br />
+    </div>
   </section>
 
   <section class="small-12 columns">
     <h3 class="page-header">&nbsp;</h3>
     {% for books in site.data.books %}
-      <div id="{{books.title}}" class="blocky book-info">
+      <div class="blocky book-info">
+	<a id="{{ books.anchor }}" href="#{{ books.anchor }}">
 	  <figure class="small-3 medium-1 thumbs">
-	    <a name="{{ books.title }}" href="#{{ books.title }}">
 	      <img src="{{ books.thumb }}" alt="{{ books.title }} cover" title="{{ books.title }}">
-	    </a>
 	  </figure>
+	</a>
 	  {% if books.number != null %}
 	    <h2>{{ books.title }} ({{ books.series}} #{{ books.number }})</h2>
 	  {% else %}

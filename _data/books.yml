@@ -1,6 +1,7 @@
 - series: "The Valley of Ten Crescents"
   number: "0"
   title: "Little Girl Lost"
+  anchor: "lgl"
   tagline: "“Little Girl Lost” is a short story and prequel to “Thieves at Heart”, the first novel in the series “The Valley of Ten Crescents”."
   blurb: "Tavera is a child passed from hand to hand as a source of cheap labor in the underworld of the Valley. When she finds herself at the mercy of the vicious sausage maker, the elderly Madame Greswin, she discovers secrets from the woman’s past and the consequences leave Tavera fighting for her life."
   short: "“Little Girl Lost” is a short story and prequel to “Thieves at Heart”."
@@ -16,6 +17,7 @@
 - series: "The Valley of Ten Crescents"
   number: "1"
   title: "Thieves at Heart"
+  anchor: "tah"
   tagline: "In this book, author Tristan Tarwater explores the development of a young woman, not as prologue, but as a story all its own – a story of struggle, survival and loss, of the family we’re given, and the family we choose for ourselves."
   blurb: "Born in poverty, a half-elf in a human city, Tavera lives in a world where she doesn’t belong – until the day she meets Derk. Initiated into the elite group of self-made scoundrels known as the Cup of Cream, Tavera must choose between loyalty to her father and a place as one of the THIEVES AT HEART."
   short: "A story of struggle, survival and loss, of the family we’re given, and the family we choose for ourselves."
@@ -31,6 +33,7 @@
 - series: "The Valley of Ten Crescents"
   number: "2"
   title: "Self-Made Scoundrel"
+  anchor: "sms"
   tagline: "In this prequel to THIEVES AT HEART, author Tristan Tarwater tells the story of Derk, the man who changed Tavera’s life forever."
   blurb: "Dershik Cartaskin’s life is one of power, wealth, privilege… and lies. Son to an ambitious father, husband to a wife he cannot love, and father to a child who is not his own, Dershik has everything, and yet nothing to call his own. When the price of power and the weight of lies grow too great for him to bear, Dershik decides to leave everything he’s ever known behind, and makes a deadly choice that will irrevocably alter his future.<br /> Rejecting his former life, Dershik takes on a new name and a new identity, and sets out to forge his legacy as Derk – member of the band of thieves known as the Cup of Cream, and SELF-MADE SCOUNDREL. But soon Derk finds that even a dishonest man can’t hide from the truth…"
   short: "Even a dishonest man can’t hide from the truth…"
@@ -45,6 +48,7 @@
   
 - series: "The Valley of Ten Crescents"
   title: "Red Moon Rising"
+  anchor: "rmr"
   number: "3"
   tagline: ""
   blurb: "The rise of a deadly cult threatens life in the Valley of Ten Crescents. Alone, betrayed, and on the run from the law, Tavera finds herself charged with rescuing Kella, a priestess with a powerful secret who has been kidnapped by the cult. Tavera finds she can no longer be a little girl lost, but must become a leader and a savior if she is to survive the RED MOON RISING."
@@ -60,6 +64,7 @@
   
 - series: "The Valley of Ten Crescents"
   title: "Digital Collection"
+  anchor: "bundle"
   tagline: ""
   blurb: "Contains Little Girl Lost, Thieves at Heart, Self-Made Scoundrel, and Red Moon Rising all in one ebook."
   short: "Contains the first three novels and the short story prequel."
@@ -72,6 +77,7 @@
   itunes: "https://itunes.apple.com/us/book/valley-ten-crescents-series/id828729380"
 
 - title: "Shamsee"
+  anchor: "affl"
   tagline: "Shamsee can be read for free at <a href='http://www.shamseecomic.com'><strong>ShamseeComic.com</strong></a>"
   blurb: "Shamsee’s a small time thief short on common sense. When he crosses The Blighter, a powerful gangster, Shamsee finds himself in debt and in trouble. While calling upon his resources and stumbling across luck both good and bad, the criminal underworld threatens to come out from under him. Business associates, old flames and new flings all want something from Shamsee, and he’s willing to give: for the right price. Songs are sung, jobs are blown and blood is spilled in the quest for A FISTFUL OF LUNARS."
   short: "A webcomic and graphic novel about unlucky rogues, conniving gangsters and an underworld full of big plans, bigger risks and bloody consequences."
@@ -82,6 +88,7 @@
   gumroad: "https://gumroad.com/shamsee"
 
 - title: "Reality Makes the Best Fantasy"
+  anchor: "rmtbf"
   tagline: "Contains the following 9 articles: Antipopes, Courtesans, Friends & Family, Ghosts, Heroes, Monsters, St. Nick & Krampus, Substitutes, & Tisquantum AKA Squanto."
   blurb: "A 50 page system-neutral guide to inspire GMs and players alike collecting Tristan’s web column for Troll in the Corner, now with new artwork!"
   short: "A 50 page system-neutral guide to inspire GMs and players alike."
@@ -94,6 +101,7 @@
   gumroad: "https://gumroad.com/backthatelfup"
 
 - title: "Botanica Blues"
+  anchor: "bb"
   tagline: "Tristan J. Tarwater breaks into new territory with a bold vision of terror that combines the disorienting cosmic horror of Lovecraft with the modern sensibility of the urban streets."
   blurb: "As a former soldier and police consultant, Luis Quintana has seen the horrors of war and the brutality of crime on the streets. But when a ritualistic mass murder links an old friend to a lurking supernatural terror, Quintana must uncover a truth he’d thought long hidden, and face a horror he thought he’d long escaped."
   short: "A bold vision of terror that combines the disorienting cosmic horror of Lovecraft with the modern sensibility of the urban streets."
@@ -107,6 +115,7 @@
   gumroad: "https://gumroad.com/backthatelfup"
 
 - title: "Allegories of the Tarot"
+  anchor: "aot"
   tagline: "22 cards…each an individual splinter of the human psyche. 22 writers…honing each splinter into a story of triumph and decay, arrogance and humility. <br />Stories of the brightest lights and the darkest corners of the weirdest minds. 22 cross-genre worlds. 22 portals into the Universal. Only one way to get there. Come with us. Cross the portals. The Universal awaits."
   blurb: "Tristan contributed a short story to this anthology and was presented with the Sun card from the major arcana for her muse."
   short: "22 stories by 22 authors, each based on one of the Major Arcana. <br />Tristan’s story is titled: Sal and the Solar Elixir"

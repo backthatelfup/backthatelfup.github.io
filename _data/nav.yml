@@ -1,0 +1,8 @@
+- title: "home"
+  href: "/"
+
+- title: "blog"
+  href: "/blog/"
+
+- title: "store"
+  external: "https://gumroad.com/backthatelfup"

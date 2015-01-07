@@ -1,0 +1,8 @@
+.biopic {
+  padding: 15px 15px 0 0;
+  float: left;
+  
+  @media screen and (max-width: 768px) {
+    width: 125px;
+  }
+}

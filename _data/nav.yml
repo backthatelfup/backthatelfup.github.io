@@ -4,5 +4,8 @@
 - title: "blog"
   href: "/blog/"
 
+- title: "contact"
+  external: "/contact/"
+
 - title: "store"
   external: "https://gumroad.com/backthatelfup"

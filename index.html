@@ -100,8 +100,8 @@ title: home
   <section class="small-12 columns">
     <h3 class="page-header">&nbsp;</h3>
     {% for books in site.data.books %}
-      <div class="blocky book-info">
-	<a id="{{ books.anchor }}" href="#{{ books.anchor }}">
+      <div class="blocky book-info" id="{{ books.anchor }}">
+	<a href="#{{ books.anchor }}">
 	  <figure class="small-3 medium-1 thumbs">
 	      <img src="{{ books.thumb }}" alt="{{ books.title }} cover" title="{{ books.title }}">
 	  </figure>

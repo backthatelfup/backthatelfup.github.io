@@ -1,5 +1,6 @@
 - series: "The Valley of Ten Crescents"
   number: "0"
+  free: "yes"
   title: "Little Girl Lost"
   anchor: "lgl"
   tagline: "“Little Girl Lost” is a short story and prequel to “Thieves at Heart”, the first novel in the series “The Valley of Ten Crescents”."
@@ -16,6 +17,7 @@
   
 - series: "The Valley of Ten Crescents"
   number: "1"
+  free: "yes"
   title: "Thieves at Heart"
   anchor: "tah"
   tagline: "In this book, author Tristan Tarwater explores the development of a young woman, not as prologue, but as a story all its own – a story of struggle, survival and loss, of the family we’re given, and the family we choose for ourselves."

@@ -6,3 +6,18 @@
     width: 125px;
   }
 }
+
+.circle {
+  border: solid 3px darkorange;
+  width: 45px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: .6em;
+  padding: 19px 0;
+  line-height: 0;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  background: #38a9e4;
+  color: white;
+}

@@ -24,6 +24,17 @@ title: home
     <div class="center-text">
       {% for books in site.data.books %}
 	{% if books.series == "The Valley of Ten Crescents" %}
+	  {% if books.free == "yes" %}
+	    <div class="covers hide-for-small">
+	      <a href="#{{ books.anchor }}">
+		<figure>
+		  <div class="circle">FREE</div>
+		  <img src="{{ books.cover }}" alt="{{ books.title }} cover" title="{{ books.title }}">
+		  <figcaption>{{ books.short }}</figcaption>
+		</figure>
+	      </a>
+	    </div>
+	   {% else %}
 	    <div class="covers hide-for-small">
 	      <a href="#{{ books.anchor }}">
 		<figure>
@@ -32,14 +43,27 @@ title: home
 		</figure>
 	      </a>
 	    </div>
-	    
+	  {% endif %}
+	  
+	  {% if books.free == "yes" %}
 	    <div class="small-6 columns covers hide-for-large">
-	    <a href="#{{ books.anchor }}">
-	      <figure>
+	      <a href="#{{ books.anchor }}">
+		<figure>
+		  <div class="circle">FREE</div>
 		  <img src="{{ books.cover }}" alt="{{ books.title }} cover" title="{{ books.title }}">
-	      </figure>
-	    </a>
+		</figure>
+	      </a>
 	    </div>
+	  {% else %}
+	    <div class="small-6 columns covers hide-for-large">
+	      <a href="#{{ books.anchor }}">
+		<figure>
+		  <img src="{{ books.cover }}" alt="{{ books.title }} cover" title="{{ books.title }}">
+		</figure>
+	      </a>
+	    </div>
+	  {% endif %}
+	    
 	{% endif %}
       {% endfor %}
     </div>

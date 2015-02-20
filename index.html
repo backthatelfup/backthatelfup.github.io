@@ -3,21 +3,20 @@ layout: default
 title: home
 ---
 
-<article class="row">
-      
-<section class="small-12 columns pad-lr-15">
-   {% for about in site.data.about %}
-    <div class="small-12 blocky">
-      <img class="biopic" src="{{ site.baseurl }}{{ about.pic }}" alt="{{ about.title }} image">
-      <h2 class="pad-t-15">About the {{ about.title }}</h2>     
-      {% if about.info%}
-	<p>{{about.info }}</p>
-      {% endif %}
-
+<aside class="trap">
+  <div class="row">
+    <div class="column small-12 medium-4 center-text">
+      <img class="free-books" src="/images/books/thieves-at-heart.jpg" alt="Thieves at Heart cover" title="Thieves at Heart">
     </div>
-    <br />
-   {% endfor %}
-</section>
+    <div class="column small-12 medium-8 center-text">
+      <h2 class="upsale">For a limited time, you can get a FREE copy of Thieves at Heart & Self-Made Scoundrel – the first two Valley of Ten Crescents novels – direct from this site. Just click the tab below to get started.</h2>
+      <button class="large" onclick="location.href='/free_books'">Get my Free Books</button>
+    </div>
+  </div>
+  
+</aside>
+
+<article class="row">
       
   <section class="small-12 columns center-text">
     <h3 class="page-header center-text">The Valley of Ten Crescents</h3>
@@ -128,3 +127,22 @@ title: home
   </section>
   
 </article>
+
+<aside class="author-bio">
+  <div class="row">
+  <section class="small-12 columns pad-lr-15">
+   {% for about in site.data.about %}
+    <div class="small-12 blocky" id="about">
+      <img class="biopic" src="{{ site.baseurl }}{{ about.pic }}" alt="{{ about.title }} image">
+      <h2 class="pad-t-15">About the {{ about.title }}</h2>     
+      {% if about.info%}
+	<p>{{about.info }}</p>
+      {% endif %}
+
+    </div>
+    <br />
+   {% endfor %}
+</section>
+  </div>
+  
+</aside>

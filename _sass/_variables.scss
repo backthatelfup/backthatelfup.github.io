@@ -19,7 +19,7 @@ $base-line-height: 1.5;
 
 // Primary Navbar Settings
 $navbar-height: 75px;
-$navbar-color: $primary-color;
+$navbar-color: #000;
 $navbar-text-color: $secondary-color;
 $navbar-hover-color: $complimentary-color;
 $navbar-active-color: darken($complimentary-color, 75%);
@@ -35,4 +35,4 @@ $spacing-unit: 30px;
 
 // Footer
 $footer-height: 54px;
-$footer-color: lighten($primary-color, 25%);
+$footer-color: #000;

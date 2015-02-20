@@ -73,6 +73,16 @@
 	font-size: 1.6875rem;
 }
 
+// About
+.author-bio {
+  background: url(../images/nami.png) repeat #000 fixed !important;
+  color: #fff;
+}
+
+aside div:target {
+  background: none; 
+}
+
 // Footer
 #footer {
   background-color: $footer-color;

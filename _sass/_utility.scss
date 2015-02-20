@@ -32,3 +32,20 @@
     display: none;
   }
 }
+
+button.large {
+  background: #fe3113;
+  color: #fff;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 2em;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  letter-spacing: -2px;
+  
+  @media screen and (max-width: 768px) {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+}

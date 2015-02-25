@@ -1,42 +1,10 @@
 .covers {
   margin: 0 5px 10px 5px;
   display: inline-block;
-  perspective: 1200px;
   
   @media screen and (max-width: 768px) {
     margin: 0 0 10px 0;
   }
-}
-
-.covers figure {
-  position: relative;
-  transform-style: preserve-3d;
-  transition: 1s transform;
-  font-size: 1.6rem;
-}
-
-.covers figure figcaption {
-  position: absolute;
-  width: 100%; height: 100%; top: 0;
-  transform: rotateY(.5turn) translateZ(1px);
-  background: rgba(255,255,255,0.9);
-  opacity: 0.6;
-  transition: 1s .5s opacity;
-  font-size: .75em;
-  color: $primary-color;
-  line-height: 1.2em;
-  display: flex;
-  align-content: center;
-  justify-content: center; 
-  flex-direction: column;
-}
-
-.covers:hover figure { 
-  transform: rotateY(.5turn);
-}
-
-.covers:hover figure figcaption {
-  opacity: 1;
 }
 
 .thumbs {

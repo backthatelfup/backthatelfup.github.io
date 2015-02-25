@@ -34,7 +34,7 @@
 }
 
 button.large {
-  background: #fe3113;
+  background: #FF9900;
   color: #fff;
   border-radius: 5px;
   padding: 15px;
@@ -45,7 +45,7 @@ button.large {
   letter-spacing: -2px;
   
   @media screen and (max-width: 768px) {
-    font-size: 30px;
+    font-size: 1.2em;
     margin-bottom: 15px;
   }
 }

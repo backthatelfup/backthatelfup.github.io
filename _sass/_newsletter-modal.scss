@@ -9,7 +9,8 @@ h2.upsale {
   color: #a1a1a1;
   
   @media screen and (max-width: 768px) {
-   padding: 10px 0; 
+   padding: 0 0 10px 0;
+   font-size: 1.2em;
   }
 }
 

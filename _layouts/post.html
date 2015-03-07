@@ -3,9 +3,9 @@ layout: default
 ---
 <article class="row post-content">
 
-    <header class="post-header">
-      <img class="columns small-2" src="{{ page.thumbnail }}" alt="{{ post.title }}">
-      <h1 class="post-title">{{ page.title }}</h1>
+    <header class="post-header columns small-12">
+      <img class="columns small-12 large-2" src="{{ page.thumbnail }}" alt="{{ post.title }}">
+      <h1 class=" columns small-12 large-10 post-title">{{ page.title }}</h1>
       <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     </header>
     {{ content }}

@@ -4,20 +4,12 @@ title: blog
 permalink: /blog/
 ---
 
-<div>
-
-  <ul>
     {% for post in site.posts %}
     <div class="columns small-12 post-list">
-      <li>
 	<a class="post-link" href="{{ site.baseurl }}{{ post.url }}">
 	  <img class="columns small-12 large-2" src="{{ post.thumbnail }}" alt="{{ post.title }}">
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 	  <h2 class="columns small-12 large-10 blog-title">{{ post.title }}</h2>
 	</a>
-      </li>
     </div>
     {% endfor %}
-  </ul>
-
-</div> 

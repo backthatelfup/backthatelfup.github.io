@@ -9,6 +9,7 @@ description: > # this means to ignore newlines until "baseurl:"
 
 baseurl: http://www.backthatelfup.com
 url: /
+#url: localhost:4000
 
 # Exclude our ruby stuff
 exclude: [.bundle, bin, vendor, Gemfile, Gemfile.lock, Rakefile, s3_website.yml, .last_optimized]
@@ -51,6 +52,12 @@ mini_magick:
       resize: "76x122^"
 
 
+    thumbnail2:
+      source: images/posts/
+      destination: /images/posts/thumbs
+      resize: "145"
+      
+
 #### SEO Stuff
 # Google Analytics
 google_universal_analytics: UA-22568632-1
@@ -68,3 +75,6 @@ facebook_image: http://www.backthatelfup.com/images/BTEUlogo-med-200x200.png
 twitter_user: backthatelfup
 twitter_card: true
 twitter_image: http://www.backthatelfup.com/images/BTEUlogo-med-200x200.png
+
+# Disqus Comments
+disqus_short_name: backthatelfup

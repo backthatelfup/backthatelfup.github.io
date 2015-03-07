@@ -32,13 +32,8 @@
 
 // Blog Page
 
-li.blog-roll {
-  padding: 10px 0;
-}
-
 h2.blog-title {
   padding-left: 0px;
-  margin-bottom: 10px;
 }
 
 // Posts
@@ -60,7 +55,8 @@ h2.blog-title {
 }
 
 .post-list {
-    margin-left: 0;
+  border-bottom: solid $primary-color 1px;
+  padding-bottom: 10px;
     list-style: none;
 
     > li {
@@ -75,7 +71,6 @@ h2.blog-title {
 
 .post-link {
     display: block;
-    font-size: 24px;
 }
 
 // Pages

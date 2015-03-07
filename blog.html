@@ -8,18 +8,14 @@ permalink: /blog/
 
   <ul class="columns small-12 post-list">
     {% for post in site.posts %}
-    <a class="post-link" href="{{ site.baseurl }}{{ post.url }}">
       <li class="blog-roll">
-       <img class="columns small-2" src="{{ post.thumbnail }}" alt="{{ post.title }}">
-        <h2 class="columns small-10">
-          {{ post.title }}
-        </h2>
-       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
+	<a class="post-link" href="{{ site.baseurl }}{{ post.url }}">
+	  <img class="columns small-12 large-2" src="{{ post.thumbnail }}" alt="{{ post.title }}">
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+	  <h2 class="columns small-12 large-10 blog-title">{{ post.title }}</h2>
+	</a>
       </li>
-      <hr>
-      </a>
-      
+    <hr>    
     {% endfor %}
   </ul>
 

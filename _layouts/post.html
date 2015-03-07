@@ -5,7 +5,7 @@ layout: default
 
     <header class="post-header columns small-12">
       <img class="columns small-12 medium-2" src="{{ page.thumbnail }}" alt="{{ post.title }}">
-      <h1 class=" columns small-12 large-10 post-title">{{ page.title }}</h1>
+      <h1 class=" columns small-12 medium-10 post-title">{{ page.title }}</h1>
       <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     </header>
     {{ content }}

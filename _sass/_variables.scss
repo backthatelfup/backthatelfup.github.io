@@ -11,7 +11,7 @@ $link-hover-color: $body-font-color;
 $link-visited-color: darken($complimentary-color, 25%);
 
 // Text
-$base-font-family: Helvetica, Arial, sans-serif;
+$font-family-sans-serif: "Roboto Slab", Helvetica, Arial, sans-serif;
 $base-font-size: 1.0em;
 $small-font-size: $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -24,7 +24,7 @@ $navbar-text-color: $secondary-color;
 $navbar-hover-color: $complimentary-color;
 $navbar-active-color: darken($complimentary-color, 75%);
 $navbar-font-size: 13px;
-$navbar-font-family: "Open Sans", Helvetica, Arial, sans-serif;
+$navbar-font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
 
 // Socials Navbar Settings
 $socials-font-color: $secondary-color;

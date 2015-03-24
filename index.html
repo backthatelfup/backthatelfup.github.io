@@ -97,9 +97,63 @@ title: home
     </div>
   </section>
 
+    <section class="small-12 columns center-text">
+    <h3 class="page-header center-text">Freelance</h3>
+    <div class="center-text">
+      {% for books in site.data.freelance %}
+	    <div class="covers hide-for-small">
+	      <a href="#{{ books.anchor }}">
+		<figure>
+		  <img src="{{ books.cover }}" alt="{{ books.title }} cover" title="{{ books.title }}">
+		</figure>
+	      </a>
+	    </div>
+	    
+	    <div class="small-6 columns covers hide-for-large">
+	    <a href="#{{ books.anchor }}">
+	      <figure>
+		  <img src="{{ books.cover }}" alt="{{ books.title }} cover" title="{{ books.title }}">
+	      </figure>
+	    </a>
+	    </div>
+      {% endfor %}
+      <br />
+      <br />
+    </div>
+  </section>
+  
   <section class="small-12 columns">
     <h3 class="page-header">&nbsp;</h3>
     {% for books in site.data.books %}
+      <div class="blocky book-info" id="{{ books.anchor }}">
+	<a href="#{{ books.anchor }}">
+	  <figure class="small-3 medium-1 thumbs">
+	      <img src="{{ books.thumb }}" alt="{{ books.title }} cover" title="{{ books.title }}">
+	  </figure>
+	</a>
+	  {% if books.number != null %}
+	    <h2>{{ books.title }} ({{ books.series}} #{{ books.number }})</h2>
+	  {% else %}
+	  <h2>{{ books.title }}</h2>
+	  {% endif %}
+	  <p>{{books.blurb }}</p>
+	  <p><em>{{ books.tagline }}</em></p>
+      </div>
+      <div class="store center-text">
+	{% if books.amazon %}<a href="{{ books.amazon }}"><span class="icon-amazon"></span></a>{% endif %}
+	{% if books.gumroad %}<a href="{{ books.gumroad }}"><span class="icon-gumroad"></span></a>{% endif %}
+	{% if books.drivethru %}<a href="{{ books.drivethru }}"><span class="icon-dtfiction"></span></a>{% endif %}
+	{% if books.kobo %}<a href="{{ books.kobo }}"><span class="icon-kobo"></span></a>{% endif %}
+	{% if books.nook %}<a href="{{ books.nook }}"><span class="icon-nook"></span></a>{% endif %}
+	{% if books.itunes %}<a href="{{ books.itunes }}"><span class="icon-itunes"></span></a>{% endif %}
+      </div>
+      <hr />
+      <br />
+    {% endfor %}
+  </section>
+
+  <section class="small-12 columns">
+    {% for books in site.data.freelance %}
       <div class="blocky book-info" id="{{ books.anchor }}">
 	<a href="#{{ books.anchor }}">
 	  <figure class="small-3 medium-1 thumbs">

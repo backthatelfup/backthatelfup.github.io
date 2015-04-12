@@ -73,6 +73,10 @@ input[type="text"], input[type="submit"], input[type="email"]{
 
 .newsletter-wrap {
   margin-top: 75px;
+
+  @media screen and (max-width: 768px) {
+      margin-top: 0px;
+  }
 }
 
 /* Style our footer signup */

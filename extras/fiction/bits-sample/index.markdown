@@ -2,6 +2,8 @@
 layout: page
 title: "BITS sample"
 footer: true
+sitemap:
+  exclude: 'yes'
 ---
 ~ ~ ~
 <p><em>Are there agents among us?</em></p>

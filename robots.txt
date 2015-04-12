@@ -3,5 +3,8 @@ layout: null
 ---
 User-agent: *
 Disallow: /downloads/
+Disallow: /free-books/
+Disallow: /newsletter/post/
+Disallow: /newsletter/fbsignup/
 
 Sitemap: {{ site.baseurl }}/sitemap.xml 

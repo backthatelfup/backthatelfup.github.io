@@ -2,9 +2,8 @@
 layout: page
 sidebar: false
 title: "The Mother"
-comments: true
-sharing: true
-footer: true
+sitemap:
+  exclude: 'yes'
 ---
 
 <div class="row spotlight">

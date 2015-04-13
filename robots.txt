@@ -6,5 +6,6 @@ Disallow: /downloads/
 Disallow: /free-books/
 Disallow: /newsletter/post/
 Disallow: /newsletter/fbsignup/
+Disallow: /images/image_optim_cache.yml
 
 Sitemap: {{ site.baseurl }}/sitemap.xml 

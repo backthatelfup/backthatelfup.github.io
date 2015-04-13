@@ -10,7 +10,6 @@ facebook_type:
 facebook_image: /images/posts/stevenuniverse-ice-cream.jpg
 
 sitemap:
-  lastmod: 2015-03-024T17:17:18-08:00
   priority: 0.5
   changefreq: monthly
   exclude: 'no'

@@ -24,6 +24,10 @@
   background-color: #eee;   
 }
 
+.hide {
+  display: none;   
+}
+
 // Hide for large screens
 @media screen and (min-width:481px) {
     .hide-for-large {

@@ -47,9 +47,9 @@ button.large {
   border: none;
   cursor: pointer;
   letter-spacing: -2px;
-  
+  margin-bottom: 15px;
+
   @media screen and (max-width: 768px) {
     font-size: 1.2em;
-    margin-bottom: 15px;
   }
 }

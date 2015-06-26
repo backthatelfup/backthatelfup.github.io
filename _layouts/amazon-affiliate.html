@@ -5,6 +5,8 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
+  {% include fbpixel-amazon.html %}
+  {% include google_analytics.html %}
   <title>{% if page.title %}{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %} | {% endif %}{{ site.title }}</title>
   <meta name="author" content="{{ site.author }}">
   {% capture description %}{% if page.description %}{{ page.description }}{% elsif site.description %}{{ site.description }}{%else%}{{ content | raw_content }}{% endif %}{% endcapture %}
@@ -21,11 +23,9 @@
   <link rel="canonical" href="{{ canonical }}">
   <link href="{{ root_url }}/favicon.png" rel="icon">
   <link href="{{ root_url }}/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  {% include fbpixel-amazon.html %}
-  {% include google_analytics.html %}
+
 </head>
 <body>
-    <h1>Redirecting to</h1>
-        <a href="{{ page.redirect-url }}?tag={{page.affiliate-code}}">{{ page.redirect-url }}</a>
+
 </body>
 </html>

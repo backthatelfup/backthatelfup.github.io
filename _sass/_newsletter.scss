@@ -3,7 +3,7 @@
 #mce-EMAIL {
   float: left;
   width: 20em;
-  margin-left: 16%;
+  margin-left: 26%;
   
   @media screen and (max-width: 768px) {
       width: 15em;
@@ -17,6 +17,11 @@
   margin-bottom: 0;
   padding-bottom: .5rem;
   height: 4rem;
+  background: #FF9900;
+  
+      &:hover {
+      background-color: #00FF17; 
+    }
 }
 
 input[type="text"], input[type="submit"], input[type="email"]{

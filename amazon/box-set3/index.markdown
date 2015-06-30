@@ -1,10 +1,8 @@
 ---
-layout: amazon-smartURL
-title: "box-set"
+layout: amazon-affiliate
+title: "box-set3"
 info: This page is 'blank' but serves up the analytics code, fb tracking pixel, and amazon affiliate link before forwarding to Amazon.
-FB Ad: Box Set - face - Sanderson
+FB Ad: Box Set - Affiliate Lookalike audience
 redirect-url: http://www.amazon.com/dp/B00IGJQZ7O/
-affiliate-code: fbbxfs-20
-
-smartURL: http://smarturl.it/box-set1
+affiliate-code: bteulal-20
 ---

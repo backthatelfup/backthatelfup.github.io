@@ -2,18 +2,27 @@
 
 #mce-EMAIL {
   float: left;
-  width: 20em;
+  width: 30em;
   margin-left: 26%;
   
   @media screen and (max-width: 768px) {
-      width: 15em;
+      width: 98%;
+      margin-left: 0px;
+  }
+}
+
+#mce-EMAIL-wide {
+  float: left;
+  width: 98%;
+  
+  @media screen and (max-width: 768px) {
       margin-left: 0px;
   }
 }
 
 #mc-embedded-subscribe.button {
   float: left;
-  width: 197px;
+  width: 98%;
   margin-bottom: 0;
   padding-bottom: .5rem;
   height: 4rem;

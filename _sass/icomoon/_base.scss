@@ -26,6 +26,10 @@
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+        
+        @media screen and (max-width: 768px) {
+            padding: 0 5px;
+        }
 }
 
 // Base styling for individual icons

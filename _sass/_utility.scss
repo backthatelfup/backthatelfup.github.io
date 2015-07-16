@@ -57,3 +57,14 @@ button.large {
     font-size: 1.2em;
   }
 }
+
+.hr-centered {
+  border-width: 0;
+  box-shadow: none;
+  background-image: url('/images/hr-center.png');
+  background-repeat: no-repeat;
+  background-position: center 0;
+  background-color: transparent;
+  height: 15px;
+  margin: 20px 0 40px 18px;
+}

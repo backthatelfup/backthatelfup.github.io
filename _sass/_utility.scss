@@ -20,6 +20,14 @@
   padding-top: 15px;
 }
 
+.pad-t-33 {
+  padding-top: 33px;
+}
+
+.pad-b-33 {
+  padding-bottom: 33px;
+}
+
 .grey {
   background-color: #eee;   
 }
@@ -58,6 +66,7 @@ button.large {
   }
 }
 
+// Horizontal rule for newsletter/post
 .hr-centered {
   border-width: 0;
   box-shadow: none;
@@ -67,4 +76,109 @@ button.large {
   background-color: transparent;
   height: 15px;
   margin: 20px 0 40px 18px;
+}
+
+// Download buttons for Newsletter signups
+  [class^="icon-"].download, [class*=" icon-"].download:hover{
+	-moz-transition: all .2s ease-in;
+	-o-transition: all .2s ease-in;
+	-webkit-transition: all .2s ease-in;
+	transition: all .2s ease-in;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.download {
+  padding: 10px;
+  border: solid 2px;
+  font-size: 20px;
+  width: 125px;
+  line-height: 1em;
+  margin: 3px;
+  
+  @media screen and (max-width: 768px) {
+    line-height: 2.5em;
+    font-size: 1.4em;
+    width: 47%;
+  }
+
+}
+
+.amazon {
+    color: #e47911;
+    background-color: white;
+  &:hover {
+    color: white;
+    background-color: #e47911;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 1%;
+  }
+}
+
+.drivethru {
+    padding: 10px 11px;
+    color: #98b5dc;
+    background-color: white;
+
+  &:hover {
+    color: white;
+    background-color: #98b5dc;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 1%;
+  }
+}
+
+.kobo {
+    padding: 10px 41px;
+    color: #00bee1;
+    background-color: white;
+  &:hover {
+    color: white;
+    background-color: #00bee1;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 0 13%;
+  }
+}
+
+.nook {
+    padding: 10px 34px;
+    color: #407D4D;
+    background-color: white;
+  &:hover {
+    color: white;
+    background-color: #407D4D;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 0 12%;
+  }
+}
+
+.itunes {
+    padding: 10px 34px;
+    color: #298cda;
+    background-color: white;
+  &:hover {
+    color: white;
+    background-color: #298cda;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 0 12%;
+  }
+}
+
+.gumroad {
+    padding: 12px 0 12px 25px;
+    color: #36a9ae;
+    background-color: white;
+  &:hover {
+    color: white;
+    background-color: #36a9ae;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 1% 8%;
+  }
 }

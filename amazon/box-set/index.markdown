@@ -3,5 +3,6 @@ layout: amazon-affiliate
 title: "box-set"
 info: This page is 'blank' but serves up the analytics code, fb tracking pixel, and amazon affiliate link before forwarding to Amazon.
 redirect-url: http://www.amazon.com/dp/B00IGJQZ7O/
-affiliate-code: bathelup-20
+affiliate-code: lalmus-20
+ad: US LaL Mobile
 ---

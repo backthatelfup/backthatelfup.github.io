@@ -1,8 +1,8 @@
 ---
 layout: amazon-affiliate
-title: "box-set4"
+title: "box-set"
 info: This page is 'blank' but serves up the analytics code, fb tracking pixel, and amazon affiliate link before forwarding to Amazon.
-FB Ad: Box Set - Affiliate Lookalike audience
+FB Ad: UK LaL Desktop
 redirect-url: http://www.amazon.co.uk/dp/B00IGJQZ7O/
-affiliate-code: bxlalshrt-21
+affiliate-code: lalduk-21
 ---

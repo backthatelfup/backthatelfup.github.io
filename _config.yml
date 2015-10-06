@@ -7,7 +7,7 @@ keywords: fantasy, slice of life, author, speculative fiction, comics, webcomics
 description: > # this means to ignore newlines until "baseurl:"
   The home of Tristan J. Tarwater - novelist, comic writer, and tabletop RPG freelancer.
 
-baseurl: http://www.backthatelfup.com
+baseurl: https://www.backthatelfup.com
 url: /
 #url: localhost:4000
 
@@ -69,12 +69,12 @@ facebook_user: BackThatElfUp
 facebook_app_id: 212934732101925
 facebook_locale: en_US
 facebook_page: https://www.facebook.com/BackThatElfUp
-facebook_image: http://www.backthatelfup.com/images/BTEUlogo-med-200x200.png
+facebook_image: https://www.backthatelfup.com/images/BTEUlogo-med-200x200.png
 
 # Twitter Cards
 twitter_user: backthatelfup
 twitter_card: true
-twitter_image: http://www.backthatelfup.com/images/BTEUlogo-med-200x200.png
+twitter_image: https://www.backthatelfup.com/images/BTEUlogo-med-200x200.png
 
 # Disqus Comments
 disqus_short_name: backthatelfup

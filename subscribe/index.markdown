@@ -30,7 +30,6 @@ footer: "no"
     <p><img src="/images/hac-gumroad.jpg" alt="Hen and Chick Gumroad image"></p>
     <em>Azria, a mage of Miz, is the the key to revealing a long lost treasure: at least that’s what her mother, alleged pirate Captain Apzana says. If Azria can undo the magic of powerful mages who came before her, a vast treasure will be theirs for the taking. But more mysteries than riches surface as Azria approaches a fortune tied to a part of Miz’ history meant to remain drowned by the waves. Those who would stop her warn her: reveal the past and destroy the lives of mages forever. Azria must decide if she will be the daughter her mother needs or protect her homeland’s secret. </em>
 
-    <script src="https://gumroad.com/js/gumroad.js"></script>
     <p class="center-text"><a class="gumroad-button" href="https://gum.co/BGAT" target="_blank">Subscribe today!</a></p>
     
     <hr class="hr-centered">

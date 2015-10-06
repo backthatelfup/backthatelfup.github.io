@@ -1,6 +1,7 @@
 <footer class="site-footer">
   <div class="row">
     <div class="columns">
+    {% if page.footer != "no" %}
       <div class="small-12 medium-6 large-3 columns left newsletter-footer">
 	<h2 class="center-text">Newsletter</h2>
       </div>
@@ -11,6 +12,9 @@
 	  <input class="button tiny box-shadow" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe-footer">
 	</form>
       </div>
+      {% else %}
+
+{% endif %}
     </div>
   </div>
 </footer>

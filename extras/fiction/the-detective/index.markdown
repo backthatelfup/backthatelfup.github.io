@@ -16,7 +16,7 @@ sitemap:
 <h1>Miz</h1>
 <h2 class="subheader">The Detective</h2>
 	
-<p><em>This is the second story of Miz. You can read part 1 'The Mother' <a href="http://backthatelfup.com/extras/fiction/the-mother/">here</a>.</em>
+<p><em>This is the second story of Miz. You can read part 1 'The Mother' <a href="https://backthatelfup.com/extras/fiction/the-mother/">here</a>.</em>
 <p>Detective Zesh Bwadne knocked on the door. He waited for the door to open, waited for the reaction. After a few moments the green door did open and there it was. A man with a closely trimmed beard and dark eyes answered the door, his eyes widening as they darted over him. It was the uniform, it was the number of officers standing behind Bwadne on the man’s doorstep, their cloaks fluttering in the tropical evening air.</p> 
 
 <p>“Detective Bwadne,” he said. “I’m here investigating the incidents which took place yesterday afternoon on Grocery Street. Is Eriza Gedne home? We have some questions for her.” The man looked to Bwadne’s belt and the detective could see him swallow hard. The man saw the weapon in its holster. A police issued mace, fashioned of steel and magically enhanced to send charges of force on command, able to knock people to the ground with a word. Not just any officer could carry one of these. Not that it was the most powerful weapon in his arsenal.</p> 
@@ -106,7 +106,7 @@ sitemap:
 <p>“If we’ve got an outsider, an outsider will need an insider to get things for them. They’re working with another magic user. They have to be. Someone will have noticed something unusual. It’s late, people are tired and they’ll just want to go home. All we have to do is show our faces, bring it up and they’ll keep an eye out for us. And if someone is hiding something, it’ll be harder to hide if they’re too tired to hide it. We’ll hit Sea Corner for a few questions with a man I know.” Bwadne had a flea on the dog, an informer on the inside no one else knew about. If another outsider was making trouble with magic, Yarik the Yellow would know something. He was sure of it.</p> 
 
 <p>“The important thing,” Bwadne started. He breathed in deep, inhaling the smells of Hitha, his home. “Is this. Someone is disturbing the peace of our city, our country and our homeland. We have to keep the people safe. And part of being safe is feeling safe. Do not forget it.” The young officer nodded somberly. Bwadne nodded and kept his eyes focused ahead of him, ready to do what he had to do in order to protect his fellow citizens.</p> 
-<p><em>The story continues in part 3 <a href="http://backthatelfup.com/extras/fiction/the-mage/">'The Mage'</a>.</em></p>	  
+<p><em>The story continues in part 3 <a href="https://backthatelfup.com/extras/fiction/the-mage/">'The Mage'</a>.</em></p>	  
 	  
    </div>
    </div>

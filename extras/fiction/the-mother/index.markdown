@@ -34,6 +34,6 @@ sitemap:
 <p>”What you have seen here is real,” came a voice from the image of the bedraggled woman and child, the cold blue figure standing over them. “The image has been transported here from the cold lands of Frid. This woman is real. Her child is real. The giant is real. Her blood is real. Please, help us.”</p> 
 
 <p>The image shimmered and then blinked out, a final burst of ice cold wind shooting through the marketplace, evoking screams other watchers. And then it was gone. Eriza couldn’t help but shiver as she clutched her child. More than the cold, the image had cut her to the bone.</p> 
-<p><em>The story continues in part 2 <a href="http://backthatelfup.com/extras/fiction/the-detective/">'The Detective'</a>.</em></p>	  
+<p><em>The story continues in part 2 <a href="https://backthatelfup.com/extras/fiction/the-detective/">'The Detective'</a>.</em></p>	  
    </div>
    </div>

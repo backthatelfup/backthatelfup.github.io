@@ -14,7 +14,7 @@ sitemap:
 </figure>
 <h1>Miz</h1>
 <h2 class="subheader">The Mage</h2>
-<p><em>This is the final story of Miz. You can read <a href="http://backthatelfup.com/extras/fiction/the-mother/">part 1</a> and <a href="http://backthatelfup.com/extras/fiction/the-detective/">part 2</a> at the links.</em>
+<p><em>This is the final story of Miz. You can read <a href="https://backthatelfup.com/extras/fiction/the-mother/">part 1</a> and <a href="https://backthatelfup.com/extras/fiction/the-detective/">part 2</a> at the links.</em>
 
 <p>Wjoo stood in the darkness of the cave, feeling the cool, ocean water lick over her feet. As cold as the water was, it was still warm to the woman from Frid. Sweat dripped down her pale skin, a sensation she had rarely felt back in her homeland. It was too hot here. And so wet. But the water had been what had drawn her there. She had used a shard of water and seen its path, where it had been and followed it from Frid to a river, to the unfortunate belly of a fish, to a patch of ocean, to a quiet home of sleeping, red haired people, to a pink sandy beach and then here. Hitha of Miz. Miz was full of magic. She could tell it from the drop of water that had passed through here so many Whale Risings ago.</p>
 

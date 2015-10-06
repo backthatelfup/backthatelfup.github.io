@@ -10,4 +10,4 @@ sitemap:
   exclude: 'yes'
 ---
 
-<meta http-equiv="refresh" content="0; url=http://www.backthatelfup.com/downloads/0010BB.zip">
+<meta http-equiv="refresh" content="0; url=https://www.backthatelfup.com/downloads/0010BB.zip">

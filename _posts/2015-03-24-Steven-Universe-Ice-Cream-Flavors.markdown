@@ -31,4 +31,4 @@ All Crystal Gems ice creams come with pop rocks, of course :D
 
 What do you think, would you eat these? What flavors would you come up with?
 
-(And if you don't know what the heck I'm talking about, you should check out <a href="http://www.amazon.com/Gem-Glow-Laser-Light-Cannon/dp/B00G237MHI/?tag=bathelup-20">Steven Universe</a> - one of the best cartoons being made right now)
+(And if you don't know what the heck I'm talking about, you should check out <a href="https://www.amazon.com/Gem-Glow-Laser-Light-Cannon/dp/B00G237MHI/?tag=bathelup-20">Steven Universe</a> - one of the best cartoons being made right now)

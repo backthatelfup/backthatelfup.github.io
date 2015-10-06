@@ -69,4 +69,4 @@ Here's a few links about the stuff I talk about above, if you want more info!
 [Patreon About (video)](https://www.patreon.com/about)
 [About Gumroad Subscriptions](https://help.gumroad.com/customer/portal/articles/1579324-subscriptions)
 [About Gumroad Memberships](https://help.gumroad.com/customer/portal/articles/1880705-memberships)
-[An article about VATMOSS](http://techcrunch.com/2014/11/25/eus-new-vatmoss-rules-could-create-a-vatmess-for-startups/)
+[An article about VATMOSS](https://techcrunch.com/2014/11/25/eus-new-vatmoss-rules-could-create-a-vatmess-for-startups/)

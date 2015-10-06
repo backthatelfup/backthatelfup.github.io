@@ -21,7 +21,7 @@ sitemap:
 
 <p>(Note: I would not cast Stephen Colbert as one of the main characters, but that image fits and is too ridonk not to use. But yes.)</p>
 
-<p>For those of you who don't know, supposedly another <a href="http://io9.com/the-dungeons-dragons-movie-of-your-dreams-is-rolling-1721969232">DnD movie</a> is in the works. The first one was apparently atrocious, which doesn't come as any surprise. But with the success of Game of Thrones and so many Tolkien movies, another attempt is being made at a DnD movie, which I will most likely watch the hell out of because, Dungeons and Dragons.</p>
+<p>For those of you who don't know, supposedly another <a href="https://io9.com/the-dungeons-dragons-movie-of-your-dreams-is-rolling-1721969232">DnD movie</a> is in the works. The first one was apparently atrocious, which doesn't come as any surprise. But with the success of Game of Thrones and so many Tolkien movies, another attempt is being made at a DnD movie, which I will most likely watch the hell out of because, Dungeons and Dragons.</p>
 
 <p>That doesn't mean I don't have opinions about who should be in it! For our main party, the people we're cheering for, I thought long and hard and came up with a fancast for a movie I would watch.</p>
 

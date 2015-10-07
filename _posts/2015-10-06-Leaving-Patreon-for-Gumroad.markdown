@@ -3,12 +3,12 @@ layout: post
 title: "Leaving Patreon for Gumroad"
 date: 2015-10-06T17:17:18-08:00
 comments: true
-thumbnail: /images/posts/thumbs/fuck-you-patreon.jpg
+thumbnail: /images/posts/thumbs/f-you-patreon.jpg
 keywords: Patreon, Gumroad, membership, patreon security
 description: Tristan's thoughts and reasons for leaving Patreon behind and fully embracing Gumroad.
 facebook_type: 
-facebook_image: /images/posts/fuck-you-patreon.jpg
-twitter_image: /images/posts/fuck-you-patreon.jpg
+facebook_image: /images/posts/f-you-patreon.jpg
+twitter_image: /images/posts/f-you-patreon.jpg
 
 sitemap:
   priority: 0.5
@@ -16,7 +16,7 @@ sitemap:
   exclude: 'no'
 ---
 
-![Fuck you Patreon](/images/posts/fuck-you-patreon.jpg)
+![Fuck you Patreon](/images/posts/f-you-patreon.jpg)
 
 <strong>Reposted from my final Patreon post</strong>
 

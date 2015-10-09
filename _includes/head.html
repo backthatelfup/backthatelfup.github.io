@@ -20,9 +20,12 @@
   <link href="{{ site.baseurl }}/favicon.png" rel="icon">
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml"/>
   
-  {% if page.fbpixel %}
-    {% include fbpixel.html %}
+  {% if page.fbpixel-newsletter %}
+    {% include fbpixel-newsletter.html %}
   {% endif %}
+  
+  {% include fbpixel-audience.html %}
+  
   {% include metadata.html %}
   {% include google_analytics.html %} 
 </head>

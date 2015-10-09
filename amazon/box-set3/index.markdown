@@ -1,10 +1,8 @@
 ---
-layout: amazon-smartURL
+layout: amazon-affiliate
 title: "box-set3"
 info: This page is 'blank' but serves up the analytics code, fb tracking pixel, and amazon affiliate link before forwarding to Amazon.
 FB Ad: Box Set - Wood Fantasy Long
-redirect-url: 
+redirect-url: http://www.amazon.com/Valley-Ten-Crescents-Box-Set-ebook/dp/B00IGJQZ7O/
 affiliate-code: fbbxfant-20
-
-smartURL: http://smarturl.it/box-set3
 ---

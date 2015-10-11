@@ -2,4 +2,10 @@
 .gumroad-button {
   margin: 10px 0px;
   width: 100%;
+  
+    &:hover {
+        background: #36a9ae !important;
+        color: #fff !important;
+    }
 }
+

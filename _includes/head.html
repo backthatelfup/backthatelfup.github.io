@@ -23,7 +23,9 @@
   {% if page.fbpixel-newsletter %}
     {% include fbpixel-newsletter.html %}
   {% endif %}
-  
+  {% if page.pixel %}
+    {% include fbpixel.html %}
+  {% endif %}
   {% include fbpixel-audience.html %}
   
   {% include metadata.html %}

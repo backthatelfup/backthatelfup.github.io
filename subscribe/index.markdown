@@ -2,6 +2,9 @@
 layout: default
 title: subscribe
 footer: "no"
+
+description: Hen & Chick is a monthly serialized story. When you subscribe, you get to read Azria’s adventures on the Jeweled Seas first! You also get a monthly post about The World of Mun - the setting for Hen & Chick, The Valley of Ten Crescents and more!
+
 ---
 <div class="row">
   <div class="small-12 medium-9 columns  right center-text">

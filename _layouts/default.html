@@ -1,7 +1,27 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
+  {% if page.stripped == 'yes' %}
+    <nav class="navbar">
+        <nav class="row">
+            <div id="nav">
+                <ul class="columns medium-9 large-8 left primary-nav">
+                    <li><img src="/images/BTEU-logo-75x75.png" class="hide-for-small" alt="bteu-logo"></li>
+                </ul>
+            </div>
+        </nav>
+    </nav>  
+  {% endif %}
+  
   <body>
+    {% if page.stripped == 'yes' %}
+      <main class="wrap">
+      {{ content }}
+    </main>
+  </body>
+</html>
+  {% else %}
+  
     <main class="wrap">
       {% include header.html %}
       {% include navigation.html %}
@@ -10,3 +30,6 @@
       {% include footer.html %}
   </body>
 </html>
+{% endif %}
+
+

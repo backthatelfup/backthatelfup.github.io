@@ -7,8 +7,18 @@ t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
 document,'script','//connect.facebook.net/en_US/fbevents.js');
 
 fbq('init', '{{ site.fb_tracking_pixel }}');
-fbq('track', "PageView");</script>
+fbq('track', "PageView");
+fbq('track', 'ViewContent');
+
+{% if page.lead == 'yes' %}
+fbq('track', 'Lead');
+{% endif %}
+{% if page.register == 'yes' %}
+fbq('track', 'CompleteRegistration');
+{% endif %}
+
+</script>
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id={{ site.fb_tracking_pixel }}&ev=PageView&noscript=1"
 /></noscript>
-<!-- End Facebook Pixel Code --> 
+<!-- End Facebook Pixel Code -->

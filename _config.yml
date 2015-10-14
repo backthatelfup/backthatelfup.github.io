@@ -64,6 +64,9 @@ google_universal_analytics: UA-22568632-1
 google_universal_analytics_cookiedomain: backthatelfup.com
 
 
+# Facebook Custom Audience Tracking Pixel
+fb_tracking_pixel: 1381762635484775
+
 # Facebook Opengraph
 facebook_user: BackThatElfUp
 facebook_app_id: 212934732101925

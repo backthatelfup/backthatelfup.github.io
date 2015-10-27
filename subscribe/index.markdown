@@ -9,13 +9,13 @@ facebook_image: /images/hac-gumroad.jpg
 twitter_image: /images/hac-gumroad.jpg
 ---
 <div class="row">
-  <div class="small-12 medium-9 columns  right center-text">
+  <div class="small-12 medium-9 columns  right center-text pad-nav">
     <div class="small-12">
     <h1>HEN &amp; CHICK</h1>
     <h3>A slice of life, sword and sorcery, swashbuckling adventure!</h3>
     </div>
   </div>
-  <div class="small-12 columns medium-3 left">
+  <div class="small-12 columns medium-3 left pad-nav">
   <br>
     <h2 class="center-text">How it works</h2>
     <hr class="hr-centered">

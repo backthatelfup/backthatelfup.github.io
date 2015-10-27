@@ -4,7 +4,7 @@ title: contact
 ---
 
 <div class="row">
-  <div class="small-12 medium-offset-2 medium-7 columns">
+  <div class="small-12 medium-offset-2 medium-7 columns pad-nav">
     <h2>Contact Us</h2>
       <form action="https://getsimpleform.com/messages?form_api_token=79386e3daa30b7bffa22781688dff7f3" method="post">
 	<input type='hidden' name='redirect_to' value='https://www.backthatelfup.com/contact/thanks' />

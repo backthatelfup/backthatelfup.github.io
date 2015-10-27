@@ -6,7 +6,7 @@ sitemap:
   exclude: 'yes'
 ---
 
-<div class="row spotlight">
+<div class="row spotlight pad-nav">
 
    <div class="small-12 large-12 spotlight-blurb right">
 <figure>

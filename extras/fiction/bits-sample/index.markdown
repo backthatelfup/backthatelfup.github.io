@@ -5,7 +5,9 @@ footer: true
 sitemap:
   exclude: 'yes'
 ---
+<p class="pad-nav">
 ~ ~ ~
+</p>
 <p><em>Are there agents among us?</em></p>
 
 <p><em>Reports from an anonymous source have alerted us to a program Codename ANGEL designed to place specially trained and engineered individuals within the populace in order to monitor them. Our inside source was only able to read the first page of the dossier regarding the secret project and reports the ANGELS have been placed in major cities with a high concentration of foreigners. Ten years after the Second Civil War, and still concern exists over domestic terrorism.</em></p>

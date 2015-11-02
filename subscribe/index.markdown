@@ -5,8 +5,8 @@ footer: "no"
 
 description: Hen & Chick is a monthly serialized story. When you subscribe, you get to read Azria’s adventures on the Jeweled Seas first! You also get a monthly post about The World of Mun - the setting for Hen & Chick, The Valley of Ten Crescents and more!
 
-facebook_image: /images/hac-gumroad.jpg
-twitter_image: /images/hac-gumroad.jpg
+facebook_image: /images/magic-is-for-the-bold.jpg
+twitter_image: /images/magic-is-for-the-bold.jpg
 ---
 <div class="row">
   <div class="small-12 medium-9 columns  right center-text pad-nav">
@@ -32,7 +32,7 @@ twitter_image: /images/hac-gumroad.jpg
         </div>
   </div>
   <div class="small-12 medium-9 right pad-lr-15">
-    <p><img src="/images/hac-gumroad.jpg" alt="Hen and Chick Gumroad image"></p>
+    <p><img src="/images/magic-is-for-the-bold.jpg" alt="Hen and Chick Gumroad image"></p>
     <p><em>Azria, a mage of Miz, is the the key to revealing a long lost treasure: at least that’s what her mother, alleged pirate Captain Apzana says. If Azria can undo the magic of powerful mages who came before her, a vast treasure will be theirs for the taking.</em></p>
     <p><em>But more mysteries than riches surface as Azria approaches a fortune tied to a part of Miz’ history meant to remain drowned by the waves. Those who would stop her warn her: reveal the past and destroy the lives of mages forever. Azria must decide if she will be the daughter her mother needs or protect her homeland’s secret. </em></p>
 

@@ -118,6 +118,7 @@ button.large {
   }
   @media screen and (max-width: 768px) {
     padding: 1% 1% 0 1%;
+    height: 60px;
   }
 }
 
@@ -132,6 +133,7 @@ button.large {
   }
   @media screen and (max-width: 768px) {
     padding: 1%;
+    height: 60px;
   }
 }
 
@@ -145,6 +147,7 @@ button.large {
   }
   @media screen and (max-width: 768px) {
     padding: 0 13%;
+    height: 60px;
   }
 }
 
@@ -158,10 +161,12 @@ button.large {
   }
   @media screen and (max-width: 768px) {
     padding: 0 12%;
+    height: 60px;
   }
 }
 
 .itunes {
+    height: 44px;
     padding: 10px 34px;
     color: #298cda;
     background-color: white;
@@ -171,10 +176,12 @@ button.large {
   }
   @media screen and (max-width: 768px) {
     padding: 0 12%;
+    height: 60px;
   }
 }
 
 .gumroad {
+    height: 44px;
     padding: 12px 0 12px 25px;
     color: #36a9ae;
     background-color: white;
@@ -184,5 +191,6 @@ button.large {
   }
   @media screen and (max-width: 768px) {
     padding: 1% 8%;
+    height: 60px;
   }
 }

@@ -36,20 +36,27 @@ module Jekyll
       #
       # Returns false if the file was not modified since last time (no-op).
       def write(dest)
-        dest_path = File.join(@base, @dst_dir, @name)
+        dest_path = destination(dest)
 
         return false if File.exist? dest_path and !modified?
 
         @@mtimes[path] = mtime
+        
+        cache_path = File.join(@base, ".minimagick-cache", @dst_dir, @name)
 
+        FileUtils.mkdir_p(File.dirname(cache_path))
         FileUtils.mkdir_p(File.dirname(dest_path))
-        image = ::MiniMagick::Image.open(path)
-        image.combine_options do |c|
+
+        # If the file isn't cached, generate it
+        if not (File.size? cache_path and File.stat(cache_path).mtime.to_i > mtime)
+          image = ::MiniMagick::Image.open(path)
           @commands.each_pair do |command, arg|
-            c.send command, arg
+            image.send command, arg
           end
+          image.write cache_path
         end
-        image.write dest_path
+
+        FileUtils.cp(cache_path, dest_path)
 
         true
       end
@@ -65,7 +72,7 @@ module Jekyll
       def generate(site)
         return unless site.config['mini_magick']
 
-         site.config['mini_magick'].each_pair do |name, preset|
+        site.config['mini_magick'].each_pair do |name, preset|
           Dir.glob(File.join(site.source, preset['source'], "*.{png,jpg,jpeg,gif}")) do |source|
             site.static_files << GeneratedImageFile.new(site, site.source, preset['destination'], File.basename(source), preset.clone)
           end

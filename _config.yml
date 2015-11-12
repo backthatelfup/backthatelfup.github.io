@@ -28,7 +28,7 @@ destination: _site
 sass:
   style: :compressed
 
-permalink: /blog/:year/:title
+permalink: /blog/:year/:title/
 
 #################################################
 ####CUSTOM

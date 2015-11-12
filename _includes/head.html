@@ -26,8 +26,8 @@
   {% include fbpixel-audience.html %}
   {% include metadata.html %}
   {% include google_analytics.html %}
-    {% if page.redirect and page.affiliate-code %}
-      <meta http-equiv="refresh" content=".1; url={{ page.redirect }}?tag={{page.affiliate-code}}">
+    {% if page.redirect %}
+      <meta http-equiv="refresh" content=".1; url={{ page.redirect }}{% if page.affiliate-code %}?tag={{page.affiliate-code}}{% endif %}">
   {% else %}
   {% endif %}
 </head>

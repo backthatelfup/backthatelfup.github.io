@@ -8,7 +8,6 @@ document,'script','//connect.facebook.net/en_US/fbevents.js');
 
 fbq('init', '{{ site.fb_tracking_pixel }}');
 fbq('track', "PageView");
-fbq('track', 'ViewContent');
 
 {% if page.lead == 'yes' %}
 fbq('track', 'Lead');

@@ -2,9 +2,8 @@
 layout: default
 title: "box-set"
 info: This page is 'blank' but serves up the analytics code, fb tracking pixel, and amazon affiliate link before forwarding to Amazon.
-FB Ad: UK copy of primary US ad.
+FB Ad: Box Set - CpC - BTEU traffic lookalike - filtered - tavi
 
-redirect: https://www.amazon.co.uk/dp/B00IGJQZ7O/
-affiliate-code: bteu-21
-pixel: 6025919665116
+redirect: http://www.amazon.com/Valley-Ten-Crescents-Box-Set-ebook/dp/B00IGJQZ7O/
+affiliate-code: laldus-20
 ---

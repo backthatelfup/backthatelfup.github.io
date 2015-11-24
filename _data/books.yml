@@ -105,6 +105,19 @@
   drivethru: "https://www.drivethrufiction.com/product/122090/Botanica-Blues"
   itunes: "https://itunes.apple.com/us/book/botanica-blues/id596593307"
   gumroad: "https://gumroad.com/backthatelfup"
+  
+- title: "Tired"
+  anchor: "tired"
+  tagline: "A tale of The World of Mun ."
+  blurb: "The press of time, the incessant prayers, the bloody magic...can one deity escape it all?"
+  cover: "/images/books/tired.jpg"
+  thumb: "/images/books/thumbs/tired.jpg"
+  amazon: "https://www.amazon.com/dp/B018F06848/?tag=bathelup-20"
+  kobo: 
+  nook: 
+  drivethru: 
+  itunes: "https://itunes.apple.com/us/book/tired/id1061732553"
+  gumroad: 
 
 - title: "Allegories of the Tarot"
   anchor: "aot"

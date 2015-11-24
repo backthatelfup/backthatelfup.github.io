@@ -114,10 +114,10 @@
   thumb: "/images/books/thumbs/tired.jpg"
   amazon: "https://www.amazon.com/dp/B018F06848/?tag=bathelup-20"
   kobo: 
-  nook: 
+  nook: "http://www.barnesandnoble.com/w/tired-tristan-j-tarwater/1123016191?ean=2940157811990"
   drivethru: 
   itunes: "https://itunes.apple.com/us/book/tired/id1061732553"
-  gumroad: 
+  gumroad: "https://gum.co/tired/"
 
 - title: "Allegories of the Tarot"
   anchor: "aot"

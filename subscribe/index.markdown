@@ -42,11 +42,12 @@ twitter_image: /images/magic-is-for-the-bold.jpg
     
     <p>Hen & Chick is a monthly serialized story. When you subscribe, you get to read Azria’s adventures on the Jeweled Seas first! You also get a monthly post about The World of Mun - the setting for Hen & Chick, The Valley of Ten Crescents and more!</p>
     
-    <p>Every month you’ll have a new episode delivered to your inbox! Download it to your computer or access it through the free Gumroad App!</p>
+    <p>Every month you’ll have a new episode delivered to your inbox! Download it to your computer, send it to your Kindle with a single click, or read it on the free Gumroad App!</p>
     
     <p>Subscribe today! For $2 a month, you can support diverse fiction and get a fun tale about magic, pirates and more!</p>
     
     <script src="https://gumroad.com/js/gumroad.js"></script>
     <p class="center-text"><a class="gumroad-button" href="https://gum.co/BGAT" target="_blank">Support Diverse Fiction!</a></p>
-  </div>
+    
+    <p>If subscriptions aren't for you, you can buy every episode on [Amazon](http://www.amazon.com/Hen-Chick-Tristan-J-Tarwater-ebook/dp/B01352QHJW/?tag=bathelup-20&keywords=sword+and+sorcery+pirates+coming+of+age) a few months after it's been released to our subscribers.</p>
 </div>

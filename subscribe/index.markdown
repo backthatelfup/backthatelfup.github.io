@@ -50,4 +50,5 @@ twitter_image: /images/magic-is-for-the-bold.jpg
     <p class="center-text"><a class="gumroad-button" href="https://gum.co/BGAT" target="_blank">Support Diverse Fiction!</a></p>
     
     <p>If subscriptions aren't for you, you can buy every episode on <a href="http://www.amazon.com/Hen-Chick-Tristan-J-Tarwater-ebook/dp/B01352QHJW/?tag=bathelup-20&keywords=sword+and+sorcery+pirates+coming+of+age">Amazon</a> a few months after it's been released to our subscribers.</p>
+    <p>nbsp;</p>
 </div>

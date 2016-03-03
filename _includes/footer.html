@@ -19,16 +19,4 @@
         <p><a href="/privacy/">Privacy Policy</a></p>
       </div>
   </div>
-<!-- Start Track Anchor links in our Analytics -->
-  <script>
-  jQuery(document).ready(function () {    
-    var hashtag = /#\S+/
-    jQuery('a').click(function(){
-        var match = jQuery(this).attr('href').match(hashtag);
-        ga('send', 'pageview', '/' + match[0]);
-    })
-});
-</script>
-<!-- End Track Anchor links in our Analytics -->
-
 </footer>

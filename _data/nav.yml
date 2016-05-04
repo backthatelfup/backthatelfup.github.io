@@ -7,6 +7,15 @@
 - title: "about"
   href: "/#about"
   
+- title: "press"
+  subcategories:
+#    - subtitle: "Interviews"
+#      subhref: "/press/interviews/"
+#    - subtitle: "Reviews"
+#      subhref: "/press/reviews/"
+    - subtitle: "The Marauders' Island"
+      subhref: "/press/hen-and-chick-the-marauders-island/"
+  
 - title: "contact"
   external: "/contact/"
 

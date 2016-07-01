@@ -8,8 +8,8 @@
   thumb: "/images/books/thumbs/TheMaraudersIsland.jpg"
   amazon: "https://www.amazon.com/dp/B01HSI6ZEQ/"
   amazonuk: "https://www.amazon.co.uk/dp/B01HSI6ZEQ/"
-  kobo: 
-  nook: 
+  kobo: "https://store.kobobooks.com/en-us/ebook/the-marauders-island"
+  nook: "http://www.barnesandnoble.com/w/books/1124052018?ean=2940158525537"
 #  drivethru: "https://www.drivethrufiction.com/product/122081/Little-Girl-Lost"
   itunes: "https://itunes.apple.com/us/book/id1130088924"
   gumroad: "https://gum.co/hctmi"

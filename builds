@@ -1,0 +1,1 @@
+bundle exec rake build - the site, minifies html, optimizes images

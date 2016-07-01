@@ -39,27 +39,30 @@ title: home
 
 <article class="row">
 
-  <section class="small-12 columns">
-    <h3 class="page-header center-text">Hen &amp; Chick</h3>
-      <div class="medium-4 columns left hide-for-small pad-b-33">
-	<a href="https://www.kickstarter.com/projects/672576444/hen-and-chick-the-marauders-island/description">
-	  <img src="/images/misc/TheMaraudersIsland.jpg" alt="{{ books.title }} cover" title="{{ books.title }}">
-	</a>
-      </div>
-      <div class="small-6 medium-8 columns left hide-for-small pad-lr-15">
-	<p class="center-text"><strong>Tristan's newest YA Fantasy adventure is now available on <a href="https://www.kickstarter.com/projects/672576444/hen-and-chick-the-marauders-island/description">Kicksarter!<a/></strong></p>
-	<iframe width="625" height="350" src="https://www.kickstarter.com/projects/672576444/hen-and-chick-the-marauders-island/widget/video.html" frameborder="0" scrolling="no"> </iframe>
-      </div>
-      
-      <div class="small-6 small-centered columns hide-for-large">
-      <p>
-	<a href="https://www.kickstarter.com/projects/672576444/hen-and-chick-the-marauders-island/description">
-	  <img src="/images/books/TheMaraudersIsland.jpg" alt="{{ books.title }} cover" title="{{ books.title }}">
-	</a>
-	<br>
-      </p>
-      </div>
-
+  <section class="small-12 columns center-text">
+    <h3 class="page-header center-text">New Releases</h3>
+    <div class="center-text">
+      {% for books in site.data.books %}
+	{% if books.series == "Hen &amp; Chick" %}
+	    <div class="covers hide-for-small">
+	      <a href="#{{ books.anchor }}">
+		<figure>
+		  <img src="{{ books.cover }}" alt="{{ books.title }} cover" title="{{ books.title }}">
+		</figure>
+	      </a>
+	    </div>
+	  
+	    <div class="small-6 columns covers hide-for-large">
+	      <a href="#{{ books.anchor }}">
+		<figure>
+		  <img src="{{ books.cover }}" alt="{{ books.title }} cover" title="{{ books.title }}">
+		</figure>
+	      </a>
+	    </div>
+	    
+	{% endif %}
+      {% endfor %}
+    </div>
   </section>
 
   <section class="small-12 columns center-text">

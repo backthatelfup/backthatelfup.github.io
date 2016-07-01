@@ -23,7 +23,7 @@ end
 
 desc "Watch the site and regenerate when it changes"
 task :watch do
-  system "bundle exec jekyll serve --baseurl '' --watch"
+  system "bundle exec jekyll serve --config _config.yml,_jenkins.yml --baseurl '' --watch"
 end
 
 ##############
@@ -44,16 +44,16 @@ end
 ##############
 
 # https://github.com/phobetron/image-optimizer 
-# Using this to optimize our images. Dependencies are jpegtran, pngcrush and gifsicle
+# Using this to optimize our images. Dependencies are jpegtran and pngcrush
 
-desc "Optimize GIF, JPG and PNG files"
+desc "Optimize JPG and PNG files"
 task :optimizeimages => [ 'optimizeimages:find_tools', 'optimizeimages:run' ]
 
 namespace :optimizeimages do
   desc "Test for presence of image optimization tools in the command path"
   task :find_tools do
     RakeFileUtils.verbose(false)
-    tools = %w[jpegtran gifsicle pngcrush]
+    tools = %w[jpegtran pngcrush]
     puts "\nOptimizing images using the following tools:"
     tools.delete_if { |tool| sh('which', tool) rescue false }
     raise "The following tools must be installed and accessible from the execution path: #{ tools.join(', ') }" if tools.size > 0
@@ -63,9 +63,9 @@ namespace :optimizeimages do
     RakeFileUtils.verbose(false)
     start_time = Time.now
 
-    file_list = FileList.new '_site/**/*.{gif,jpeg,jpg,png}'
+    file_list = FileList.new 'images/*.{jpeg,jpg,png}'
 
-    last_optimized_path = '_site/.last_optimized'
+    last_optimized_path = 'images/.last_optimized'
     if File.exists? last_optimized_path
       last_optimized = File.new last_optimized_path
       file_list.exclude do |f|
@@ -92,8 +92,6 @@ namespace :optimizeimages do
       end
 
       case extension
-      when 'gif'
-        `gifsicle -O2 #{f} > #{f}.n`
       when 'png'
         `pngcrush -q -rem alla -reduce -brute  #{f} #{f}.n`
       when 'jpg'

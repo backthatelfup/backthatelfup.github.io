@@ -1,0 +1,1 @@
+bundle exec rake deploy - s3_website to deploy your site

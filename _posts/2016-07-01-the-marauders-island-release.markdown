@@ -17,7 +17,7 @@ sitemap:
 ---
 *throws confetti*
 
-Heck yeah! Today, HEN & CHICK: The Marauders’ Island is official OUT! Available now on [Amazon](https://www.amazon.com/dp/B01HSI6ZEQ?tag=bathelup-20), [Kobo](https://store.kobobooks.com/en-us/ebook/the-marauders-island), [Barnes and Noble](http://www.barnesandnoble.com/w/books/1124052018?ean=2940158525537), [iTunes](https://itunes.apple.com/us/book/id1130088924) and [Gumroad](https://gum.co/hctmi), the wait is over! You can get this awesome swashbuckling tale of magic, adventure and revenge into your hands!
+Heck yeah! Today, HEN & CHICK: The Marauders’ Island is official OUT! [Available now](https://www.backthatelfup.com/books/the-marauders-island/) on Amazon, Kobo, Barnes and Noble, and iTunes, the wait is over! You can get this awesome swashbuckling tale of magic, adventure and revenge into your hands!
 
 What’s Hen & Chick about?
 

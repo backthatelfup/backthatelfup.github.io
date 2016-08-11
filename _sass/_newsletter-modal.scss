@@ -82,7 +82,7 @@ a#login_pop:hover, a#join_pop:hover {
     background-color: #fff;
     border: 3px solid #fff;
     display: inline-block;
-    left: 50%;
+    left: 45%;
     opacity: 0;
     padding: 15px;
     position: fixed;
@@ -120,7 +120,7 @@ a#login_pop:hover, a#join_pop:hover {
   }
 }
 .overlay:target+.popup {
-    top: 50%;
+    top: 60%;
     opacity: 1;
     visibility: visible;
 }

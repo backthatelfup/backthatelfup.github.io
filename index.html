@@ -42,20 +42,15 @@ title: home
   <section class="small-12 medium-6 columns center-text">
     <h3 class="page-header center-text"> &nbsp; Coming Soon &nbsp; </h3>
     <div class="center-text">
-      {% for books in site.data.books %}
-	{% if books.series == "Hen &amp; Chick" %}
-	    <div class="covers hide-for-small">
-<iframe width="455" height="256" src="https://www.kickstarter.com/projects/672576444/shamsee-lone-idiot-and-cub-graphic-novel/widget/video.html" frameborder="0" scrolling="no"> </iframe>
-  <h3>Shamsee: Lone Idiot and Cub</h3>
+        <div class="covers hide-for-small">
+            <iframe width="455" height="256" src="https://www.kickstarter.com/projects/zan/dangerous-women-tales-of-queer-villainy/widget/video.html" frameborder="0" scrolling="no"> </iframe>
+            <h3>Dangerous Women: Tales of Queer Villainy!</h3>
 	    </div>
 	  
 	    <div class="small-12 medium-6 columns covers hide-for-large">
-<iframe width="335" height="189" src="https://www.kickstarter.com/projects/672576444/shamsee-lone-idiot-and-cub-graphic-novel/widget/video.html" frameborder="0" scrolling="no"> </iframe>
-  <h3>Shamsee: Lone Idiot and Cub</h3>
+            <iframe width="335" height="189" src="https://www.kickstarter.com/projects/zan/dangerous-women-tales-of-queer-villainy/widget/video.html" frameborder="0" scrolling="no"> </iframe>
+            <h3>Dangerous Women: Tales of Queer Villainy!</h3>
 	    </div>
-	    
-	{% endif %}
-      {% endfor %}
     </div>
   </section>
   
@@ -74,6 +69,27 @@ title: home
 	  
 	    <div class="small-12 medium-6 columns covers hide-for-large">
 	      <a href="/books/the-marauders-island/">
+		<figure>
+		  <img src="{{ books.cover }}" alt="{{ books.title }} cover" title="{{ books.title }}">
+		</figure>
+	      </a>
+	    </div>
+	    
+	{% endif %}
+      {% endfor %}
+      
+      {% for books in site.data.books %}
+	{% if books.series == "Shamsee" and books.number == "2" %}
+	    <div class="covers hide-for-small">
+	      <a href="{{ books.gumroad }}">
+		<figure>
+		  <img src="{{ books.cover }}" alt="{{ books.title }} cover" title="{{ books.title }}">
+		</figure>
+	      </a>
+	    </div>
+	  
+	    <div class="small-12 medium-6 columns covers hide-for-large">
+	      <a href="{{ books.gumroad }}">
 		<figure>
 		  <img src="{{ books.cover }}" alt="{{ books.title }} cover" title="{{ books.title }}">
 		</figure>
@@ -109,7 +125,33 @@ title: home
 	{% endif %}
       {% endfor %}
     </div>
-  </section>   
+  </section>
+  
+  <section class="small-12 columns center-text">
+    <h3 class="page-header center-text">Comics</h3>
+    <div class="center-text">
+      {% for books in site.data.books %}
+	{% if books.series == "Shamsee" %}
+	    <div class="covers hide-for-small">
+	      <a href="#{{ books.anchor }}">
+		<figure>
+		  <img src="{{ books.cover }}" alt="{{ books.title }} cover" title="{{ books.title }}">
+		</figure>
+	      </a>
+	    </div>
+	  
+	    <div class="small-6 columns covers hide-for-large">
+	      <a href="#{{ books.anchor }}">
+		<figure>
+		  <img src="{{ books.cover }}" alt="{{ books.title }} cover" title="{{ books.title }}">
+		</figure>
+	      </a>
+	    </div>
+	    
+	{% endif %}
+      {% endfor %}
+    </div>
+  </section>  
 
   <section class="small-12 columns center-text">
     <h3 class="page-header center-text">Other Works</h3>

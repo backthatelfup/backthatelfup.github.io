@@ -40,16 +40,22 @@ title: home
 <article class="row">
 
   <section class="small-12 medium-6 columns center-text">
-    <h3 class="page-header center-text"> &nbsp; Coming Soon &nbsp; </h3>
+    <h3 class="page-header center-text"> Audiobook </h3>
     <div class="center-text">
-        <div class="covers hide-for-small">
-            <iframe width="455" height="256" src="https://www.kickstarter.com/projects/zan/dangerous-women-tales-of-queer-villainy/widget/video.html" frameborder="0" scrolling="no"> </iframe>
-            <h3>Dangerous Women: Tales of Queer Villainy!</h3>
+	    <div class="covers hide-for-small">
+	      <a href="https://www.amazon.com/dp/B01MR05YJB/?tag=bathelup-20">
+		<figure>
+		  <img src="/images/books/the-maurauders-island-audiobook.jpg" alt="The Marauders' Island [Audiobook] cover" title="The Marauders' Island Audiobook Cover">
+		</figure>
+	      </a>
 	    </div>
 	  
 	    <div class="small-12 medium-6 columns covers hide-for-large">
-            <iframe width="335" height="189" src="https://www.kickstarter.com/projects/zan/dangerous-women-tales-of-queer-villainy/widget/video.html" frameborder="0" scrolling="no"> </iframe>
-            <h3>Dangerous Women: Tales of Queer Villainy!</h3>
+	      <a href="https://www.amazon.com/dp/B01MR05YJB/?tag=bathelup-20">
+		<figure>
+		  <img src="/images/books/the-maurauders-island-audiobook.jpg" alt="The Marauders' Island [Audiobook] cover" title="The Marauders' Island Audiobook Cover">
+		</figure>
+	      </a>
 	    </div>
     </div>
   </section>
@@ -77,27 +83,7 @@ title: home
 	    
 	{% endif %}
       {% endfor %}
-      
-      {% for books in site.data.books %}
-	{% if books.series == "Shamsee" and books.number == "2" %}
-	    <div class="covers hide-for-small">
-	      <a href="{{ books.gumroad }}">
-		<figure>
-		  <img src="{{ books.cover }}" alt="{{ books.title }} cover" title="{{ books.title }}">
-		</figure>
-	      </a>
-	    </div>
-	  
-	    <div class="small-12 medium-6 columns covers hide-for-large">
-	      <a href="{{ books.gumroad }}">
-		<figure>
-		  <img src="{{ books.cover }}" alt="{{ books.title }} cover" title="{{ books.title }}">
-		</figure>
-	      </a>
-	    </div>
-	    
-	{% endif %}
-      {% endfor %}
+
     </div>
   </section>
 
@@ -181,6 +167,31 @@ title: home
   </section>
 
     <section class="small-12 columns center-text">
+    <h3 class="page-header center-text">Anthologies</h3>
+    <div class="center-text">
+      {% for books in site.data.anthologies %}
+	    <div class="covers hide-for-small">
+	      <a href="#{{ books.anchor }}">
+		<figure>
+		  <img src="{{ books.cover }}" alt="{{ books.title }} cover" title="{{ books.title }}">
+		</figure>
+	      </a>
+	    </div>
+	    
+	    <div class="small-6 columns covers hide-for-large">
+	    <a href="#{{ books.anchor }}">
+	      <figure>
+		  <img src="{{ books.cover }}" alt="{{ books.title }} cover" title="{{ books.title }}">
+	      </figure>
+	    </a>
+	    </div>
+      {% endfor %}
+      <br />
+      <br />
+    </div>
+  </section>
+
+    <section class="small-12 columns center-text">
     <h3 class="page-header center-text">Freelance RPGs</h3>
     <div class="center-text">
       {% for books in site.data.freelance %}
@@ -225,6 +236,36 @@ title: home
       <div class="store center-text">
 	{% if books.amazon %}<a href="{{ books.amazon }}"><span class="icon-amazon"></span></a>{% endif %}
 	{% if books.amazonuk %}<a href="{{ books.amazonuk }}"><span class="icon-amazonuk"></span></a>{% endif %}
+	{% if books.gumroad %}<a href="{{ books.gumroad }}"><span class="icon-gumroad"></span></a>{% endif %}
+	{% if books.drivethru %}<a href="{{ books.drivethru }}"><span class="icon-dtfiction"></span></a>{% endif %}
+	{% if books.kobo %}<a href="{{ books.kobo }}"><span class="icon-kobo"></span></a>{% endif %}
+	{% if books.nook %}<a href="{{ books.nook }}"><span class="icon-nook"></span></a>{% endif %}
+	{% if books.itunes %}<a href="{{ books.itunes }}"><span class="icon-itunes"></span></a>{% endif %}
+      </div>
+      <hr />
+      <br />
+    {% endfor %}
+  </section>
+
+  <section class="small-12 columns">
+    {% for books in site.data.anthologies %}
+      <div class="blocky book-info" id="{{ books.anchor }}">
+	<a href="#{{ books.anchor }}">
+	  <figure class="small-3 medium-1 thumbs">
+	      <img src="{{ books.thumb }}" alt="{{ books.title }} cover" title="{{ books.title }}">
+	  </figure>
+	</a>
+	  {% if books.number != null %}
+	    <h2>{{ books.title }} ({{ books.series}} #{{ books.number }})</h2>
+	  {% else %}
+	  <h2>{{ books.title }}</h2>
+	  {% endif %}
+	  <p>{{books.blurb }}</p>
+	  <p><em>{{ books.tagline }}</em></p>
+      </div>
+      <div class="store center-text">
+	{% if books.amazon %}<a href="{{ books.amazon }}"><span class="icon-amazon"></span></a>{% endif %}
+    {% if books.amazonuk %}<a href="{{ books.amazonuk }}"><span class="icon-amazonuk"></span></a>{% endif %}
 	{% if books.gumroad %}<a href="{{ books.gumroad }}"><span class="icon-gumroad"></span></a>{% endif %}
 	{% if books.drivethru %}<a href="{{ books.drivethru }}"><span class="icon-dtfiction"></span></a>{% endif %}
 	{% if books.kobo %}<a href="{{ books.kobo }}"><span class="icon-kobo"></span></a>{% endif %}

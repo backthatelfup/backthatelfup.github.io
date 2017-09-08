@@ -60,12 +60,12 @@ mini_magick:
 
 #### SEO Stuff
 # Google Analytics
-google_universal_analytics: UA-22568632-1
-google_universal_analytics_cookiedomain: backthatelfup.com
+# google_universal_analytics: UA-22568632-1
+# google_universal_analytics_cookiedomain: backthatelfup.com
 
 
 # Facebook Tracking Pixel
-fb_tracking_pixel: 1381762635484775
+# fb_tracking_pixel: 1381762635484775
 
 # Facebook Opengraph
 facebook_user: BackThatElfUp

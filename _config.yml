@@ -24,6 +24,8 @@ gems:
   
 destination: _site
 
+include: ['_pages']
+
 # Compress our Css
 sass:
   style: :compressed

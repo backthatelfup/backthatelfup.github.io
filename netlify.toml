@@ -1,5 +1,11 @@
-[context.production.environment]
-  HUGO_VERSION = "0.41" 
+[build]
+  publish = "public"
+  command = "hugo"
 
-[context.deploy-preview.environment]
-  HUGO_VERSION = "0.41"
+[context.production]
+  command = "hugo"
+  [context.production.environment]
+    HUGO_VERSION = "0.41"
+    HUGO_ENV = "production"
+  [context.deploy-preview.environment]
+    HUGO_VERSION = "0.41"

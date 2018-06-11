@@ -1,0 +1,42 @@
+baseurl = "https://backthatelfup.com.com/"
+languageCode = "en-us"
+title = "Back That Elf Up"
+theme = "slim-pickins"
+Paginate = 10
+
+
+[taxonomies]
+  category = "categories"
+
+[params]
+  header = ""
+
+[[menu.main]]
+  name = "blog"
+  identifier = "blog"
+  url = "/blog/"
+  weight = 2
+
+[[menu.socials]]
+  name = "twitter"
+  identifier = "twitter"
+  url = "https://www.twitter.com"
+  weight = 1
+
+[[menu.socials]]
+  name = "tumblr"
+  identifier = "tumblr"
+  url = "https://www.tumblr.com"
+  weight = 2
+
+[[menu.socials]]
+  name = "facebook"
+  identifier = "facebook"
+  url = "https://www.facebook.com"
+  weight = 3
+
+[[menu.socials]]
+  name = "rss"
+  identifier = "rss"
+  url = "/index.xml"
+  weight = 4

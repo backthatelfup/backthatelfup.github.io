@@ -1,0 +1,68 @@
+{{ partial "head.html" . }}
+
+<div class="grid" id="index">
+  {{ partial "header" }}
+  {{ partial "horizontal_navigation.html" . }}
+
+  <main class="content">
+    {{ .Content }}
+    <div class="flex">
+      <section class="col release">
+        <h3 class="page-header">Audiobook</h3>
+        {{ partial "get_audiobooks.html" . }}
+      </section>
+      <section class="col release">
+      <h3 class="page-header">New Releases</h3>
+        {{ partial "get_new_releases.html" . }}
+      </section>
+    </div>
+    <div class="flex">
+      <section class="col release">
+        <h3 class="page-header">The Valley of Ten Crescents</h3>
+        {{ partial "get_series_valley.html" . }}
+      </section>
+    </div>
+    <div class="flex">
+      <section class="col release">
+        <h3 class="page-header">Shamsee Comics</h3>
+        {{ partial "get_comics_shamsee.html" . }}
+      </section>
+    </div>
+<!--
+    <div class="flex">
+      <section class="col release">
+        <h3 class="page-header">Comics Anthologies</h3>
+        {{ partial "get_comics_freelance.html" . }}
+      </section>
+    </div>
+-->
+    <div class="flex">
+      <section class="col release">
+        <h3 class="page-header">Other Works</h3>
+        {{ partial "get_other_works.html" . }}
+      </section>
+    </div>
+    <div class="flex">
+      <section class="col release">
+        <h3 class="page-header">Anthologies</h3>
+        {{ partial "get_anthologies.html" . }}
+      </section>
+    </div>
+    <div class="flex">
+      <section class="col release">
+        <h3 class="page-header">Freelance RPGs</h3>
+        {{ partial "get_freelance_rpgs.html" . }}
+      </section>
+    </div>
+    <div class="flex">
+      <section class="col">
+        <h3 class="page-header">Bibliography</h3>
+        {{ partial "get_bibliography.html" . }}
+      </section>
+    </div>
+  </main>
+  {{ partial "footer.html" . }}
+</div>
+
+</body>
+</html>

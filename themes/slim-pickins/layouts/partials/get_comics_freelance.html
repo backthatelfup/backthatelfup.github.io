@@ -1,0 +1,7 @@
+{{ range $.Site.Data.comics.freelance }}
+	<a href="#{{ .anchor }}">
+	  <figure>
+	      <img src="{{ .thumb }}" alt="{{ .title }} cover" title="{{ .title }}">
+	  </figure>
+	</a>
+{{ end }}

@@ -1,0 +1,7 @@
+{{ range $.Site.Data.comics.shamsee }}
+	<a href="#{{ .anchor }}">
+	  <figure>
+	      <img src="{{ .thumb }}" alt="{{ .title }} cover" title="{{ .title }}">
+	  </figure>
+	</a>
+{{ end }}

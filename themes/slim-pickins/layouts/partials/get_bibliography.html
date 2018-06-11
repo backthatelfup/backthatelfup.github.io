@@ -1,0 +1,260 @@
+{{ range $.Site.Data.series.henandchick }}
+  <div id="{{ .anchor }}">
+    <div class="left">
+	  <a href="#{{ .anchor }}">
+	    <figure class="thumbs">
+	      <img src="{{ .thumb }}" alt="{{ .title }} cover" title="{{ .title }}">
+	    </figure>
+	  </a>
+    </div>
+    <div>
+      {{ if .number }}
+        <h2>{{ .title }} ({{ .series}} #{{ .number }})</h2>
+      {{ else }}
+        <h2>{{ .title }}</h2>
+      {{ end }}
+	  <p>{{ .blurb | markdownify}}</p>
+	  <p><em>{{ .tagline | markdownify }}</em></p>
+    </div>
+  </div>
+  <div class="store center-text">
+	{{ if .amazon }}<a href="{{ .amazon }}"><span class="icon-amazon"></span></a>{{ end }}
+	{{ if .amazonuk }}<a href="{{ .amazonuk }}"><span class="icon-amazonuk"></span></a>{{ end }}
+	{{ if .gumroad }}<a href="{{ .gumroad }}"><span class="icon-gumroad"></span></a>{{ end }}
+	{{ if .drivethru }}<a href="{{ .drivethru }}"><span class="icon-dtfiction"></span></a>{{ end }}
+	{{ if .kobo }}<a href="{{ .kobo }}"><span class="icon-kobo"></span></a>{{ end }}
+	{{ if .nook }}<a href="{{ .nook }}"><span class="icon-nook"></span></a>{{ end }}
+	{{ if .itunes }}<a href="{{ .itunes }}"><span class="icon-itunes"></span></a>{{ end }}
+  </div>
+  <hr />
+  <br />
+{{ end }}
+
+
+{{ range $.Site.Data.series.tvotc }}
+  <div id="{{ .anchor }}">
+    <div class="left">
+	  <a href="#{{ .anchor }}">
+	    <figure class="thumbs">
+	      <img src="{{ .thumb }}" alt="{{ .title }} cover" title="{{ .title }}">
+	    </figure>
+	  </a>
+    </div>
+    <div>
+      {{ if .number }}
+        <h2>{{ .title }} ({{ .series}} #{{ .number }})</h2>
+      {{ else }}
+        <h2>{{ .title }}</h2>
+      {{ end }}
+	  <p>{{ .blurb | markdownify }}</p>
+	  <p><em>{{ .tagline | markdownify }}</em></p>
+    </div>
+  </div>
+  <div class="store center-text">
+	{{ if .amazon }}<a href="{{ .amazon }}"><span class="icon-amazon"></span></a>{{ end }}
+	{{ if .amazonuk }}<a href="{{ .amazonuk }}"><span class="icon-amazonuk"></span></a>{{ end }}
+	{{ if .gumroad }}<a href="{{ .gumroad }}"><span class="icon-gumroad"></span></a>{{ end }}
+	{{ if .drivethru }}<a href="{{ .drivethru }}"><span class="icon-dtfiction"></span></a>{{ end }}
+	{{ if .kobo }}<a href="{{ .kobo }}"><span class="icon-kobo"></span></a>{{ end }}
+	{{ if .nook }}<a href="{{ .nook }}"><span class="icon-nook"></span></a>{{ end }}
+	{{ if .itunes }}<a href="{{ .itunes }}"><span class="icon-itunes"></span></a>{{ end }}
+  </div>
+  <hr />
+  <br />
+{{ end }}
+
+
+{{ range $.Site.Data.comics.shamsee }}
+  <div id="{{ .anchor }}">
+    <div class="left">
+	  <a href="#{{ .anchor }}">
+	    <figure class="thumbs">
+	      <img src="{{ .thumb }}" alt="{{ .title }} cover" title="{{ .title }}">
+	    </figure>
+	  </a>
+    </div>
+    <div>
+      {{ if .number }}
+        <h2>{{ .title }} ({{ .series}} #{{ .number }})</h2>
+      {{ else }}
+        <h2>{{ .title }}</h2>
+      {{ end }}
+	  <p>{{ .blurb | markdownify }}</p>
+	  <p><em>{{ .tagline | markdownify }}</em></p>
+    </div>
+  </div>
+  <div class="store center-text">
+	{{ if .amazon }}<a href="{{ .amazon }}"><span class="icon-amazon"></span></a>{{ end }}
+	{{ if .amazonuk }}<a href="{{ .amazonuk }}"><span class="icon-amazonuk"></span></a>{{ end }}
+	{{ if .gumroad }}<a href="{{ .gumroad }}"><span class="icon-gumroad"></span></a>{{ end }}
+	{{ if .drivethru }}<a href="{{ .drivethru }}"><span class="icon-dtfiction"></span></a>{{ end }}
+	{{ if .kobo }}<a href="{{ .kobo }}"><span class="icon-kobo"></span></a>{{ end }}
+	{{ if .nook }}<a href="{{ .nook }}"><span class="icon-nook"></span></a>{{ end }}
+	{{ if .itunes }}<a href="{{ .itunes }}"><span class="icon-itunes"></span></a>{{ end }}
+  </div>
+  <hr />
+  <br />
+{{ end }}
+
+
+{{ range $.Site.Data.comics.freelance }}
+  <div id="{{ .anchor }}">
+    <div class="left">
+	  <a href="#{{ .anchor }}">
+	    <figure class="thumbs">
+	      <img src="{{ .thumb }}" alt="{{ .title }} cover" title="{{ .title }}">
+	    </figure>
+	  </a>
+    </div>
+    <div>
+      {{ if .number }}
+        <h2>{{ .title }} ({{ .series}} #{{ .number }})</h2>
+      {{ else }}
+        <h2>{{ .title }}</h2>
+      {{ end }}
+	  <p>{{ .blurb | markdownify }}</p>
+	  <p><em>{{ .tagline | markdownify }}</em></p>
+    </div>
+  </div>
+  <div class="store center-text">
+	{{ if .amazon }}<a href="{{ .amazon }}"><span class="icon-amazon"></span></a>{{ end }}
+	{{ if .amazonuk }}<a href="{{ .amazonuk }}"><span class="icon-amazonuk"></span></a>{{ end }}
+	{{ if .gumroad }}<a href="{{ .gumroad }}"><span class="icon-gumroad"></span></a>{{ end }}
+	{{ if .drivethru }}<a href="{{ .drivethru }}"><span class="icon-dtfiction"></span></a>{{ end }}
+	{{ if .kobo }}<a href="{{ .kobo }}"><span class="icon-kobo"></span></a>{{ end }}
+	{{ if .nook }}<a href="{{ .nook }}"><span class="icon-nook"></span></a>{{ end }}
+	{{ if .itunes }}<a href="{{ .itunes }}"><span class="icon-itunes"></span></a>{{ end }}
+  </div>
+  <hr />
+  <br />
+{{ end }}
+
+
+{{ range $.Site.Data.rpgs.rmtbf }}
+  <div id="{{ .anchor }}">
+    <div class="left">
+	  <a href="#{{ .anchor }}">
+	    <figure class="thumbs">
+	      <img src="{{ .thumb }}" alt="{{ .title }} cover" title="{{ .title }}">
+	    </figure>
+	  </a>
+    </div>
+    <div>
+      {{ if .number }}
+        <h2>{{ .title }} ({{ .series}} #{{ .number }})</h2>
+      {{ else }}
+        <h2>{{ .title }}</h2>
+      {{ end }}
+	  <p>{{ .blurb | markdownify }}</p>
+	  <p><em>{{ .tagline | markdownify }}</em></p>
+    </div>
+  </div>
+  <div class="store center-text">
+	{{ if .amazon }}<a href="{{ .amazon }}"><span class="icon-amazon"></span></a>{{ end }}
+	{{ if .amazonuk }}<a href="{{ .amazonuk }}"><span class="icon-amazonuk"></span></a>{{ end }}
+	{{ if .gumroad }}<a href="{{ .gumroad }}"><span class="icon-gumroad"></span></a>{{ end }}
+	{{ if .drivethru }}<a href="{{ .drivethru }}"><span class="icon-dtfiction"></span></a>{{ end }}
+	{{ if .kobo }}<a href="{{ .kobo }}"><span class="icon-kobo"></span></a>{{ end }}
+	{{ if .nook }}<a href="{{ .nook }}"><span class="icon-nook"></span></a>{{ end }}
+	{{ if .itunes }}<a href="{{ .itunes }}"><span class="icon-itunes"></span></a>{{ end }}
+  </div>
+  <hr />
+  <br />
+{{ end }}
+
+
+{{ range $.Site.Data.shorts.misc }}
+  <div id="{{ .anchor }}">
+    <div class="left">
+	  <a href="#{{ .anchor }}">
+	    <figure class="thumbs">
+	      <img src="{{ .thumb }}" alt="{{ .title }} cover" title="{{ .title }}">
+	    </figure>
+	  </a>
+    </div>
+    <div>
+      {{ if .number }}
+        <h2>{{ .title }} ({{ .series}} #{{ .number }})</h2>
+      {{ else }}
+        <h2>{{ .title }}</h2>
+      {{ end }}
+	  <p>{{ .blurb | markdownify }}</p>
+	  <p><em>{{ .tagline | markdownify }}</em></p>
+    </div>
+  </div>
+  <div class="store center-text">
+	{{ if .amazon }}<a href="{{ .amazon }}"><span class="icon-amazon"></span></a>{{ end }}
+	{{ if .amazonuk }}<a href="{{ .amazonuk }}"><span class="icon-amazonuk"></span></a>{{ end }}
+	{{ if .gumroad }}<a href="{{ .gumroad }}"><span class="icon-gumroad"></span></a>{{ end }}
+	{{ if .drivethru }}<a href="{{ .drivethru }}"><span class="icon-dtfiction"></span></a>{{ end }}
+	{{ if .kobo }}<a href="{{ .kobo }}"><span class="icon-kobo"></span></a>{{ end }}
+	{{ if .nook }}<a href="{{ .nook }}"><span class="icon-nook"></span></a>{{ end }}
+	{{ if .itunes }}<a href="{{ .itunes }}"><span class="icon-itunes"></span></a>{{ end }}
+  </div>
+  <hr />
+  <br />
+{{ end }}
+
+{{ range $.Site.Data.shorts.freelance }}
+  <div id="{{ .anchor }}">
+    <div class="left">
+	  <a href="#{{ .anchor }}">
+	    <figure class="thumbs">
+	      <img src="{{ .thumb }}" alt="{{ .title }} cover" title="{{ .title }}">
+	    </figure>
+	  </a>
+    </div>
+    <div>
+      {{ if .number }}
+        <h2>{{ .title }} ({{ .series}} #{{ .number }})</h2>
+      {{ else }}
+        <h2>{{ .title }}</h2>
+      {{ end }}
+	  <p>{{ .blurb | markdownify }}</p>
+	  <p><em>{{ .tagline | markdownify }}</em></p>
+    </div>
+  </div>
+  <div class="store center-text">
+	{{ if .amazon }}<a href="{{ .amazon }}"><span class="icon-amazon"></span></a>{{ end }}
+	{{ if .amazonuk }}<a href="{{ .amazonuk }}"><span class="icon-amazonuk"></span></a>{{ end }}
+	{{ if .gumroad }}<a href="{{ .gumroad }}"><span class="icon-gumroad"></span></a>{{ end }}
+	{{ if .drivethru }}<a href="{{ .drivethru }}"><span class="icon-dtfiction"></span></a>{{ end }}
+	{{ if .kobo }}<a href="{{ .kobo }}"><span class="icon-kobo"></span></a>{{ end }}
+	{{ if .nook }}<a href="{{ .nook }}"><span class="icon-nook"></span></a>{{ end }}
+	{{ if .itunes }}<a href="{{ .itunes }}"><span class="icon-itunes"></span></a>{{ end }}
+  </div>
+  <hr />
+  <br />
+{{ end }}
+
+{{ range $.Site.Data.rpgs.freelance }}
+  <div id="{{ .anchor }}">
+    <div class="left">
+	  <a href="#{{ .anchor }}">
+	    <figure class="thumbs">
+	      <img src="{{ .thumb }}" alt="{{ .title }} cover" title="{{ .title }}">
+	    </figure>
+	  </a>
+    </div>
+    <div>
+      {{ if .number }}
+        <h2>{{ .title }} ({{ .series}} #{{ .number }})</h2>
+      {{ else }}
+        <h2>{{ .title }}</h2>
+      {{ end }}
+	  <p>{{ .blurb | markdownify }}</p>
+	  <p><em>{{ .tagline | markdownify }}</em></p>
+    </div>
+  </div>
+  <div class="store center-text">
+	{{ if .amazon }}<a href="{{ .amazon }}"><span class="icon-amazon"></span></a>{{ end }}
+	{{ if .amazonuk }}<a href="{{ .amazonuk }}"><span class="icon-amazonuk"></span></a>{{ end }}
+	{{ if .gumroad }}<a href="{{ .gumroad }}"><span class="icon-gumroad"></span></a>{{ end }}
+	{{ if .drivethru }}<a href="{{ .drivethru }}"><span class="icon-dtfiction"></span></a>{{ end }}
+	{{ if .kobo }}<a href="{{ .kobo }}"><span class="icon-kobo"></span></a>{{ end }}
+	{{ if .nook }}<a href="{{ .nook }}"><span class="icon-nook"></span></a>{{ end }}
+	{{ if .itunes }}<a href="{{ .itunes }}"><span class="icon-itunes"></span></a>{{ end }}
+  </div>
+  <hr />
+  <br />
+{{ end }}

@@ -1,0 +1,31 @@
+{{ partial "head.html" . }}
+
+<div class="grid" id="blog">
+  {{ partial "header.html" . }}
+  {{ partial "horizontal_navigation.html" . }}
+
+  <main class="content">
+                    {{ range .Paginator.Pages }}
+                <div class="md-cats">
+                <a href="{{ .Permalink }}"><img src="{{  .Params.thumbnail }}" >
+                {{ .Date.Format "02 January 2006" }}
+                        <h2>{{ .Title }}</h2>
+                </a>
+                            {{ if isset .Params "categories" }}
+                                {{ $baseUrl := .Site.BaseURL }}
+                                {{ range .Params.categories }}<span class="postmeta">categories: <a href="{{ $baseUrl }}categories/{{ . | urlize }}">{{ . }}</span></a>{{ end }}
+                            {{ end }}
+
+                </div>
+                {{ end }}
+                {{ partial "pagination" . }}
+
+  </main>
+  <aside class="side">
+    {{ partial "categories_list.html" . }}
+  </aside>
+  {{ partial "footer.html" . }}
+</div>
+
+</body>
+</html>

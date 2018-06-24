@@ -5,7 +5,22 @@
   {{ partial "horizontal_navigation.html" . }}
 
   <main class="content">
-
+  <h1 class="">Newsletter Signup</h1>
+    <form action="https://backthatelfup.us5.list-manage.com/subscribe/post?u=8ac42c027c15ee52a0e2644af&id=2e68440dab" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate>
+      <div class="">
+        <label for="name">Name (Optional)</label>
+        <input type="text" name="name" placeholder="Your name (Optional)">
+      </div>
+      <div class="">
+        <label for="_replyto">Email</label>
+        <input type="email" name="_replyto" placeholder="Your email" required=""/>
+        <div style="position: absolute; left: -5000px;"><input type="text" name="b_8ac42c027c15ee52a0e2644af_2e68440dab" tabindex="-1" value=""></div><input type="checkbox" id="group_4" name="group[19793][4]" value="1" checked="checke5" class="hide av-checkbox">
+      </div>
+      <div class="">
+        <input type="submit" value="Subscribe" class="button">
+        <input type="text" name="poohbear" style="display:none" />
+      </div>
+    </form>
     {{ .Content }}
   </main>
   {{ partial "footer.html" . }}

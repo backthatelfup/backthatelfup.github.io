@@ -6,7 +6,8 @@
 
   <main class="content">
     {{ .Content }}
-    <div class="flex">
+
+    <div class="">
       <section class="col release">
         <h3 class="page-header">Audiobook</h3>
         {{ partial "get_audiobooks.html" . }}
@@ -16,6 +17,7 @@
         {{ partial "get_new_releases.html" . }}
       </section>
     </div>
+    
     <div class="flex">
       <section class="col release">
         <h3 class="page-header">The Valley of Ten Crescents</h3>

@@ -32,7 +32,7 @@ collections:
         file: "content/about.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Logo", name: "logo", widget: "string", required: false}
+          - {label: "Logo", name: "logo", widget: "image", required: false}
           - {label: "Body", name: "body", widget: "markdown", required: false}
 
       - name: "contact"
@@ -62,3 +62,19 @@ collections:
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown", required: false}
+
+  - name: "works"
+    label: "Works"
+    files:
+      - name: "audiobooks"
+        label: "About Page"
+        folder: "data/audiobooks"
+        create: true
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Anchor", name: "anchor", widget: "string"}
+          - {label: "Tagline", name: "tagline", widget: "string"}
+          - {label: "Blurb", name: "blurb", widget: "text"}
+          - {label: "Cover", name: "cover", widget: "image"}
+          - {label: "Thumb", name: "thumb", widget: "image"}
+          - {label: "Amazon", name: "amazon", widget: "string"}

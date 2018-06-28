@@ -67,7 +67,7 @@ collections:
     label: "Works"
     files:
       - name: "audiobooks"
-        label: "About Page"
+        label: "Audiobooks"
         folder: "data/audiobooks"
         create: true
         fields:

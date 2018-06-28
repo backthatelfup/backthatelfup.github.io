@@ -7,9 +7,6 @@ publish_mode: editorial_workflow
 media_folder: "static/images"
 public_folder: "/images"
 
-editor:  # I haven't done any work with the preview stuff so it looks like garbage. Disable for now.
-  preview: false
-
 display_url: https://www.backthatelfup.com
 
 collections:
@@ -26,6 +23,9 @@ collections:
       - {label: "Categories", name: "categories", widget: "list", required: false}
       - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
+    editor:  # I haven't done any work with the preview stuff so it looks like garbage. Disable for now.
+      preview: false
+
 
   - name: "pages"
     label: "Pages"
@@ -66,6 +66,9 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown", required: false}
 
+    editor:  # I haven't done any work with the preview stuff so it looks like garbage. Disable for now.
+      preview: false
+
   - name: "audiobooks"
     label: "Audiobooks"
     folder: "data/audiobooks"
@@ -79,6 +82,8 @@ collections:
       - {label: "Cover", name: "cover", widget: "image"}
       - {label: "Thumb", name: "thumb", widget: "image"}
       - {label: "Amazon", name: "amazon", widget: "string"}
+    editor:  # I haven't done any work with the preview stuff so it looks like garbage. Disable for now.
+      preview: false
 
   - name: "shamsee comics"
     label: "Shamsee Comics"
@@ -95,6 +100,8 @@ collections:
       - {label: "Amazon", name: "amazon", widget: "string"}
       - {label: "Amazonuk", name: "amazonuk", widget: "string"}
       - {label: "Gumroad", name: "gumroad", widget: "string"}
+    editor:  # I haven't done any work with the preview stuff so it looks like garbage. Disable for now.
+      preview: false
 
   - name: "freelance comics"
     label: "Freelance Comics"
@@ -109,6 +116,8 @@ collections:
       - {label: "Cover", name: "cover", widget: "image"}
       - {label: "Thumb", name: "thumb", widget: "image"}
       - {label: "Amazon", name: "amazon", widget: "string"}
+    editor:  # I haven't done any work with the preview stuff so it looks like garbage. Disable for now.
+      preview: false
 
   - name: "freelance rpgs"
     label: "Freelance RPGs"
@@ -127,6 +136,8 @@ collections:
       - {label: "Nook", name: "nook", widget: "string"}
       - {label: "DriveThru", name: "drivethru", widget: "string"}
       - {label: "Gumroad", name: "gumroad", widget: "string"}
+    editor:  # I haven't done any work with the preview stuff so it looks like garbage. Disable for now.
+      preview: false
 
   - name: "rmtbf rpgs"
     label: "RMtBF RPGs"
@@ -145,3 +156,5 @@ collections:
       - {label: "Nook", name: "nook", widget: "string"}
       - {label: "DriveThru", name: "drivethru", widget: "string"}
       - {label: "Gumroad", name: "gumroad", widget: "string"}
+    editor:  # I haven't done any work with the preview stuff so it looks like garbage. Disable for now.
+      preview: false

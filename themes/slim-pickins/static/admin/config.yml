@@ -36,17 +36,6 @@ collections:
             name: "type"
             widget: "select"
             options: ["about", "blog", "contact", "gallery", "page"]
-          - label: "Menu"
-            name: "menu"
-            widget: "object"
-            fields:
-              - label: "Main"
-                name: "main"
-                widget: "object"
-                fields:
-                  - label: "Weight"
-                    name: "weight"
-                    widget: "number"
           - label: "Logo"
             name: "logo"
             widget: "string"

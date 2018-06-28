@@ -15,3 +15,4 @@
   HUGO_VERSION = "0.42.1"
   command = "hugo"
   publish = "public"
+  HUGO_BASEURL = "https://hugo.backthatelfup.com/"

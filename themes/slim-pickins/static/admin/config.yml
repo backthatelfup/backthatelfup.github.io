@@ -67,6 +67,8 @@ collections:
     label: "Audiobooks"
     folder: "data/audiobooks"
     create: true
+    extension: yml
+    slug: ""
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Anchor", name: "anchor", widget: "string"}

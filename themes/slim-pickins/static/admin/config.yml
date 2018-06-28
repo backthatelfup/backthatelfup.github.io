@@ -158,3 +158,51 @@ collections:
       - {label: "Gumroad", name: "gumroad", widget: "string"}
     editor:  # I haven't done any work with the preview stuff so it looks like garbage. Disable for now.
       preview: false
+
+  - name: "tvotc series"
+    label: "TVoTC Series"
+    folder: "data/series/tvotc"
+    create: true
+    extension: yml
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Series", name: "series", widget: "string"}
+      - {label: "Number", name: "series", widget: "string"}
+      - {label: "Anchor", name: "anchor", widget: "string"}
+      - {label: "Tagline", name: "tagline", widget: "string"}
+      - {label: "Blurb", name: "blurb", widget: "text"}
+      - {label: "Cover", name: "cover", widget: "image"}
+      - {label: "Thumb", name: "thumb", widget: "image"}
+      - {label: "Amazon", name: "amazon", widget: "string"}
+      - {label: "AmazonUK", name: "amazonuk", widget: "string"}
+      - {label: "Kobo", name: "kobo", widget: "string"}
+      - {label: "Nook", name: "nook", widget: "string"}
+      - {label: "DriveThru", name: "drivethru", widget: "string"}
+      - {label: "Gumroad", name: "gumroad", widget: "string"}
+      - {label: "iTunes", name: "itunes", widget: "string"}
+    editor:  # I haven't done any work with the preview stuff so it looks like garbage. Disable for now.
+      preview: false
+
+  - name: "hen and chick series"
+    label: "Hen & Chick Series"
+    folder: "data/series/henandchick"
+    create: true
+    extension: yml
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Series", name: "series", widget: "string"}
+      - {label: "Number", name: "series", widget: "string"}
+      - {label: "Anchor", name: "anchor", widget: "string"}
+      - {label: "Tagline", name: "tagline", widget: "string"}
+      - {label: "Blurb", name: "blurb", widget: "text"}
+      - {label: "Cover", name: "cover", widget: "image"}
+      - {label: "Thumb", name: "thumb", widget: "image"}
+      - {label: "Amazon", name: "amazon", widget: "string"}
+      - {label: "AmazonUK", name: "amazonuk", widget: "string"}
+      - {label: "Kobo", name: "kobo", widget: "string"}
+      - {label: "Nook", name: "nook", widget: "string"}
+      - {label: "DriveThru", name: "drivethru", widget: "string"}
+      - {label: "Gumroad", name: "gumroad", widget: "string"}
+      - {label: "iTunes", name: "itunes", widget: "string"}
+    editor:  # I haven't done any work with the preview stuff so it looks like garbage. Disable for now.
+      preview: false

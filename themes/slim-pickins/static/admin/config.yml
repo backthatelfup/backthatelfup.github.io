@@ -7,7 +7,7 @@ publish_mode: editorial_workflow
 media_folder: "static/images"
 public_folder: "/images"
 
-display_url: https://www.backthatelfup.com
+display_url: https://hugo.backthatelfup.com
 
 collections:
 

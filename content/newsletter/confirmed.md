@@ -1,5 +1,5 @@
 ---
-Title: confirmed
+title: confirmed
 type: newsletter
 layout: confirmed
 recent_posts: false

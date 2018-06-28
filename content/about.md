@@ -1,5 +1,5 @@
 ---
-Title: About
+title: About
 type: about
 layout: single
 logo: "/images/author.jpg"

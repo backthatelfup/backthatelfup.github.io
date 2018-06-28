@@ -1,5 +1,5 @@
 ---
-Title: main
+title: main
 menu:
   main:
     identifier: "home"

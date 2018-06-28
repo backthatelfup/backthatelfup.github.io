@@ -30,7 +30,7 @@ collections:
         file: "content/about.md"
         fields:
           - label: "Title"
-            name: "Title"
+            name: "title"
             widget: "string"
           - label: "Type"
             name: "type"

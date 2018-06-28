@@ -1,5 +1,5 @@
 ---
-Title: Blog
+title: Blog
 type: about
 layout: list
 ---

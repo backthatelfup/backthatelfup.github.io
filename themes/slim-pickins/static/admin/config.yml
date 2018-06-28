@@ -22,10 +22,41 @@ collections:
       - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
 
-  - name: "about"
-    label: "About Page"
-    file: "content/about.md"
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Logo", name: "logo", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "about"
+        label: "About Page"
+        file: "content/about.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Logo", name: "logo", widget: "string", required: false}
+          - {label: "Body", name: "body", widget: "markdown", required: false}
+
+      - name: "contact"
+        label: "Contact Page"
+        file: "content/contact.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown", required: false}
+
+      - name: "newsletter"
+        label: "Newsletter Sign Up"
+        file: "content/newsletter/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown", required: false}
+
+      - name: "post"
+        label: "Newsletter Post Sign Up"
+        file: "content/newsletter/post.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown", required: false}
+
+      - name: "confirmed"
+        label: "Newsletter Confirmation"
+        file: "content/newsletter/confirmed.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown", required: false}

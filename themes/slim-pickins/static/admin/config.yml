@@ -29,17 +29,6 @@ collections:
         label: "About Page"
         file: "content/about.md"
         fields:
-          - label: "Title"
-            name: "title"
-            widget: "string"
-          - label: "Type"
-            name: "type"
-            widget: "select"
-            options: ["about", "blog", "contact", "gallery", "page"]
-          - label: "Logo"
-            name: "logo"
-            widget: "string"
-          - label: "Body"
-            name: "body"
-            widget: "markdown"
-            required: false
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Logo", name: "logo", widget: "string", required: false}
+          - {label: "Body", name: "body", widget: "markdown", required: false}

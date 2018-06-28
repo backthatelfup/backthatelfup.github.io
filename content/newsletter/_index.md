@@ -1,5 +1,5 @@
 ---
-Title: newsletter
+title: newsletter
 type: newsletter
 layout: single
 recent_posts: false

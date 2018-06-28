@@ -80,20 +80,6 @@ collections:
       - {label: "Thumb", name: "thumb", widget: "image"}
       - {label: "Amazon", name: "amazon", widget: "string"}
 
-  - name: "freelance comics"
-    label: "Freelance Comics"
-    folder: "data/comics/freelance"
-    create: true
-    extension: yml
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Anchor", name: "anchor", widget: "string"}
-      - {label: "Tagline", name: "tagline", widget: "string"}
-      - {label: "Blurb", name: "blurb", widget: "text"}
-      - {label: "Cover", name: "cover", widget: "image"}
-      - {label: "Thumb", name: "thumb", widget: "image"}
-      - {label: "Amazon", name: "amazon", widget: "string"}
-
   - name: "shamsee comics"
     label: "Shamsee Comics"
     folder: "data/comics/shamsee"
@@ -108,4 +94,54 @@ collections:
       - {label: "Thumb", name: "thumb", widget: "image"}
       - {label: "Amazon", name: "amazon", widget: "string"}
       - {label: "Amazonuk", name: "amazonuk", widget: "string"}
+      - {label: "Gumroad", name: "gumroad", widget: "string"}
+
+  - name: "freelance comics"
+    label: "Freelance Comics"
+    folder: "data/comics/freelance"
+    create: true
+    extension: yml
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Anchor", name: "anchor", widget: "string"}
+      - {label: "Tagline", name: "tagline", widget: "string"}
+      - {label: "Blurb", name: "blurb", widget: "text"}
+      - {label: "Cover", name: "cover", widget: "image"}
+      - {label: "Thumb", name: "thumb", widget: "image"}
+      - {label: "Amazon", name: "amazon", widget: "string"}
+
+  - name: "freelance rpgs"
+    label: "Freelance RPGs"
+    folder: "data/rpgs/freelance"
+    create: true
+    extension: yml
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Anchor", name: "anchor", widget: "string"}
+      - {label: "Tagline", name: "tagline", widget: "string"}
+      - {label: "Blurb", name: "blurb", widget: "text"}
+      - {label: "Cover", name: "cover", widget: "image"}
+      - {label: "Thumb", name: "thumb", widget: "image"}
+      - {label: "Amazon", name: "amazon", widget: "string"}
+      - {label: "Kobo", name: "kobo", widget: "string"}
+      - {label: "Nook", name: "nook", widget: "string"}
+      - {label: "DriveThru", name: "drivethru", widget: "string"}
+      - {label: "Gumroad", name: "gumroad", widget: "string"}
+
+  - name: "rmtbf rpgs"
+    label: "RMtBF RPGs"
+    folder: "data/rpgs/rmtbf"
+    create: true
+    extension: yml
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Anchor", name: "anchor", widget: "string"}
+      - {label: "Tagline", name: "tagline", widget: "string"}
+      - {label: "Blurb", name: "blurb", widget: "text"}
+      - {label: "Cover", name: "cover", widget: "image"}
+      - {label: "Thumb", name: "thumb", widget: "image"}
+      - {label: "Amazon", name: "amazon", widget: "string"}
+      - {label: "Kobo", name: "kobo", widget: "string"}
+      - {label: "Nook", name: "nook", widget: "string"}
+      - {label: "DriveThru", name: "drivethru", widget: "string"}
       - {label: "Gumroad", name: "gumroad", widget: "string"}

@@ -18,8 +18,8 @@ collections:
         label: "Footer"
         file: "data/footer.yml"
         fields:
-          - {label: "Left", name: "left", widget: "string"}
-          - {label: "Right", name: "right", widget: "string"}
+          - {label: "Left", name: "Left", widget: "string"}
+          - {label: "Right", name: "Right", widget: "string"}
 
     editor:  # I haven't done any work with the preview stuff so it looks like garbage. Disable for now.
       preview: false
@@ -173,8 +173,8 @@ collections:
     editor:  # I haven't done any work with the preview stuff so it looks like garbage. Disable for now.
       preview: false
 
-  - name: "tvotc novels"
-    label: "TVoTC Novels"
+  - name: "tvotc books"
+    label: "TVoTC Books"
     folder: "data/series/tvotc"
     create: true
     extension: yml
@@ -197,8 +197,8 @@ collections:
     editor:  # I haven't done any work with the preview stuff so it looks like garbage. Disable for now.
       preview: false
 
-  - name: "hen and chick novels"
-    label: "Hen & Chick Novels"
+  - name: "hen and chick books"
+    label: "Hen & Chick Books"
     folder: "data/series/henandchick"
     create: true
     extension: yml
@@ -228,8 +228,6 @@ collections:
     extension: yml
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Series", name: "series", widget: "string"}
-      - {label: "Number", name: "series", widget: "string"}
       - {label: "Anchor", name: "anchor", widget: "string"}
       - {label: "Tagline", name: "tagline", widget: "string"}
       - {label: "Blurb", name: "blurb", widget: "text"}
@@ -252,8 +250,6 @@ collections:
     extension: yml
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Series", name: "series", widget: "string"}
-      - {label: "Number", name: "series", widget: "string"}
       - {label: "Anchor", name: "anchor", widget: "string"}
       - {label: "Tagline", name: "tagline", widget: "string"}
       - {label: "Blurb", name: "blurb", widget: "text"}

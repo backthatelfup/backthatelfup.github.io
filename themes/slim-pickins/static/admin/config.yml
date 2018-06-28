@@ -7,6 +7,9 @@ publish_mode: editorial_workflow
 media_folder: "static/images"
 public_folder: "/images"
 
+editor:  # I haven't done any work with the preview stuff so it looks like garbage. Disable for now.
+  preview: false
+
 display_url: https://www.backthatelfup.com
 
 collections:
@@ -68,7 +71,6 @@ collections:
     folder: "data/audiobooks"
     create: true
     extension: yml
-    slug: ""
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Anchor", name: "anchor", widget: "string"}

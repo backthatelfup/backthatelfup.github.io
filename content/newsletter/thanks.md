@@ -1,7 +1,7 @@
 ---
-title: confirmed
+title: thanks
 type: newsletter
-layout: confirmed
+layout: thanks
 recent_posts: false
 ---
 

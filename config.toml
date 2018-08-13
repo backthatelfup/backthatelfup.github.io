@@ -36,7 +36,7 @@ Paginate = 10
   weight = 3
 
 [[menu.socials]]
-  name = "rss"
-  identifier = "rss"
+  name = "feed"
+  identifier = "feed"
   url = "/index.xml"
   weight = 4

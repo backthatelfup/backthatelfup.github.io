@@ -1,0 +1,14 @@
+{{ range $.Site.Data.rpgs.rmtbf}}
+	<a href="#{{ .anchor }}">
+	  <figure>
+	      <img src="{{ .thumb }}" alt="{{ .title }} cover" title="{{ .title }}">
+	  </figure>
+	</a>
+{{ end }}
+{{ range $.Site.Data.shorts.misc}}
+	<a href="#{{ .anchor }}">
+	  <figure>
+	      <img src="{{ .thumb }}" alt="{{ .title }} cover" title="{{ .title }}">
+	  </figure>
+	</a>
+{{ end }}

@@ -1,0 +1,266 @@
+backend:
+  name: git-gateway
+  branch: hugo
+
+publish_mode: editorial_workflow
+
+media_folder: "static/images"
+public_folder: "/images"
+
+display_url: https://hugo.backthatelfup.com
+
+collections:
+
+  - name: "config"
+    label: "Config"
+    files:
+      - name: "footer"
+        label: "Footer"
+        file: "data/footer.yml"
+        fields:
+          - {label: "Left", name: "Left", widget: "string"}
+          - {label: "Right", name: "Right", widget: "string"}
+
+    editor:  # I haven't done any work with the preview stuff so it looks like garbage. Disable for now.
+      preview: false
+
+  - name: "post"
+    label: "Posts"
+    folder: "content/blog"
+    create: true
+    slug: "---"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Keywords", name: "keywords", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Categories", name: "categories", widget: "list", required: false}
+      - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+    editor:  # I haven't done any work with the preview stuff so it looks like garbage. Disable for now.
+      preview: false
+
+
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "about"
+        label: "About Page"
+        file: "content/about.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Logo", name: "logo", widget: "image", required: false}
+          - {label: "Body", name: "body", widget: "markdown", required: false}
+
+      - name: "contact"
+        label: "Contact Page"
+        file: "content/contact.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown", required: false}
+
+      - name: "newsletter"
+        label: "Newsletter Sign Up"
+        file: "content/newsletter/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown", required: false}
+
+      - name: "post"
+        label: "Newsletter Post Sign Up"
+        file: "content/newsletter/post.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown", required: false}
+
+      - name: "confirmed"
+        label: "Newsletter Confirmation"
+        file: "content/newsletter/confirmed.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown", required: false}
+
+    editor:  # I haven't done any work with the preview stuff so it looks like garbage. Disable for now.
+      preview: false
+
+  - name: "audiobooks"
+    label: "Audiobooks"
+    folder: "data/audiobooks"
+    create: true
+    extension: yml
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Anchor", name: "anchor", widget: "string"}
+      - {label: "Tagline", name: "tagline", widget: "string"}
+      - {label: "Blurb", name: "blurb", widget: "text"}
+      - {label: "Cover", name: "cover", widget: "image"}
+      - {label: "Thumb", name: "thumb", widget: "image"}
+      - {label: "Amazon", name: "amazon", widget: "string"}
+    editor:  # I haven't done any work with the preview stuff so it looks like garbage. Disable for now.
+      preview: false
+
+  - name: "shamsee comics"
+    label: "Shamsee Comics"
+    folder: "data/comics/shamsee"
+    create: true
+    extension: yml
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Anchor", name: "anchor", widget: "string"}
+      - {label: "Tagline", name: "tagline", widget: "string"}
+      - {label: "Blurb", name: "blurb", widget: "text"}
+      - {label: "Cover", name: "cover", widget: "image"}
+      - {label: "Thumb", name: "thumb", widget: "image"}
+      - {label: "Amazon", name: "amazon", widget: "string"}
+      - {label: "Amazonuk", name: "amazonuk", widget: "string"}
+      - {label: "Gumroad", name: "gumroad", widget: "string"}
+    editor:  # I haven't done any work with the preview stuff so it looks like garbage. Disable for now.
+      preview: false
+
+  - name: "freelance comics"
+    label: "Freelance Comics"
+    folder: "data/comics/freelance"
+    create: true
+    extension: yml
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Anchor", name: "anchor", widget: "string"}
+      - {label: "Tagline", name: "tagline", widget: "string"}
+      - {label: "Blurb", name: "blurb", widget: "text"}
+      - {label: "Cover", name: "cover", widget: "image"}
+      - {label: "Thumb", name: "thumb", widget: "image"}
+      - {label: "Amazon", name: "amazon", widget: "string"}
+    editor:  # I haven't done any work with the preview stuff so it looks like garbage. Disable for now.
+      preview: false
+
+  - name: "freelance rpgs"
+    label: "Freelance RPGs"
+    folder: "data/rpgs/freelance"
+    create: true
+    extension: yml
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Anchor", name: "anchor", widget: "string"}
+      - {label: "Tagline", name: "tagline", widget: "string"}
+      - {label: "Blurb", name: "blurb", widget: "text"}
+      - {label: "Cover", name: "cover", widget: "image"}
+      - {label: "Thumb", name: "thumb", widget: "image"}
+      - {label: "Amazon", name: "amazon", widget: "string"}
+      - {label: "Kobo", name: "kobo", widget: "string"}
+      - {label: "Nook", name: "nook", widget: "string"}
+      - {label: "DriveThru", name: "drivethru", widget: "string"}
+      - {label: "Gumroad", name: "gumroad", widget: "string"}
+    editor:  # I haven't done any work with the preview stuff so it looks like garbage. Disable for now.
+      preview: false
+
+  - name: "rmtbf rpgs"
+    label: "RMtBF RPGs"
+    folder: "data/rpgs/rmtbf"
+    create: true
+    extension: yml
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Anchor", name: "anchor", widget: "string"}
+      - {label: "Tagline", name: "tagline", widget: "string"}
+      - {label: "Blurb", name: "blurb", widget: "text"}
+      - {label: "Cover", name: "cover", widget: "image"}
+      - {label: "Thumb", name: "thumb", widget: "image"}
+      - {label: "Amazon", name: "amazon", widget: "string"}
+      - {label: "Kobo", name: "kobo", widget: "string"}
+      - {label: "Nook", name: "nook", widget: "string"}
+      - {label: "DriveThru", name: "drivethru", widget: "string"}
+      - {label: "Gumroad", name: "gumroad", widget: "string"}
+    editor:  # I haven't done any work with the preview stuff so it looks like garbage. Disable for now.
+      preview: false
+
+  - name: "tvotc books"
+    label: "TVoTC Books"
+    folder: "data/series/tvotc"
+    create: true
+    extension: yml
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Series", name: "series", widget: "string"}
+      - {label: "Number", name: "series", widget: "string"}
+      - {label: "Anchor", name: "anchor", widget: "string"}
+      - {label: "Tagline", name: "tagline", widget: "string"}
+      - {label: "Blurb", name: "blurb", widget: "text"}
+      - {label: "Cover", name: "cover", widget: "image"}
+      - {label: "Thumb", name: "thumb", widget: "image"}
+      - {label: "Amazon", name: "amazon", widget: "string"}
+      - {label: "AmazonUK", name: "amazonuk", widget: "string"}
+      - {label: "Kobo", name: "kobo", widget: "string"}
+      - {label: "Nook", name: "nook", widget: "string"}
+      - {label: "DriveThru", name: "drivethru", widget: "string"}
+      - {label: "Gumroad", name: "gumroad", widget: "string"}
+      - {label: "iTunes", name: "itunes", widget: "string"}
+    editor:  # I haven't done any work with the preview stuff so it looks like garbage. Disable for now.
+      preview: false
+
+  - name: "hen and chick books"
+    label: "Hen & Chick Books"
+    folder: "data/series/henandchick"
+    create: true
+    extension: yml
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Series", name: "series", widget: "string"}
+      - {label: "Number", name: "series", widget: "string"}
+      - {label: "Anchor", name: "anchor", widget: "string"}
+      - {label: "Tagline", name: "tagline", widget: "string"}
+      - {label: "Blurb", name: "blurb", widget: "text"}
+      - {label: "Cover", name: "cover", widget: "image"}
+      - {label: "Thumb", name: "thumb", widget: "image"}
+      - {label: "Amazon", name: "amazon", widget: "string"}
+      - {label: "AmazonUK", name: "amazonuk", widget: "string"}
+      - {label: "Kobo", name: "kobo", widget: "string"}
+      - {label: "Nook", name: "nook", widget: "string"}
+      - {label: "DriveThru", name: "drivethru", widget: "string"}
+      - {label: "Gumroad", name: "gumroad", widget: "string"}
+      - {label: "iTunes", name: "itunes", widget: "string"}
+    editor:  # I haven't done any work with the preview stuff so it looks like garbage. Disable for now.
+      preview: false
+
+  - name: "freelance short stories"
+    label: "Freelance Short Stories"
+    folder: "data/shorts/freelance"
+    create: true
+    extension: yml
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Anchor", name: "anchor", widget: "string"}
+      - {label: "Tagline", name: "tagline", widget: "string"}
+      - {label: "Blurb", name: "blurb", widget: "text"}
+      - {label: "Cover", name: "cover", widget: "image"}
+      - {label: "Thumb", name: "thumb", widget: "image"}
+      - {label: "Amazon", name: "amazon", widget: "string"}
+      - {label: "AmazonUK", name: "amazonuk", widget: "string"}
+      - {label: "Kobo", name: "kobo", widget: "string"}
+      - {label: "Nook", name: "nook", widget: "string"}
+      - {label: "DriveThru", name: "drivethru", widget: "string"}
+      - {label: "Gumroad", name: "gumroad", widget: "string"}
+      - {label: "iTunes", name: "itunes", widget: "string"}
+    editor:  # I haven't done any work with the preview stuff so it looks like garbage. Disable for now.
+      preview: false
+
+  - name: "misc short stories"
+    label: "Misc Short Stories"
+    folder: "data/shorts/misc"
+    create: true
+    extension: yml
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Anchor", name: "anchor", widget: "string"}
+      - {label: "Tagline", name: "tagline", widget: "string"}
+      - {label: "Blurb", name: "blurb", widget: "text"}
+      - {label: "Cover", name: "cover", widget: "image"}
+      - {label: "Thumb", name: "thumb", widget: "image"}
+      - {label: "Amazon", name: "amazon", widget: "string"}
+      - {label: "AmazonUK", name: "amazonuk", widget: "string"}
+      - {label: "Kobo", name: "kobo", widget: "string"}
+      - {label: "Nook", name: "nook", widget: "string"}
+      - {label: "DriveThru", name: "drivethru", widget: "string"}
+      - {label: "Gumroad", name: "gumroad", widget: "string"}
+      - {label: "iTunes", name: "itunes", widget: "string"}
+    editor:  # I haven't done any work with the preview stuff so it looks like garbage. Disable for now.
+      preview: false

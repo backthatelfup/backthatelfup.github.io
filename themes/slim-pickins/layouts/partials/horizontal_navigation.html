@@ -1,0 +1,23 @@
+<nav>
+    <input id="hnav" type="checkbox" name="hnav">
+    <label for="hnav">Menu</label>
+  <div>
+    <div class="hnav-content">
+      <ul>
+        <li><a href="{{ .Site.BaseURL }}"><img src="/images/BTEU-logo-75x75.png"></a></li>
+        {{ $currentPage := . }}
+          {{ range .Site.Menus.main }}
+          <li {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} class="active"{{ end }}><a href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+    </div>
+    <div class="hnav-content">
+      <ul>
+        {{ $currentPage := . }}
+          {{ range .Site.Menus.socials }}
+          <li><a href="{{ .URL }}" title="{{ .Title }}"><span class="icon-{{ .Name }}"></span></a></li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</nav>

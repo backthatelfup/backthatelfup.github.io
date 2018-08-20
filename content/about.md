@@ -13,4 +13,4 @@ Tristan J. Tarwater is a writer of novels, comics and RPG bits. Their titles inc
 
 An advocate for better representation in media, Tristan created the #LatinxsCreate hashtag in 2016, which features many amazing illustrators, writers and more. 
 
-Born and raised in New York City, they now consider Portland, OR their home. They live there with their spouse, small boss and two cats, all of whom are dope.
+Born and raised in New York City, they now consider Portland, OR their home. They live there with their spouse, Small Boss, and two cats, all of whom are dope.

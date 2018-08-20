@@ -63,14 +63,16 @@ collections:
                 fields:
                   - label: "Identifier"
                     name: "identifier"
+                    widget: "string"
                     default: "about"
                   - label: "Name:"
                     name: "name"
+                    widget: "string"
                     default: "about"
                   - label: "Weight"
                     name: "weight"
                     default: "4"
-widget: "number"
+                    widget: "number"
 
       - name: "contact"
         label: "Contact Page"

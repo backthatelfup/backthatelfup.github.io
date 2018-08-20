@@ -49,8 +49,28 @@ collections:
         file: "content/about.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Type", name: "type", widget: "string", default: "about", required: true}
+          - {layout: "Layout", name: "layout", widget: "string", default: "single", required: true}
           - {label: "Logo", name: "logo", widget: "image", required: false}
           - {label: "Body", name: "body", widget: "markdown", required: false}
+          - label: "Menu"
+            name: "menu"
+            widget: "object"
+            fields:
+              - label: "Main"
+                name: "main"
+                widget: "object"
+                fields:
+                  - label: "Identifier"
+                    name: "identifier"
+                    default: "about"
+                  - label: "Name:"
+                    name: "name"
+                    default: "about"
+                  - label: "Weight"
+                    name: "weight"
+                    default: "4"
+widget: "number"
 
       - name: "contact"
         label: "Contact Page"

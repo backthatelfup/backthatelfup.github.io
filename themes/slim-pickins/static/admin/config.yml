@@ -79,20 +79,67 @@ collections:
         file: "content/contact.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Type", name: "type", widget: "string", default: "contact", required: true}
           - {label: "Body", name: "body", widget: "markdown", required: false}
+          - label: "Menu"
+            name: "menu"
+            widget: "object"
+            fields:
+              - label: "Main"
+                name: "main"
+                widget: "object"
+                fields:
+                  - label: "Identifier"
+                    name: "identifier"
+                    widget: "string"
+                    default: "contact"
+                  - label: "Name:"
+                    name: "name"
+                    widget: "string"
+                    default: "contact"
+                  - label: "Weight"
+                    name: "weight"
+                    default: "5"
+                    widget: "number"
 
       - name: "newsletter"
         label: "Newsletter Sign Up"
         file: "content/newsletter/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Type", name: "type", widget: "string", default: "newsletter", required: true}
+          - {label: "Layout", name: "layout", widget: "string", default: "single", required: true}
+          - {label: "Recent Posts", name: "recent_posts", widget: "boolean", default: false, required: true}
           - {label: "Body", name: "body", widget: "markdown", required: false}
+          - label: "Menu"
+            name: "menu"
+            widget: "object"
+            fields:
+              - label: "Main"
+                name: "main"
+                widget: "object"
+                fields:
+                  - label: "Identifier"
+                    name: "identifier"
+                    widget: "string"
+                    default: "newsletter"
+                  - label: "Name:"
+                    name: "name"
+                    widget: "string"
+                    default: "newsletter"
+                  - label: "Weight"
+                    name: "weight"
+                    default: "3"
+                    widget: "number"
 
       - name: "post"
         label: "Newsletter Post Sign Up"
         file: "content/newsletter/post.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Type", name: "type", widget: "string", default: "newsletter", required: true}
+          - {label: "Layout", name: "layout", widget: "string", default: "thanks", required: true}
+          - {label: "Recent Posts", name: "recent_posts", widget: "boolean", default: false, required: true}
           - {label: "Body", name: "body", widget: "markdown", required: false}
 
       - name: "confirmed"
@@ -100,6 +147,9 @@ collections:
         file: "content/newsletter/confirmed.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Type", name: "type", widget: "string", default: "newsletter", required: true}
+          - {label: "Layout", name: "layout", widget: "string", default: "thanks", required: true}
+          - {label: "Recent Posts", name: "recent_posts", widget: "boolean", default: false, required: true}
           - {label: "Body", name: "body", widget: "markdown", required: false}
 
     editor:  # I haven't done any work with the preview stuff so it looks like garbage. Disable for now.

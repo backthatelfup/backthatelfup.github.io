@@ -5,23 +5,6 @@ layout: thanks
 recent_posts: false
 ---
 
-<div class="row newsletter-wrap pad-nav">
-  <div class="small-12 columns">
-    <h1 class="center-text">You have successfully signed up!</h1>
-    <h2 class="center-text">Please follow the steps below, to access your free books:</h2>
-    <hr class="hr-centered">
-    
-    <div class="grid">
-      <img src="/images/step1.jpg">
-    </div>
-    <div class="">
-      <img src="/images/step2.jpg">
-    </div>
-    <div class="">
-      <img src="/images/step3.jpg"><br /><br /><br /><br />
-    </div>
-    <div class="">
-      <p><a href="/">Return to my website</a></p>
-    </div>
-  </div>
-</div>
+Thanks for subscribing to my newsletter, here's what you've been missing.
+
+[Back That Elf Up: Newsletter Archives](https://us5.campaign-archive.com/home/?u=8ac42c027c15ee52a0e2644af&id=2e68440dab).

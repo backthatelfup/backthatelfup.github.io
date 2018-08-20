@@ -50,7 +50,7 @@ collections:
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Type", name: "type", widget: "string", default: "about", required: true}
-          - {layout: "Layout", name: "layout", widget: "string", default: "single", required: true}
+          - {label: "Layout", name: "layout", widget: "string", default: "single", required: true}
           - {label: "Logo", name: "logo", widget: "image", required: false}
           - {label: "Body", name: "body", widget: "markdown", required: false}
           - label: "Menu"

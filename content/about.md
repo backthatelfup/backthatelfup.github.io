@@ -2,7 +2,7 @@
 title: About
 type: about
 layout: single
-logo: /images/img_20180714_173037.jpg
+logo: /images/authorphoto.jpg
 menu:
   main:
     identifier: about
